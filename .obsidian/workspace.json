@@ -11,8 +11,12 @@
             "id": "8f4e86a765622a11",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Daily/2023-10-03.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Daily/2023-10-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Daily/2023-10-03.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Daily/2023-10-03.md"
+              }
             }
           },
           {
@@ -158,6 +166,9 @@
   },
   "active": "8f4e86a765622a11",
   "lastOpenFiles": [
+    "Daily/2023-09-30.md",
+    "work notes/AI 背景.md",
+    "work notes/Distribute System.md",
     "zoteronote/@sun2023-retentive.md",
     "zoteronote/@zhouInformerEfficientTransformer2021.md",
     "Daily/2023-10-15.md",
@@ -171,15 +182,12 @@
     "未命名.canvas",
     "未命名.md",
     "zoteronote/@devlinBERTPretrainingDeep2019.md",
-    "work notes/AI 背景.md",
     "zoteronote/@openai2023-gpt4.md",
-    "work notes/Distribute System.md",
     "Daily/2023-10-04.md",
     "Daily/2023-10-03.md",
     "Daily/2023-10-05.md",
     "Daily/2023-10-02.md",
     "book-note/计算机系统.md",
-    "Daily/2023-09-30.md",
     "Daily/2023-10-01.md",
     "2023-W39.md",
     "未命名 1",
