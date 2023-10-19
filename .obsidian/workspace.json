@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "35d031c92122d813",
+        "id": "bf2b4c11a95c1a9f",
         "type": "tabs",
         "children": [
           {
-            "id": "57b5b95a56634898",
+            "id": "8f4e86a765622a11",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zoteronote/@sun2023-retentive.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zoteronote/@sun2023-retentive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zoteronote/@sun2023-retentive.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "zoteronote/@sun2023-retentive.md"
-              }
+              "state": {}
             }
           },
           {
@@ -164,11 +156,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "25e5ed8c947373db",
+  "active": "8f4e86a765622a11",
   "lastOpenFiles": [
+    "zoteronote/@sun2023-retentive.md",
     "zoteronote/@zhouInformerEfficientTransformer2021.md",
     "Daily/2023-10-15.md",
-    "zoteronote/@sun2023-retentive.md",
     "Daily/2023-10-14.md",
     "zoteronote/@Attention Is All You Need.md",
     "随笔.md",
