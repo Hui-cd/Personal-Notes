@@ -99,33 +99,9 @@
   },
   "version": {
     "zotero": "6.0.27",
-    "bbt": "6.7.128"
+    "bbt": "6.7.129"
   },
   "collections": {
-    "FJPVB5ZK": {
-      "key": "FJPVB5ZK",
-      "parent": "",
-      "name": "book notes",
-      "collections": [
-        "BHEW99JI",
-        "J7ZYBVN4"
-      ],
-      "items": []
-    },
-    "BHEW99JI": {
-      "key": "BHEW99JI",
-      "parent": "FJPVB5ZK",
-      "name": "计算机系统",
-      "collections": [],
-      "items": []
-    },
-    "J7ZYBVN4": {
-      "key": "J7ZYBVN4",
-      "parent": "FJPVB5ZK",
-      "name": "算法",
-      "collections": [],
-      "items": []
-    },
     "NNUX237V": {
       "key": "NNUX237V",
       "parent": "",
@@ -133,15 +109,6 @@
       "collections": [],
       "items": [
         14
-      ]
-    },
-    "X87JDGPX": {
-      "key": "X87JDGPX",
-      "parent": "",
-      "name": "Distribute System",
-      "collections": [],
-      "items": [
-        194
       ]
     },
     "LIVRFJFF": {
@@ -169,15 +136,6 @@
         172,
         196,
         339
-      ]
-    },
-    "4XMLEPYV": {
-      "key": "4XMLEPYV",
-      "parent": "",
-      "name": "NST",
-      "collections": [],
-      "items": [
-        1
       ]
     }
   },

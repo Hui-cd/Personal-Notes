@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2023-10-03.md",
+                "file": "Draloc/Draloc.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2023-10-03.md",
+                "file": "Draloc/Draloc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2023-10-03.md",
+                "file": "Draloc/Draloc.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2023-10-03.md"
+                "file": "Draloc/Draloc.md"
               }
             }
           },
@@ -166,6 +166,11 @@
   },
   "active": "8f4e86a765622a11",
   "lastOpenFiles": [
+    "随笔.md",
+    "Draloc/Draloc.md",
+    "Draloc",
+    "Daily/2023-10-20.md",
+    "Daily/2023-10-03.md",
     "Daily/2023-09-30.md",
     "work notes/AI 背景.md",
     "work notes/Distribute System.md",
@@ -174,7 +179,6 @@
     "Daily/2023-10-15.md",
     "Daily/2023-10-14.md",
     "zoteronote/@Attention Is All You Need.md",
-    "随笔.md",
     "Daily/2023-10-12.md",
     "Daily/2023-10-07.md",
     "obsidian template/日记.md",
@@ -184,24 +188,20 @@
     "zoteronote/@devlinBERTPretrainingDeep2019.md",
     "zoteronote/@openai2023-gpt4.md",
     "Daily/2023-10-04.md",
-    "Daily/2023-10-03.md",
     "Daily/2023-10-05.md",
     "Daily/2023-10-02.md",
     "book-note/计算机系统.md",
     "Daily/2023-10-01.md",
     "2023-W39.md",
     "未命名 1",
-    "未命名",
     "Daily",
     "未命名 1.canvas",
     "work notes",
     "2023-09-29.md",
-    "2023-10-01.md",
     "obsidian template",
     "obsidion template",
     "新建文件夹",
     "book-note",
-    "zoteronote/@openaiGPT4TechnicalReport2023.md",
     "zoteronote/MarkDBConnect-missing-entries.json",
     "zoteronote/MarkDBConnect-alldata.json"
   ]
