@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Draloc/Draloc.md",
+                "file": "计算机组成原理/1.1 Organization and Architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Draloc/Draloc.md",
+                "file": "计算机组成原理/1.1 Organization and Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Draloc/Draloc.md",
+                "file": "计算机组成原理/1.1 Organization and Architecture.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Draloc/Draloc.md"
+                "file": "计算机组成原理/1.1 Organization and Architecture.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -166,43 +166,43 @@
   },
   "active": "8f4e86a765622a11",
   "lastOpenFiles": [
-    "随笔.md",
-    "Draloc/Draloc.md",
-    "Draloc",
-    "Daily/2023-10-20.md",
-    "Daily/2023-10-03.md",
-    "Daily/2023-09-30.md",
-    "work notes/AI 背景.md",
-    "work notes/Distribute System.md",
-    "zoteronote/@sun2023-retentive.md",
-    "zoteronote/@zhouInformerEfficientTransformer2021.md",
-    "Daily/2023-10-15.md",
-    "Daily/2023-10-14.md",
-    "zoteronote/@Attention Is All You Need.md",
-    "Daily/2023-10-12.md",
-    "Daily/2023-10-07.md",
+    "book-note/计算机系统.md",
+    "算法导论/第一章 算法.md",
+    "计算机组成原理/1.1 Organization and Architecture.md",
+    "paper reading/Retentive Network ： A Successor to Transformer for Large Language Models.md",
+    "Daily/2023-12-24.md",
     "obsidian template/日记.md",
     "obsidian template/Demo.md",
-    "未命名.canvas",
+    "Daily/2023-12-21.md",
+    "Daily/2023-12-23.md",
+    "Daily/2023-12-22.md",
+    "Daily/2023-12-20.md",
+    "随笔.md",
+    "Daily/2023-12-18.md",
+    "Daily/2023-12-17.md",
+    "Daily/2023-12-16.md",
+    "Draloc/WIWD.md",
+    "paper reading/Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback.md",
+    "paper reading",
+    "Draloc/Draloc.md",
+    "FML/L2 Math.md",
+    "Java/面向对象.md",
+    "Java/方法.md",
+    "Java/变量.md",
+    "Java/数据结构.md",
+    "Java",
     "未命名.md",
-    "zoteronote/@devlinBERTPretrainingDeep2019.md",
-    "zoteronote/@openai2023-gpt4.md",
-    "Daily/2023-10-04.md",
-    "Daily/2023-10-05.md",
-    "Daily/2023-10-02.md",
-    "book-note/计算机系统.md",
-    "Daily/2023-10-01.md",
-    "2023-W39.md",
+    "计算机组成原理",
+    "work notes/Distribute System.md",
+    "算法导论",
+    "book-note/算法导论.md",
+    "FML",
+    "lab.py",
+    "Draloc",
+    "未命名.canvas",
     "未命名 1",
     "Daily",
     "未命名 1.canvas",
-    "work notes",
-    "2023-09-29.md",
-    "obsidian template",
-    "obsidion template",
-    "新建文件夹",
-    "book-note",
-    "zoteronote/MarkDBConnect-missing-entries.json",
-    "zoteronote/MarkDBConnect-alldata.json"
+    "work notes"
   ]
 }

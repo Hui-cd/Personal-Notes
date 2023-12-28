@@ -62,7 +62,6 @@
       "language": "langid",
       "mapMath": "",
       "mapText": "",
-      "mapUnicode": "conservative",
       "parseParticles": true,
       "patchDates": "dateadded=dateAdded, date-added=dateAdded, datemodified=dateModified, date-modified=dateModified",
       "postscript": "",
@@ -98,17 +97,40 @@
     }
   },
   "version": {
-    "zotero": "6.0.27",
-    "bbt": "6.7.129"
+    "zotero": "6.0.30",
+    "bbt": "6.7.140"
   },
   "collections": {
+    "49BIAB6R": {
+      "key": "49BIAB6R",
+      "parent": "",
+      "name": "数学",
+      "collections": [],
+      "items": [
+        391
+      ]
+    },
+    "SL42CSAH": {
+      "key": "SL42CSAH",
+      "parent": "",
+      "name": "book",
+      "collections": [],
+      "items": [
+        348,
+        349,
+        354,
+        356,
+        357
+      ]
+    },
     "NNUX237V": {
       "key": "NNUX237V",
       "parent": "",
       "name": "CV",
       "collections": [],
       "items": [
-        14
+        14,
+        389
       ]
     },
     "LIVRFJFF": {
@@ -117,7 +139,8 @@
       "name": "LSTM",
       "collections": [],
       "items": [
-        15
+        15,
+        358
       ]
     },
     "K84JTQUN": {
@@ -135,7 +158,8 @@
         142,
         172,
         196,
-        339
+        339,
+        360
       ]
     }
   },
@@ -163,6 +187,368 @@
       "itemKey": "2QDAQPG3",
       "libraryID": 1,
       "select": "zotero://select/library/items/2QDAQPG3"
+    },
+    {
+      "key": "SPLSMABS",
+      "version": 586,
+      "itemType": "attachment",
+      "title": "算法导论(原书第3版).pdf",
+      "linkMode": "imported_file",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "算法导论(原书第3版).pdf",
+      "tags": [],
+      "collections": [
+        "SL42CSAH"
+      ],
+      "relations": {},
+      "dateAdded": "2023-11-04T12:32:28Z",
+      "dateModified": "2023-11-04T12:32:28Z",
+      "uri": "http://zotero.org/users/10101446/items/SPLSMABS",
+      "itemID": 348,
+      "localPath": "C:\\Users\\gyh14\\Zotero\\storage\\SPLSMABS\\算法导论(原书第3版).pdf",
+      "defaultPath": "files/348/算法导论(原书第3版).pdf",
+      "itemKey": "SPLSMABS",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/SPLSMABS"
+    },
+    {
+      "key": "NAL7GLN3",
+      "version": 589,
+      "itemType": "attachment",
+      "title": "Computer Organization and Architecture 10th - William Stallings.pdf",
+      "linkMode": "imported_file",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "Computer Organization and Architecture 10th - William Stallings.pdf",
+      "tags": [],
+      "collections": [
+        "SL42CSAH"
+      ],
+      "relations": {},
+      "dateAdded": "2023-11-13T05:09:48Z",
+      "dateModified": "2023-11-13T05:09:48Z",
+      "uri": "http://zotero.org/users/10101446/items/NAL7GLN3",
+      "itemID": 349,
+      "localPath": "C:\\Users\\gyh14\\Zotero\\storage\\NAL7GLN3\\Computer Organization and Architecture 10th - William Stallings.pdf",
+      "defaultPath": "files/349/Computer Organization and Architecture 10th - William Stallings.pdf",
+      "itemKey": "NAL7GLN3",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/NAL7GLN3"
+    },
+    {
+      "key": "FGINIMVC",
+      "version": 629,
+      "itemType": "attachment",
+      "title": "Java核心技术 卷I (第8版).pdf",
+      "linkMode": "imported_file",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "Java核心技术 卷I (第8版).pdf",
+      "tags": [],
+      "collections": [
+        "SL42CSAH"
+      ],
+      "relations": {},
+      "dateAdded": "2023-11-18T03:56:44Z",
+      "dateModified": "2023-11-18T03:56:44Z",
+      "uri": "http://zotero.org/users/10101446/items/FGINIMVC",
+      "itemID": 354,
+      "localPath": "C:\\Users\\gyh14\\Zotero\\storage\\FGINIMVC\\Java核心技术 卷I (第8版).pdf",
+      "defaultPath": "files/354/Java核心技术 卷I (第8版).pdf",
+      "itemKey": "FGINIMVC",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/FGINIMVC"
+    },
+    {
+      "key": "ZA3XJUJQ",
+      "version": 654,
+      "itemType": "attachment",
+      "title": "[Effective C++中文版改善程序与设计的55个具体做法].(美)Scott_Meyers.pdf",
+      "linkMode": "imported_file",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "[Effective C++中文版改善程序与设计的55个具体做法].(美)Scott_Meyers.pdf",
+      "tags": [],
+      "collections": [
+        "SL42CSAH"
+      ],
+      "relations": {},
+      "dateAdded": "2023-12-06T09:23:26Z",
+      "dateModified": "2023-12-06T09:23:26Z",
+      "uri": "http://zotero.org/users/10101446/items/ZA3XJUJQ",
+      "itemID": 357,
+      "localPath": "C:\\Users\\gyh14\\Zotero\\storage\\ZA3XJUJQ\\[Effective C++中文版改善程序与设计的55个具体做法].(美)Scott_Meyers.pdf",
+      "defaultPath": "files/357/[Effective C++中文版改善程序与设计的55个具体做法].(美)Scott_Meyers.pdf",
+      "itemKey": "ZA3XJUJQ",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/ZA3XJUJQ"
+    },
+    {
+      "key": "A4RNCTUB",
+      "version": 663,
+      "itemType": "attachment",
+      "title": "gemini_1_report.pdf",
+      "linkMode": "imported_file",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "gemini_1_report.pdf",
+      "tags": [],
+      "collections": [
+        "LIVRFJFF"
+      ],
+      "relations": {},
+      "dateAdded": "2023-12-07T09:55:17Z",
+      "dateModified": "2023-12-07T09:55:17Z",
+      "uri": "http://zotero.org/users/10101446/items/A4RNCTUB",
+      "itemID": 358,
+      "localPath": "C:\\Users\\gyh14\\Zotero\\storage\\A4RNCTUB\\gemini_1_report.pdf",
+      "defaultPath": "files/358/gemini_1_report.pdf",
+      "itemKey": "A4RNCTUB",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/A4RNCTUB"
+    },
+    {
+      "key": "6TC89527",
+      "version": 748,
+      "itemType": "attachment",
+      "title": "工程数学线性代数第六版.pdf",
+      "linkMode": "imported_file",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "工程数学线性代数第六版.pdf",
+      "tags": [],
+      "collections": [
+        "49BIAB6R"
+      ],
+      "relations": {},
+      "dateAdded": "2023-12-22T10:16:22Z",
+      "dateModified": "2023-12-22T10:16:22Z",
+      "uri": "http://zotero.org/users/10101446/items/6TC89527",
+      "itemID": 391,
+      "localPath": "C:\\Users\\gyh14\\Zotero\\storage\\6TC89527\\工程数学线性代数第六版.pdf",
+      "defaultPath": "files/391/工程数学线性代数第六版.pdf",
+      "itemKey": "6TC89527",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/6TC89527"
+    },
+    {
+      "key": "WVZPU5NR",
+      "version": 667,
+      "itemType": "preprint",
+      "title": "Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback",
+      "abstractNote": "We apply preference modeling and reinforcement learning from human feedback (RLHF) to ﬁnetune language models to act as helpful and harmless assistants. We ﬁnd this alignment training improves performance on almost all NLP evaluations, and is fully compatible with training for specialized skills such as python coding and summarization. We explore an iterated online mode of training, where preference models and RL policies are updated on a weekly cadence with fresh human feedback data, efﬁciently improving our datasets and models. Finally, we investigate the robustness of RLHF training, and identify a roughly linear relation between the RL reward and the square root of the KL divergence between the policy and its initialization. Alongside our main results, we perform peripheral analyses on calibration, competing objectives, and the use of OOD detection, compare our models with human writers, and provide samples from our models using prompts appearing in recent related work.",
+      "date": "2022-04-12",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "url": "http://arxiv.org/abs/2204.05862",
+      "accessDate": "2023-12-16T06:43:39Z",
+      "extra": "arXiv:2204.05862 [cs]",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2204.05862",
+      "creators": [
+        {
+          "firstName": "Yuntao",
+          "lastName": "Bai",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Andy",
+          "lastName": "Jones",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Kamal",
+          "lastName": "Ndousse",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Amanda",
+          "lastName": "Askell",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Anna",
+          "lastName": "Chen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Nova",
+          "lastName": "DasSarma",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Dawn",
+          "lastName": "Drain",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Stanislav",
+          "lastName": "Fort",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Deep",
+          "lastName": "Ganguli",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tom",
+          "lastName": "Henighan",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Nicholas",
+          "lastName": "Joseph",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Saurav",
+          "lastName": "Kadavath",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jackson",
+          "lastName": "Kernion",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tom",
+          "lastName": "Conerly",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sheer",
+          "lastName": "El-Showk",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Nelson",
+          "lastName": "Elhage",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Zac",
+          "lastName": "Hatfield-Dodds",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Danny",
+          "lastName": "Hernandez",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tristan",
+          "lastName": "Hume",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Scott",
+          "lastName": "Johnston",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Shauna",
+          "lastName": "Kravec",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Liane",
+          "lastName": "Lovitt",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Neel",
+          "lastName": "Nanda",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Catherine",
+          "lastName": "Olsson",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Dario",
+          "lastName": "Amodei",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tom",
+          "lastName": "Brown",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jack",
+          "lastName": "Clark",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sam",
+          "lastName": "McCandlish",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Chris",
+          "lastName": "Olah",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ben",
+          "lastName": "Mann",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jared",
+          "lastName": "Kaplan",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computer Science - Computation and Language",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Machine Learning",
+          "type": 1
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2023-12-16T06:43:39Z",
+      "dateModified": "2023-12-16T06:43:40Z",
+      "uri": "http://zotero.org/users/10101446/items/WVZPU5NR",
+      "itemID": 360,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Bai 等 - 2022 - Training a Helpful and Harmless Assistant with Rei.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-12-16T06:43:33Z",
+          "dateModified": "2023-12-16T06:43:40Z",
+          "uri": "http://zotero.org/users/10101446/items/FA5R5JQT",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\FA5R5JQT\\Bai 等 - 2022 - Training a Helpful and Harmless Assistant with Rei.pdf",
+          "select": "zotero://select/library/items/FA5R5JQT"
+        }
+      ],
+      "notes": [
+        {
+          "key": "YJTS9C3B",
+          "version": 667,
+          "itemType": "note",
+          "parentItem": "WVZPU5NR",
+          "note": "Comment: Data available at https://github.com/anthropics/hh-rlhf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-12-16T06:43:39Z",
+          "dateModified": "2023-12-16T06:43:39Z",
+          "uri": "http://zotero.org/users/10101446/items/YJTS9C3B"
+        }
+      ],
+      "citationKey": "bai2022-training",
+      "itemKey": "WVZPU5NR",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/WVZPU5NR"
     },
     {
       "key": "YEFMDXK5",
@@ -230,6 +616,50 @@
       "itemKey": "YEFMDXK5",
       "libraryID": 1,
       "select": "zotero://select/library/items/YEFMDXK5"
+    },
+    {
+      "key": "KG9PPYPL",
+      "version": 633,
+      "itemType": "journalArticle",
+      "title": "Networks, Crowds, and Markets:",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "creators": [
+        {
+          "firstName": "David",
+          "lastName": "Easley",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jon",
+          "lastName": "Kleinberg",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": [],
+      "dateAdded": "2023-11-28T09:48:27Z",
+      "dateModified": "2023-11-28T09:48:27Z",
+      "uri": "http://zotero.org/users/10101446/items/KG9PPYPL",
+      "itemID": 356,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Easley 和 Kleinberg - Networks, Crowds, and Markets.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-11-28T09:48:23Z",
+          "dateModified": "2023-11-28T09:48:28Z",
+          "uri": "http://zotero.org/users/10101446/items/CR4R2JRG",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\CR4R2JRG\\Easley 和 Kleinberg - Networks, Crowds, and Markets.pdf",
+          "select": "zotero://select/library/items/CR4R2JRG"
+        }
+      ],
+      "notes": [],
+      "citationKey": "easley-networks",
+      "itemKey": "KG9PPYPL",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/KG9PPYPL"
     },
     {
       "key": "TC8XWH8A",
@@ -312,6 +742,108 @@
       "itemKey": "TC8XWH8A",
       "libraryID": 1,
       "select": "zotero://select/library/items/TC8XWH8A"
+    },
+    {
+      "key": "3K59BSFN",
+      "version": 731,
+      "itemType": "preprint",
+      "title": "Label-Free Liver Tumor Segmentation",
+      "abstractNote": "We demonstrate that AI models can accurately segment liver tumors without the need for manual annotation by using synthetic tumors in CT scans. Our synthetic tumors have two intriguing advantages: (I) realistic in shape and texture, which even medical professionals can confuse with real tumors; (II) effective for training AI models, which can perform liver tumor segmentation similarly to the model trained on real tumors—this result is exciting because no existing work, using synthetic tumors only, has thus far reached a similar or even close performance to real tumors. This result also implies that manual efforts for annotating tumors voxel by voxel (which took years to create) can be signiﬁcantly reduced in the future. Moreover, our synthetic tumors can automatically generate many examples of small (or even tiny) synthetic tumors and have the potential to improve the success rate of detecting small liver tumors, which is critical for detecting the early stages of cancer. In addition to enriching the training data, our synthesizing strategy also enables us to rigorously assess the AI robustness.",
+      "date": "2023-03-26",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "url": "http://arxiv.org/abs/2303.14869",
+      "accessDate": "2023-12-19T11:38:57Z",
+      "extra": "arXiv:2303.14869 [cs, eess]",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2303.14869",
+      "creators": [
+        {
+          "firstName": "Qixin",
+          "lastName": "Hu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yixiong",
+          "lastName": "Chen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Junfei",
+          "lastName": "Xiao",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Shuwen",
+          "lastName": "Sun",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jieneng",
+          "lastName": "Chen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Alan",
+          "lastName": "Yuille",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Zongwei",
+          "lastName": "Zhou",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computer Science - Computer Vision and Pattern Recognition",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Machine Learning",
+          "type": 1
+        },
+        {
+          "tag": "Electrical Engineering and Systems Science - Image and Video Processing",
+          "type": 1
+        }
+      ],
+      "relations": [],
+      "dateAdded": "2023-12-19T11:38:57Z",
+      "dateModified": "2023-12-19T11:38:57Z",
+      "uri": "http://zotero.org/users/10101446/items/3K59BSFN",
+      "itemID": 389,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Hu 等 - 2023 - Label-Free Liver Tumor Segmentation.pdf",
+          "tags": [],
+          "relations": [],
+          "dateAdded": "2023-12-19T11:38:51Z",
+          "dateModified": "2023-12-19T11:38:58Z",
+          "uri": "http://zotero.org/users/10101446/items/PKUQPJ4G",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\PKUQPJ4G\\Hu 等 - 2023 - Label-Free Liver Tumor Segmentation.pdf",
+          "select": "zotero://select/library/items/PKUQPJ4G"
+        }
+      ],
+      "notes": [
+        {
+          "key": "API5EMGU",
+          "version": 731,
+          "itemType": "note",
+          "parentItem": "3K59BSFN",
+          "note": "Comment: CVPR 2023",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2023-12-19T11:38:57Z",
+          "dateModified": "2023-12-19T11:38:57Z",
+          "uri": "http://zotero.org/users/10101446/items/API5EMGU"
+        }
+      ],
+      "citationKey": "hu2023-labelfree",
+      "itemKey": "3K59BSFN",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/3K59BSFN"
     },
     {
       "key": "XBBRUGC7",
