@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-note/计算机组成原理/1.1 Organization and Architecture.md",
+                "file": "book-note/计算机组成原理/计算机系统.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "book-note/计算机组成原理/1.1 Organization and Architecture.md",
+                "file": "book-note/计算机组成原理/计算机系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "book-note/计算机组成原理/1.1 Organization and Architecture.md",
+                "file": "book-note/计算机组成原理/计算机系统.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "book-note/计算机组成原理/1.1 Organization and Architecture.md"
+                "file": "book-note/计算机组成原理/计算机系统.md"
               }
             }
           },
@@ -154,21 +154,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "25e5ed8c947373db",
+  "active": "8f4e86a765622a11",
   "lastOpenFiles": [
-    "book-note/计算机组成原理/计算机系统.md",
-    "算法导论/第一章 算法.md",
     "book-note/计算机组成原理/1.1 Organization and Architecture.md",
+    "book-note/计算机组成原理/计算机系统.md",
+    "book-note/算法导论/第一章 算法.md",
     "paper reading/Retentive Network ： A Successor to Transformer for Large Language Models.md",
     "Daily/2023-12-24.md",
     "obsidian template/日记.md",
@@ -194,7 +194,7 @@
     "未命名.md",
     "book-note/计算机组成原理",
     "work notes/Distribute System.md",
-    "算法导论",
+    "book-note/算法导论",
     "book-note/算法导论.md",
     "FML",
     "lab.py",
