@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机组成原理/1.1 Organization and Architecture.md",
+                "file": "book-note/计算机组成原理/1.1 Organization and Architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机组成原理/1.1 Organization and Architecture.md",
+                "file": "book-note/计算机组成原理/1.1 Organization and Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机组成原理/1.1 Organization and Architecture.md",
+                "file": "book-note/计算机组成原理/1.1 Organization and Architecture.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机组成原理/1.1 Organization and Architecture.md"
+                "file": "book-note/计算机组成原理/1.1 Organization and Architecture.md"
               }
             }
           },
@@ -164,11 +164,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8f4e86a765622a11",
+  "active": "25e5ed8c947373db",
   "lastOpenFiles": [
-    "book-note/计算机系统.md",
+    "book-note/计算机组成原理/计算机系统.md",
     "算法导论/第一章 算法.md",
-    "计算机组成原理/1.1 Organization and Architecture.md",
+    "book-note/计算机组成原理/1.1 Organization and Architecture.md",
     "paper reading/Retentive Network ： A Successor to Transformer for Large Language Models.md",
     "Daily/2023-12-24.md",
     "obsidian template/日记.md",
@@ -192,7 +192,7 @@
     "Java/数据结构.md",
     "Java",
     "未命名.md",
-    "计算机组成原理",
+    "book-note/计算机组成原理",
     "work notes/Distribute System.md",
     "算法导论",
     "book-note/算法导论.md",
