@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-note/计算机组成原理/计算机系统.md",
+                "file": "book-note/计算机组成原理/五、原码，补码，反码的特性对比.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTimeReverse"
               }
             }
           },
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "book-note/计算机组成原理/计算机系统.md",
+                "file": "book-note/计算机组成原理/五、原码，补码，反码的特性对比.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "book-note/计算机组成原理/计算机系统.md",
+                "file": "book-note/计算机组成原理/五、原码，补码，反码的特性对比.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "book-note/计算机组成原理/计算机系统.md"
+                "file": "book-note/计算机组成原理/五、原码，补码，反码的特性对比.md"
               }
             }
           },
@@ -166,8 +166,12 @@
   },
   "active": "8f4e86a765622a11",
   "lastOpenFiles": [
+    "book-note/计算机组成原理/四、带符号整数的表示和运算.md",
+    "book-note/计算机组成原理/五、原码，补码，反码的特性对比.md",
+    "book-note/计算机组成原理/三、无符号整数的表示和运算.md",
+    "book-note/计算机组成原理/二、BCD码.md",
+    "book-note/计算机组成原理/一 、冯诺依曼机.md",
     "book-note/计算机组成原理/1.1 Organization and Architecture.md",
-    "book-note/计算机组成原理/计算机系统.md",
     "book-note/算法导论/第一章 算法.md",
     "paper reading/Retentive Network ： A Successor to Transformer for Large Language Models.md",
     "Daily/2023-12-24.md",
@@ -189,13 +193,9 @@
     "Java/面向对象.md",
     "Java/方法.md",
     "Java/变量.md",
-    "Java/数据结构.md",
     "Java",
-    "未命名.md",
     "book-note/计算机组成原理",
-    "work notes/Distribute System.md",
     "book-note/算法导论",
-    "book-note/算法导论.md",
     "FML",
     "lab.py",
     "Draloc",
