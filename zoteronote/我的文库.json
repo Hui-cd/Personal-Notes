@@ -28,6 +28,7 @@
       "cacheFlushInterval": 5,
       "charmap": "",
       "citeCommand": "cite",
+      "citekeyCaseInsensitive": true,
       "citekeyFold": true,
       "citekeyFormat": "auth(n=0,m=1,creator=\"*\",initials=false).fold.lower + \"(\" + year + \")-\" + shorttitle(1,0).lower",
       "citekeySearch": true,
@@ -62,6 +63,7 @@
       "language": "langid",
       "mapMath": "",
       "mapText": "",
+      "packages": "",
       "parseParticles": true,
       "patchDates": "dateadded=dateAdded, date-added=dateAdded, datemodified=dateModified, date-modified=dateModified",
       "postscript": "",
@@ -84,13 +86,15 @@
       "startupProgress": "popup",
       "strings": "",
       "stringsOverride": "",
-      "verbatimFields": "url,doi,file,pdf,ids,eprint,/^verb[a-z]$/,groups,/^citeulike-linkout-[0-9]+$/, /^bdsk-url-[0-9]+$/",
+      "verbatimFields": "url,doi,file,pdf,ids,eprint,/^verb[a-z]$/,groups,/^citeulike-linkout-[0-9]+$/, /^bdsk-url-[0-9]+$/, keywords",
       "warnBulkModify": 10,
       "warnTitleCased": false
     },
     "options": {
       "exportNotes": 1,
       "exportFileData": false,
+      "Items": true,
+      "Preferences": true,
       "keepUpdated": false,
       "worker": true,
       "Normalize": false
@@ -98,13 +102,13 @@
   },
   "version": {
     "zotero": "6.0.30",
-    "bbt": "6.7.140"
+    "bbt": "6.7.159"
   },
   "collections": {
     "49BIAB6R": {
       "key": "49BIAB6R",
       "parent": "",
-      "name": "数学",
+      "name": "\u6570\u5b66",
       "collections": [],
       "items": [
         391
@@ -116,11 +120,13 @@
       "name": "book",
       "collections": [],
       "items": [
-        348,
         349,
         354,
         356,
-        357
+        357,
+        399,
+        400,
+        401
       ]
     },
     "NNUX237V": {
@@ -159,7 +165,8 @@
         172,
         196,
         339,
-        360
+        360,
+        403
       ]
     }
   },
@@ -189,30 +196,6 @@
       "select": "zotero://select/library/items/2QDAQPG3"
     },
     {
-      "key": "SPLSMABS",
-      "version": 586,
-      "itemType": "attachment",
-      "title": "算法导论(原书第3版).pdf",
-      "linkMode": "imported_file",
-      "contentType": "application/pdf",
-      "charset": "",
-      "filename": "算法导论(原书第3版).pdf",
-      "tags": [],
-      "collections": [
-        "SL42CSAH"
-      ],
-      "relations": {},
-      "dateAdded": "2023-11-04T12:32:28Z",
-      "dateModified": "2023-11-04T12:32:28Z",
-      "uri": "http://zotero.org/users/10101446/items/SPLSMABS",
-      "itemID": 348,
-      "localPath": "C:\\Users\\gyh14\\Zotero\\storage\\SPLSMABS\\算法导论(原书第3版).pdf",
-      "defaultPath": "files/348/算法导论(原书第3版).pdf",
-      "itemKey": "SPLSMABS",
-      "libraryID": 1,
-      "select": "zotero://select/library/items/SPLSMABS"
-    },
-    {
       "key": "NAL7GLN3",
       "version": 589,
       "itemType": "attachment",
@@ -240,11 +223,11 @@
       "key": "FGINIMVC",
       "version": 629,
       "itemType": "attachment",
-      "title": "Java核心技术 卷I (第8版).pdf",
+      "title": "Java\u6838\u5fc3\u6280\u672f \u5377I (\u7b2c8\u7248).pdf",
       "linkMode": "imported_file",
       "contentType": "application/pdf",
       "charset": "",
-      "filename": "Java核心技术 卷I (第8版).pdf",
+      "filename": "Java\u6838\u5fc3\u6280\u672f \u5377I (\u7b2c8\u7248).pdf",
       "tags": [],
       "collections": [
         "SL42CSAH"
@@ -254,8 +237,8 @@
       "dateModified": "2023-11-18T03:56:44Z",
       "uri": "http://zotero.org/users/10101446/items/FGINIMVC",
       "itemID": 354,
-      "localPath": "C:\\Users\\gyh14\\Zotero\\storage\\FGINIMVC\\Java核心技术 卷I (第8版).pdf",
-      "defaultPath": "files/354/Java核心技术 卷I (第8版).pdf",
+      "localPath": "C:\\Users\\gyh14\\Zotero\\storage\\FGINIMVC\\Java\u6838\u5fc3\u6280\u672f \u5377I (\u7b2c8\u7248).pdf",
+      "defaultPath": "files/354/Java\u6838\u5fc3\u6280\u672f \u5377I (\u7b2c8\u7248).pdf",
       "itemKey": "FGINIMVC",
       "libraryID": 1,
       "select": "zotero://select/library/items/FGINIMVC"
@@ -264,11 +247,11 @@
       "key": "ZA3XJUJQ",
       "version": 654,
       "itemType": "attachment",
-      "title": "[Effective C++中文版改善程序与设计的55个具体做法].(美)Scott_Meyers.pdf",
+      "title": "[Effective C++\u4e2d\u6587\u7248\u6539\u5584\u7a0b\u5e8f\u4e0e\u8bbe\u8ba1\u768455\u4e2a\u5177\u4f53\u505a\u6cd5].(\u7f8e)Scott_Meyers.pdf",
       "linkMode": "imported_file",
       "contentType": "application/pdf",
       "charset": "",
-      "filename": "[Effective C++中文版改善程序与设计的55个具体做法].(美)Scott_Meyers.pdf",
+      "filename": "[Effective C++\u4e2d\u6587\u7248\u6539\u5584\u7a0b\u5e8f\u4e0e\u8bbe\u8ba1\u768455\u4e2a\u5177\u4f53\u505a\u6cd5].(\u7f8e)Scott_Meyers.pdf",
       "tags": [],
       "collections": [
         "SL42CSAH"
@@ -278,8 +261,8 @@
       "dateModified": "2023-12-06T09:23:26Z",
       "uri": "http://zotero.org/users/10101446/items/ZA3XJUJQ",
       "itemID": 357,
-      "localPath": "C:\\Users\\gyh14\\Zotero\\storage\\ZA3XJUJQ\\[Effective C++中文版改善程序与设计的55个具体做法].(美)Scott_Meyers.pdf",
-      "defaultPath": "files/357/[Effective C++中文版改善程序与设计的55个具体做法].(美)Scott_Meyers.pdf",
+      "localPath": "C:\\Users\\gyh14\\Zotero\\storage\\ZA3XJUJQ\\[Effective C++\u4e2d\u6587\u7248\u6539\u5584\u7a0b\u5e8f\u4e0e\u8bbe\u8ba1\u768455\u4e2a\u5177\u4f53\u505a\u6cd5].(\u7f8e)Scott_Meyers.pdf",
+      "defaultPath": "files/357/[Effective C++\u4e2d\u6587\u7248\u6539\u5584\u7a0b\u5e8f\u4e0e\u8bbe\u8ba1\u768455\u4e2a\u5177\u4f53\u505a\u6cd5].(\u7f8e)Scott_Meyers.pdf",
       "itemKey": "ZA3XJUJQ",
       "libraryID": 1,
       "select": "zotero://select/library/items/ZA3XJUJQ"
@@ -312,11 +295,11 @@
       "key": "6TC89527",
       "version": 748,
       "itemType": "attachment",
-      "title": "工程数学线性代数第六版.pdf",
+      "title": "\u5de5\u7a0b\u6570\u5b66\u7ebf\u6027\u4ee3\u6570\u7b2c\u516d\u7248.pdf",
       "linkMode": "imported_file",
       "contentType": "application/pdf",
       "charset": "",
-      "filename": "工程数学线性代数第六版.pdf",
+      "filename": "\u5de5\u7a0b\u6570\u5b66\u7ebf\u6027\u4ee3\u6570\u7b2c\u516d\u7248.pdf",
       "tags": [],
       "collections": [
         "49BIAB6R"
@@ -326,18 +309,90 @@
       "dateModified": "2023-12-22T10:16:22Z",
       "uri": "http://zotero.org/users/10101446/items/6TC89527",
       "itemID": 391,
-      "localPath": "C:\\Users\\gyh14\\Zotero\\storage\\6TC89527\\工程数学线性代数第六版.pdf",
-      "defaultPath": "files/391/工程数学线性代数第六版.pdf",
+      "localPath": "C:\\Users\\gyh14\\Zotero\\storage\\6TC89527\\\u5de5\u7a0b\u6570\u5b66\u7ebf\u6027\u4ee3\u6570\u7b2c\u516d\u7248.pdf",
+      "defaultPath": "files/391/\u5de5\u7a0b\u6570\u5b66\u7ebf\u6027\u4ee3\u6570\u7b2c\u516d\u7248.pdf",
       "itemKey": "6TC89527",
       "libraryID": 1,
       "select": "zotero://select/library/items/6TC89527"
+    },
+    {
+      "key": "E2BYSVNY",
+      "version": 761,
+      "itemType": "attachment",
+      "title": "\u8ba1\u7b97\u673a\u7ec4\u6210\u539f\u7406.pdf",
+      "linkMode": "imported_file",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "\u8ba1\u7b97\u673a\u7ec4\u6210\u539f\u7406.pdf",
+      "tags": [],
+      "collections": [
+        "SL42CSAH"
+      ],
+      "relations": {},
+      "dateAdded": "2023-12-28T08:17:09Z",
+      "dateModified": "2023-12-28T08:17:09Z",
+      "uri": "http://zotero.org/users/10101446/items/E2BYSVNY",
+      "itemID": 399,
+      "localPath": "C:\\Users\\gyh14\\Zotero\\storage\\E2BYSVNY\\\u8ba1\u7b97\u673a\u7ec4\u6210\u539f\u7406.pdf",
+      "defaultPath": "files/399/\u8ba1\u7b97\u673a\u7ec4\u6210\u539f\u7406.pdf",
+      "itemKey": "E2BYSVNY",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/E2BYSVNY"
+    },
+    {
+      "key": "ISFAHXLB",
+      "version": 764,
+      "itemType": "attachment",
+      "title": "2023\u738b\u9053\u8ba1\u7b97\u673a\u7ec4\u6210\u539f\u7406\u8003\u7814\u590d\u4e60\u6307\u5bfc\u3010\u9ad8\u6e05\u65e0\u6c34\u5370\u3011.pdf",
+      "linkMode": "imported_file",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "2023\u738b\u9053\u8ba1\u7b97\u673a\u7ec4\u6210\u539f\u7406\u8003\u7814\u590d\u4e60\u6307\u5bfc\u3010\u9ad8\u6e05\u65e0\u6c34\u5370\u3011.pdf",
+      "tags": [],
+      "collections": [
+        "SL42CSAH"
+      ],
+      "relations": {},
+      "dateAdded": "2023-12-29T12:39:28Z",
+      "dateModified": "2023-12-29T12:39:28Z",
+      "uri": "http://zotero.org/users/10101446/items/ISFAHXLB",
+      "itemID": 400,
+      "localPath": "C:\\Users\\gyh14\\Zotero\\storage\\ISFAHXLB\\2023\u738b\u9053\u8ba1\u7b97\u673a\u7ec4\u6210\u539f\u7406\u8003\u7814\u590d\u4e60\u6307\u5bfc\u3010\u9ad8\u6e05\u65e0\u6c34\u5370\u3011.pdf",
+      "defaultPath": "files/400/2023\u738b\u9053\u8ba1\u7b97\u673a\u7ec4\u6210\u539f\u7406\u8003\u7814\u590d\u4e60\u6307\u5bfc\u3010\u9ad8\u6e05\u65e0\u6c34\u5370\u3011.pdf",
+      "itemKey": "ISFAHXLB",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/ISFAHXLB"
+    },
+    {
+      "key": "XJ8SHQRF",
+      "version": 803,
+      "itemType": "attachment",
+      "title": "\u7b97\u6cd5\u5bfc\u8bba_\u539f\u4e66\u7b2c3\u7248_CHS.pdf",
+      "linkMode": "imported_file",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "\u7b97\u6cd5\u5bfc\u8bba_\u539f\u4e66\u7b2c3\u7248_CHS.pdf",
+      "tags": [],
+      "collections": [
+        "SL42CSAH"
+      ],
+      "relations": {},
+      "dateAdded": "2024-01-30T03:19:05Z",
+      "dateModified": "2024-01-30T03:19:05Z",
+      "uri": "http://zotero.org/users/10101446/items/XJ8SHQRF",
+      "itemID": 401,
+      "localPath": "C:\\Users\\gyh14\\Zotero\\storage\\XJ8SHQRF\\\u7b97\u6cd5\u5bfc\u8bba_\u539f\u4e66\u7b2c3\u7248_CHS.pdf",
+      "defaultPath": "files/401/\u7b97\u6cd5\u5bfc\u8bba_\u539f\u4e66\u7b2c3\u7248_CHS.pdf",
+      "itemKey": "XJ8SHQRF",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/XJ8SHQRF"
     },
     {
       "key": "WVZPU5NR",
       "version": 667,
       "itemType": "preprint",
       "title": "Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback",
-      "abstractNote": "We apply preference modeling and reinforcement learning from human feedback (RLHF) to ﬁnetune language models to act as helpful and harmless assistants. We ﬁnd this alignment training improves performance on almost all NLP evaluations, and is fully compatible with training for specialized skills such as python coding and summarization. We explore an iterated online mode of training, where preference models and RL policies are updated on a weekly cadence with fresh human feedback data, efﬁciently improving our datasets and models. Finally, we investigate the robustness of RLHF training, and identify a roughly linear relation between the RL reward and the square root of the KL divergence between the policy and its initialization. Alongside our main results, we perform peripheral analyses on calibration, competing objectives, and the use of OOD detection, compare our models with human writers, and provide samples from our models using prompts appearing in recent related work.",
+      "abstractNote": "We apply preference modeling and reinforcement learning from human feedback (RLHF) to \ufb01netune language models to act as helpful and harmless assistants. We \ufb01nd this alignment training improves performance on almost all NLP evaluations, and is fully compatible with training for specialized skills such as python coding and summarization. We explore an iterated online mode of training, where preference models and RL policies are updated on a weekly cadence with fresh human feedback data, ef\ufb01ciently improving our datasets and models. Finally, we investigate the robustness of RLHF training, and identify a roughly linear relation between the RL reward and the square root of the KL divergence between the policy and its initialization. Alongside our main results, we perform peripheral analyses on calibration, competing objectives, and the use of OOD detection, compare our models with human writers, and provide samples from our models using prompts appearing in recent related work.",
       "date": "2022-04-12",
       "language": "en",
       "libraryCatalog": "arXiv.org",
@@ -513,7 +568,7 @@
           "type": 1
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2023-12-16T06:43:39Z",
       "dateModified": "2023-12-16T06:43:40Z",
       "uri": "http://zotero.org/users/10101446/items/WVZPU5NR",
@@ -521,13 +576,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Bai 等 - 2022 - Training a Helpful and Harmless Assistant with Rei.pdf",
+          "title": "Bai \u7b49 - 2022 - Training a Helpful and Harmless Assistant with Rei.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2023-12-16T06:43:33Z",
           "dateModified": "2023-12-16T06:43:40Z",
           "uri": "http://zotero.org/users/10101446/items/FA5R5JQT",
-          "path": "C:\\Users\\gyh14\\Zotero\\storage\\FA5R5JQT\\Bai 等 - 2022 - Training a Helpful and Harmless Assistant with Rei.pdf",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\FA5R5JQT\\Bai \u7b49 - 2022 - Training a Helpful and Harmless Assistant with Rei.pdf",
           "select": "zotero://select/library/items/FA5R5JQT"
         }
       ],
@@ -551,11 +606,94 @@
       "select": "zotero://select/library/items/WVZPU5NR"
     },
     {
+      "key": "9XR6FCUM",
+      "version": 815,
+      "itemType": "preprint",
+      "title": "Deconstructing Denoising Diffusion Models for Self-Supervised Learning",
+      "abstractNote": "In this study, we examine the representation learning abilities of Denoising Diffusion Models (DDM) that were originally purposed for image generation. Our philosophy is to deconstruct a DDM, gradually transforming it into a classical Denoising Autoencoder (DAE). This deconstructive procedure allows us to explore how various components of modern DDMs influence self-supervised representation learning. We observe that only a very few modern components are critical for learning good representations, while many others are nonessential. Our study ultimately arrives at an approach that is highly simplified and to a large extent resembles a classical DAE. We hope our study will rekindle interest in a family of classical methods within the realm of modern self-supervised learning.",
+      "date": "2024-01-25",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "url": "http://arxiv.org/abs/2401.14404",
+      "accessDate": "2024-02-05T16:06:26Z",
+      "extra": "arXiv:2401.14404 [cs]",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2401.14404",
+      "creators": [
+        {
+          "firstName": "Xinlei",
+          "lastName": "Chen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Zhuang",
+          "lastName": "Liu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Saining",
+          "lastName": "Xie",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Kaiming",
+          "lastName": "He",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computer Science - Computer Vision and Pattern Recognition",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Machine Learning",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-02-05T16:06:26Z",
+      "dateModified": "2024-02-05T16:06:27Z",
+      "uri": "http://zotero.org/users/10101446/items/9XR6FCUM",
+      "itemID": 403,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Chen \u7b49 - 2024 - Deconstructing Denoising Diffusion Models for Self.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-02-05T16:06:20Z",
+          "dateModified": "2024-02-05T16:06:27Z",
+          "uri": "http://zotero.org/users/10101446/items/QR5R49NP",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\QR5R49NP\\Chen \u7b49 - 2024 - Deconstructing Denoising Diffusion Models for Self.pdf",
+          "select": "zotero://select/library/items/QR5R49NP"
+        }
+      ],
+      "notes": [
+        {
+          "key": "3WIVFGXQ",
+          "version": 815,
+          "itemType": "note",
+          "parentItem": "9XR6FCUM",
+          "note": "Comment: Technical report, 10 pages",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-02-05T16:06:26Z",
+          "dateModified": "2024-02-05T16:06:26Z",
+          "uri": "http://zotero.org/users/10101446/items/3WIVFGXQ"
+        }
+      ],
+      "citationKey": "chen2024-deconstructing",
+      "itemKey": "9XR6FCUM",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/9XR6FCUM"
+    },
+    {
       "key": "YEFMDXK5",
       "version": 501,
       "itemType": "preprint",
       "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
-      "abstractNote": "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models (Peters et al., 2018a; Radford et al., 2018), BERT is designed to pretrain deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be ﬁnetuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial taskspeciﬁc architecture modiﬁcations.",
+      "abstractNote": "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models (Peters et al., 2018a; Radford et al., 2018), BERT is designed to pretrain deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be \ufb01netuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial taskspeci\ufb01c architecture modi\ufb01cations.",
       "date": "2019-05-24",
       "language": "en",
       "shortTitle": "BERT",
@@ -593,7 +731,7 @@
           "type": 1
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2023-09-25T03:28:37Z",
       "dateModified": "2023-10-02T03:18:28Z",
       "uri": "http://zotero.org/users/10101446/items/YEFMDXK5",
@@ -601,13 +739,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Devlin 等 - 2019 - BERT Pre-training of Deep Bidirectional Transform.pdf",
+          "title": "Devlin \u7b49 - 2019 - BERT Pre-training of Deep Bidirectional Transform.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2023-09-25T03:28:32Z",
           "dateModified": "2023-09-25T03:28:37Z",
           "uri": "http://zotero.org/users/10101446/items/K4FEEV4X",
-          "path": "C:\\Users\\gyh14\\Zotero\\storage\\K4FEEV4X\\Devlin 等 - 2019 - BERT Pre-training of Deep Bidirectional Transform.pdf",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\K4FEEV4X\\Devlin \u7b49 - 2019 - BERT Pre-training of Deep Bidirectional Transform.pdf",
           "select": "zotero://select/library/items/K4FEEV4X"
         }
       ],
@@ -637,7 +775,7 @@
         }
       ],
       "tags": [],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2023-11-28T09:48:27Z",
       "dateModified": "2023-11-28T09:48:27Z",
       "uri": "http://zotero.org/users/10101446/items/KG9PPYPL",
@@ -645,13 +783,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Easley 和 Kleinberg - Networks, Crowds, and Markets.pdf",
+          "title": "Easley \u548c Kleinberg - Networks, Crowds, and Markets.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2023-11-28T09:48:23Z",
           "dateModified": "2023-11-28T09:48:28Z",
           "uri": "http://zotero.org/users/10101446/items/CR4R2JRG",
-          "path": "C:\\Users\\gyh14\\Zotero\\storage\\CR4R2JRG\\Easley 和 Kleinberg - Networks, Crowds, and Markets.pdf",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\CR4R2JRG\\Easley \u548c Kleinberg - Networks, Crowds, and Markets.pdf",
           "select": "zotero://select/library/items/CR4R2JRG"
         }
       ],
@@ -706,7 +844,7 @@
           "type": 1
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2023-03-07T07:15:56Z",
       "dateModified": "2023-03-07T07:15:56Z",
       "uri": "http://zotero.org/users/10101446/items/TC8XWH8A",
@@ -714,13 +852,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Gatys 等 - 2015 - Texture Synthesis Using Convolutional Neural Netwo.pdf",
+          "title": "Gatys \u7b49 - 2015 - Texture Synthesis Using Convolutional Neural Netwo.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2023-03-07T07:15:52Z",
           "dateModified": "2023-03-07T07:15:57Z",
           "uri": "http://zotero.org/users/10101446/items/RNTUP68M",
-          "path": "C:\\Users\\gyh14\\Zotero\\storage\\RNTUP68M\\Gatys 等 - 2015 - Texture Synthesis Using Convolutional Neural Netwo.pdf",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\RNTUP68M\\Gatys \u7b49 - 2015 - Texture Synthesis Using Convolutional Neural Netwo.pdf",
           "select": "zotero://select/library/items/RNTUP68M"
         }
       ],
@@ -748,7 +886,7 @@
       "version": 731,
       "itemType": "preprint",
       "title": "Label-Free Liver Tumor Segmentation",
-      "abstractNote": "We demonstrate that AI models can accurately segment liver tumors without the need for manual annotation by using synthetic tumors in CT scans. Our synthetic tumors have two intriguing advantages: (I) realistic in shape and texture, which even medical professionals can confuse with real tumors; (II) effective for training AI models, which can perform liver tumor segmentation similarly to the model trained on real tumors—this result is exciting because no existing work, using synthetic tumors only, has thus far reached a similar or even close performance to real tumors. This result also implies that manual efforts for annotating tumors voxel by voxel (which took years to create) can be signiﬁcantly reduced in the future. Moreover, our synthetic tumors can automatically generate many examples of small (or even tiny) synthetic tumors and have the potential to improve the success rate of detecting small liver tumors, which is critical for detecting the early stages of cancer. In addition to enriching the training data, our synthesizing strategy also enables us to rigorously assess the AI robustness.",
+      "abstractNote": "We demonstrate that AI models can accurately segment liver tumors without the need for manual annotation by using synthetic tumors in CT scans. Our synthetic tumors have two intriguing advantages: (I) realistic in shape and texture, which even medical professionals can confuse with real tumors; (II) effective for training AI models, which can perform liver tumor segmentation similarly to the model trained on real tumors\u2014this result is exciting because no existing work, using synthetic tumors only, has thus far reached a similar or even close performance to real tumors. This result also implies that manual efforts for annotating tumors voxel by voxel (which took years to create) can be signi\ufb01cantly reduced in the future. Moreover, our synthetic tumors can automatically generate many examples of small (or even tiny) synthetic tumors and have the potential to improve the success rate of detecting small liver tumors, which is critical for detecting the early stages of cancer. In addition to enriching the training data, our synthesizing strategy also enables us to rigorously assess the AI robustness.",
       "date": "2023-03-26",
       "language": "en",
       "libraryCatalog": "arXiv.org",
@@ -808,7 +946,7 @@
           "type": 1
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2023-12-19T11:38:57Z",
       "dateModified": "2023-12-19T11:38:57Z",
       "uri": "http://zotero.org/users/10101446/items/3K59BSFN",
@@ -816,13 +954,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Hu 等 - 2023 - Label-Free Liver Tumor Segmentation.pdf",
+          "title": "Hu \u7b49 - 2023 - Label-Free Liver Tumor Segmentation.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2023-12-19T11:38:51Z",
           "dateModified": "2023-12-19T11:38:58Z",
           "uri": "http://zotero.org/users/10101446/items/PKUQPJ4G",
-          "path": "C:\\Users\\gyh14\\Zotero\\storage\\PKUQPJ4G\\Hu 等 - 2023 - Label-Free Liver Tumor Segmentation.pdf",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\PKUQPJ4G\\Hu \u7b49 - 2023 - Label-Free Liver Tumor Segmentation.pdf",
           "select": "zotero://select/library/items/PKUQPJ4G"
         }
       ],
@@ -850,7 +988,7 @@
       "version": 166,
       "itemType": "preprint",
       "title": "Language Is Not All You Need: Aligning Perception with Language Models",
-      "abstractNote": "A big convergence of language, multimodal perception, action, and world modeling is a key step toward artiﬁcial general intelligence. In this work, we introduce KOSMOS-12, a Multimodal Large Language Model (MLLM) that can perceive general modalities, learn in context (i.e., few-shot), and follow instructions (i.e., zero-shot). Speciﬁcally, we train KOSMOS-1 from scratch on web-scale multimodal corpora, including arbitrarily interleaved text and images, image-caption pairs, and text data. We evaluate various settings, including zero-shot, few-shot, and multimodal chain-of-thought prompting, on a wide range of tasks without any gradient updates or ﬁnetuning. Experimental results show that KOSMOS-1 achieves impressive performance on (i) language understanding, generation, and even OCR-free NLP (directly fed with document images), (ii) perception-language tasks, including multimodal dialogue, image captioning, visual question answering, and (iii) vision tasks, such as image recognition with descriptions (specifying classiﬁcation via text instructions). We also show that MLLMs can beneﬁt from cross-modal transfer, i.e., transfer knowledge from language to multimodal, and from multimodal to language. In addition, we introduce a dataset of Raven IQ test, which diagnoses the nonverbal reasoning capability of MLLMs.",
+      "abstractNote": "A big convergence of language, multimodal perception, action, and world modeling is a key step toward arti\ufb01cial general intelligence. In this work, we introduce KOSMOS-12, a Multimodal Large Language Model (MLLM) that can perceive general modalities, learn in context (i.e., few-shot), and follow instructions (i.e., zero-shot). Speci\ufb01cally, we train KOSMOS-1 from scratch on web-scale multimodal corpora, including arbitrarily interleaved text and images, image-caption pairs, and text data. We evaluate various settings, including zero-shot, few-shot, and multimodal chain-of-thought prompting, on a wide range of tasks without any gradient updates or \ufb01netuning. Experimental results show that KOSMOS-1 achieves impressive performance on (i) language understanding, generation, and even OCR-free NLP (directly fed with document images), (ii) perception-language tasks, including multimodal dialogue, image captioning, visual question answering, and (iii) vision tasks, such as image recognition with descriptions (specifying classi\ufb01cation via text instructions). We also show that MLLMs can bene\ufb01t from cross-modal transfer, i.e., transfer knowledge from language to multimodal, and from multimodal to language. In addition, we introduce a dataset of Raven IQ test, which diagnoses the nonverbal reasoning capability of MLLMs.",
       "date": "2023-03-01",
       "language": "en",
       "shortTitle": "Language Is Not All You Need",
@@ -962,7 +1100,7 @@
           "type": 1
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2023-06-17T14:39:14Z",
       "dateModified": "2023-06-17T14:39:14Z",
       "uri": "http://zotero.org/users/10101446/items/XBBRUGC7",
@@ -970,13 +1108,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Huang 等 - 2023 - Language Is Not All You Need Aligning Perception .pdf",
+          "title": "Huang \u7b49 - 2023 - Language Is Not All You Need Aligning Perception .pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2023-06-17T14:39:08Z",
           "dateModified": "2023-06-17T14:39:14Z",
           "uri": "http://zotero.org/users/10101446/items/U76G4KL2",
-          "path": "C:\\Users\\gyh14\\Zotero\\storage\\U76G4KL2\\Huang 等 - 2023 - Language Is Not All You Need Aligning Perception .pdf",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\U76G4KL2\\Huang \u7b49 - 2023 - Language Is Not All You Need Aligning Perception .pdf",
           "select": "zotero://select/library/items/U76G4KL2"
         }
       ],
@@ -990,7 +1128,7 @@
       "key": "6JZ2ZFBE",
       "version": 360,
       "itemType": "note",
-      "note": "<div data-citation-items=\"%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%2C%22type%22%3A%22article%22%2C%22abstract%22%3A%22The%20dominant%20sequence%20transduction%20models%20are%20based%20on%20complex%20recurrent%20or%20convolutional%20neural%20networks%20that%20include%20an%20encoder%20and%20a%20decoder.%20The%20best%20performing%20models%20also%20connect%20the%20encoder%20and%20decoder%20through%20an%20attention%20mechanism.%20We%20propose%20a%20new%20simple%20network%20architecture%2C%20the%20Transformer%2C%20based%20solely%20on%20attention%20mechanisms%2C%20dispensing%20with%20recurrence%20and%20convolutions%20entirely.%20Experiments%20on%20two%20machine%20translation%20tasks%20show%20these%20models%20to%20be%20superior%20in%20quality%20while%20being%20more%20parallelizable%20and%20requiring%20signi%EF%AC%81cantly%20less%20time%20to%20train.%20Our%20model%20achieves%2028.4%20BLEU%20on%20the%20WMT%202014%20Englishto-German%20translation%20task%2C%20improving%20over%20the%20existing%20best%20results%2C%20including%20ensembles%2C%20by%20over%202%20BLEU.%20On%20the%20WMT%202014%20English-to-French%20translation%20task%2C%20our%20model%20establishes%20a%20new%20single-model%20state-of-the-art%20BLEU%20score%20of%2041.8%20after%20training%20for%203.5%20days%20on%20eight%20GPUs%2C%20a%20small%20fraction%20of%20the%20training%20costs%20of%20the%20best%20models%20from%20the%20literature.%20We%20show%20that%20the%20Transformer%20generalizes%20well%20to%20other%20tasks%20by%20applying%20it%20successfully%20to%20English%20constituency%20parsing%20both%20with%20large%20and%20limited%20training%20data.%22%2C%22language%22%3A%22en%22%2C%22note%22%3A%22arXiv%3A1706.03762%20%5Bcs%5D%22%2C%22number%22%3A%22arXiv%3A1706.03762%22%2C%22publisher%22%3A%22arXiv%22%2C%22source%22%3A%22arXiv.org%22%2C%22title%22%3A%22Attention%20Is%20All%20You%20Need%22%2C%22URL%22%3A%22http%3A%2F%2Farxiv.org%2Fabs%2F1706.03762%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Vaswani%22%2C%22given%22%3A%22Ashish%22%7D%2C%7B%22family%22%3A%22Shazeer%22%2C%22given%22%3A%22Noam%22%7D%2C%7B%22family%22%3A%22Parmar%22%2C%22given%22%3A%22Niki%22%7D%2C%7B%22family%22%3A%22Uszkoreit%22%2C%22given%22%3A%22Jakob%22%7D%2C%7B%22family%22%3A%22Jones%22%2C%22given%22%3A%22Llion%22%7D%2C%7B%22family%22%3A%22Gomez%22%2C%22given%22%3A%22Aidan%20N.%22%7D%2C%7B%22family%22%3A%22Kaiser%22%2C%22given%22%3A%22Lukasz%22%7D%2C%7B%22family%22%3A%22Polosukhin%22%2C%22given%22%3A%22Illia%22%7D%5D%2C%22accessed%22%3A%7B%22date-parts%22%3A%5B%5B%222023%22%2C6%2C17%5D%5D%7D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222017%22%2C12%2C5%5D%5D%7D%7D%7D%5D\" data-schema-version=\"8\"><h1>Transformer</h1>\n<h2>为什么使用self-attention</h2>\n<ul>\n<li>\ncomputational complexity\n</li>\n<li>\nParallel computation\n</li>\n<li>\npath length between long-range dependencies in the network\n</li>\n</ul>\n<p></p>\n<p></p>\n</div>",
+      "note": "<div data-citation-items=\"%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%2C%22type%22%3A%22article%22%2C%22abstract%22%3A%22The%20dominant%20sequence%20transduction%20models%20are%20based%20on%20complex%20recurrent%20or%20convolutional%20neural%20networks%20that%20include%20an%20encoder%20and%20a%20decoder.%20The%20best%20performing%20models%20also%20connect%20the%20encoder%20and%20decoder%20through%20an%20attention%20mechanism.%20We%20propose%20a%20new%20simple%20network%20architecture%2C%20the%20Transformer%2C%20based%20solely%20on%20attention%20mechanisms%2C%20dispensing%20with%20recurrence%20and%20convolutions%20entirely.%20Experiments%20on%20two%20machine%20translation%20tasks%20show%20these%20models%20to%20be%20superior%20in%20quality%20while%20being%20more%20parallelizable%20and%20requiring%20signi%EF%AC%81cantly%20less%20time%20to%20train.%20Our%20model%20achieves%2028.4%20BLEU%20on%20the%20WMT%202014%20Englishto-German%20translation%20task%2C%20improving%20over%20the%20existing%20best%20results%2C%20including%20ensembles%2C%20by%20over%202%20BLEU.%20On%20the%20WMT%202014%20English-to-French%20translation%20task%2C%20our%20model%20establishes%20a%20new%20single-model%20state-of-the-art%20BLEU%20score%20of%2041.8%20after%20training%20for%203.5%20days%20on%20eight%20GPUs%2C%20a%20small%20fraction%20of%20the%20training%20costs%20of%20the%20best%20models%20from%20the%20literature.%20We%20show%20that%20the%20Transformer%20generalizes%20well%20to%20other%20tasks%20by%20applying%20it%20successfully%20to%20English%20constituency%20parsing%20both%20with%20large%20and%20limited%20training%20data.%22%2C%22language%22%3A%22en%22%2C%22note%22%3A%22arXiv%3A1706.03762%20%5Bcs%5D%22%2C%22number%22%3A%22arXiv%3A1706.03762%22%2C%22publisher%22%3A%22arXiv%22%2C%22source%22%3A%22arXiv.org%22%2C%22title%22%3A%22Attention%20Is%20All%20You%20Need%22%2C%22URL%22%3A%22http%3A%2F%2Farxiv.org%2Fabs%2F1706.03762%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Vaswani%22%2C%22given%22%3A%22Ashish%22%7D%2C%7B%22family%22%3A%22Shazeer%22%2C%22given%22%3A%22Noam%22%7D%2C%7B%22family%22%3A%22Parmar%22%2C%22given%22%3A%22Niki%22%7D%2C%7B%22family%22%3A%22Uszkoreit%22%2C%22given%22%3A%22Jakob%22%7D%2C%7B%22family%22%3A%22Jones%22%2C%22given%22%3A%22Llion%22%7D%2C%7B%22family%22%3A%22Gomez%22%2C%22given%22%3A%22Aidan%20N.%22%7D%2C%7B%22family%22%3A%22Kaiser%22%2C%22given%22%3A%22Lukasz%22%7D%2C%7B%22family%22%3A%22Polosukhin%22%2C%22given%22%3A%22Illia%22%7D%5D%2C%22accessed%22%3A%7B%22date-parts%22%3A%5B%5B%222023%22%2C6%2C17%5D%5D%7D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222017%22%2C12%2C5%5D%5D%7D%7D%7D%5D\" data-schema-version=\"8\"><h1>Transformer</h1>\n<h2>\u4e3a\u4ec0\u4e48\u4f7f\u7528self-attention</h2>\n<ul>\n<li>\ncomputational complexity\n</li>\n<li>\nParallel computation\n</li>\n<li>\npath length between long-range dependencies in the network\n</li>\n</ul>\n<p></p>\n<p></p>\n</div>",
       "tags": [],
       "collections": [
         "K84JTQUN"
@@ -1013,7 +1151,7 @@
       "version": 475,
       "itemType": "preprint",
       "title": "GPT-4 Technical Report",
-      "abstractNote": "We report the development of GPT-4, a large-scale, multimodal model which can accept image and text inputs and produce text outputs. While less capable than humans in many real-world scenarios, GPT-4 exhibits human-level performance on various professional and academic benchmarks, including passing a simulated bar exam with a score around the top 10% of test takers. GPT-4 is a Transformerbased model pre-trained to predict the next token in a document. The post-training alignment process results in improved performance on measures of factuality and adherence to desired behavior. A core component of this project was developing infrastructure and optimization methods that behave predictably across a wide range of scales. This allowed us to accurately predict some aspects of GPT-4’s performance based on models trained with no more than 1/1,000th the compute of GPT-4.",
+      "abstractNote": "We report the development of GPT-4, a large-scale, multimodal model which can accept image and text inputs and produce text outputs. While less capable than humans in many real-world scenarios, GPT-4 exhibits human-level performance on various professional and academic benchmarks, including passing a simulated bar exam with a score around the top 10% of test takers. GPT-4 is a Transformerbased model pre-trained to predict the next token in a document. The post-training alignment process results in improved performance on measures of factuality and adherence to desired behavior. A core component of this project was developing infrastructure and optimization methods that behave predictably across a wide range of scales. This allowed us to accurately predict some aspects of GPT-4\u2019s performance based on models trained with no more than 1/1,000th the compute of GPT-4.",
       "date": "2023-03-27",
       "language": "en",
       "libraryCatalog": "arXiv.org",
@@ -1042,7 +1180,7 @@
           "tag": "ObsCite"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2023-09-07T03:28:31Z",
       "dateModified": "2023-09-30T07:47:55Z",
       "uri": "http://zotero.org/users/10101446/items/HBXY5IN2",
@@ -1052,7 +1190,7 @@
           "itemType": "attachment",
           "title": "OpenAI - 2023 - GPT-4 Technical Report.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2023-09-07T03:28:18Z",
           "dateModified": "2023-09-07T03:28:32Z",
           "uri": "http://zotero.org/users/10101446/items/TJ3Z5A7Y",
@@ -1084,7 +1222,7 @@
       "version": 256,
       "itemType": "journalArticle",
       "title": "Improving Language Understanding by Generative Pre-Training",
-      "abstractNote": "Natural language understanding comprises a wide range of diverse tasks such as textual entailment, question answering, semantic similarity assessment, and document classiﬁcation. Although large unlabeled text corpora are abundant, labeled data for learning these speciﬁc tasks is scarce, making it challenging for discriminatively trained models to perform adequately. We demonstrate that large gains on these tasks can be realized by generative pre-training of a language model on a diverse corpus of unlabeled text, followed by discriminative ﬁne-tuning on each speciﬁc task. In contrast to previous approaches, we make use of task-aware input transformations during ﬁne-tuning to achieve effective transfer while requiring minimal changes to the model architecture. We demonstrate the effectiveness of our approach on a wide range of benchmarks for natural language understanding. Our general task-agnostic model outperforms discriminatively trained models that use architectures speciﬁcally crafted for each task, signiﬁcantly improving upon the state of the art in 9 out of the 12 tasks studied. For instance, we achieve absolute improvements of 8.9% on commonsense reasoning (Stories Cloze Test), 5.7% on question answering (RACE), and 1.5% on textual entailment (MultiNLI).",
+      "abstractNote": "Natural language understanding comprises a wide range of diverse tasks such as textual entailment, question answering, semantic similarity assessment, and document classi\ufb01cation. Although large unlabeled text corpora are abundant, labeled data for learning these speci\ufb01c tasks is scarce, making it challenging for discriminatively trained models to perform adequately. We demonstrate that large gains on these tasks can be realized by generative pre-training of a language model on a diverse corpus of unlabeled text, followed by discriminative \ufb01ne-tuning on each speci\ufb01c task. In contrast to previous approaches, we make use of task-aware input transformations during \ufb01ne-tuning to achieve effective transfer while requiring minimal changes to the model architecture. We demonstrate the effectiveness of our approach on a wide range of benchmarks for natural language understanding. Our general task-agnostic model outperforms discriminatively trained models that use architectures speci\ufb01cally crafted for each task, signi\ufb01cantly improving upon the state of the art in 9 out of the 12 tasks studied. For instance, we achieve absolute improvements of 8.9% on commonsense reasoning (Stories Cloze Test), 5.7% on question answering (RACE), and 1.5% on textual entailment (MultiNLI).",
       "language": "en",
       "libraryCatalog": "Zotero",
       "creators": [
@@ -1110,7 +1248,7 @@
         }
       ],
       "tags": [],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2023-09-07T03:28:05Z",
       "dateModified": "2023-09-07T03:28:05Z",
       "uri": "http://zotero.org/users/10101446/items/AR3GIJFD",
@@ -1118,13 +1256,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Radford 等 - Improving Language Understanding by Generative Pre.pdf",
+          "title": "Radford \u7b49 - Improving Language Understanding by Generative Pre.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2023-09-07T03:28:02Z",
           "dateModified": "2023-09-07T03:28:05Z",
           "uri": "http://zotero.org/users/10101446/items/7IDJ5PYD",
-          "path": "C:\\Users\\gyh14\\Zotero\\storage\\7IDJ5PYD\\Radford 等 - Improving Language Understanding by Generative Pre.pdf",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\7IDJ5PYD\\Radford \u7b49 - Improving Language Understanding by Generative Pre.pdf",
           "select": "zotero://select/library/items/7IDJ5PYD"
         }
       ],
@@ -1139,7 +1277,7 @@
       "version": 259,
       "itemType": "journalArticle",
       "title": "Language Models are Unsupervised Multitask Learners",
-      "abstractNote": "Natural language processing tasks, such as question answering, machine translation, reading comprehension, and summarization, are typically approached with supervised learning on taskspeciﬁc datasets. We demonstrate that language models begin to learn these tasks without any explicit supervision when trained on a new dataset of millions of webpages called WebText. When conditioned on a document plus questions, the answers generated by the language model reach 55 F1 on the CoQA dataset - matching or exceeding the performance of 3 out of 4 baseline systems without using the 127,000+ training examples. The capacity of the language model is essential to the success of zero-shot task transfer and increasing it improves performance in a log-linear fashion across tasks. Our largest model, GPT-2, is a 1.5B parameter Transformer that achieves state of the art results on 7 out of 8 tested language modeling datasets in a zero-shot setting but still underﬁts WebText. Samples from the model reﬂect these improvements and contain coherent paragraphs of text. These ﬁndings suggest a promising path towards building language processing systems which learn to perform tasks from their naturally occurring demonstrations.",
+      "abstractNote": "Natural language processing tasks, such as question answering, machine translation, reading comprehension, and summarization, are typically approached with supervised learning on taskspeci\ufb01c datasets. We demonstrate that language models begin to learn these tasks without any explicit supervision when trained on a new dataset of millions of webpages called WebText. When conditioned on a document plus questions, the answers generated by the language model reach 55 F1 on the CoQA dataset - matching or exceeding the performance of 3 out of 4 baseline systems without using the 127,000+ training examples. The capacity of the language model is essential to the success of zero-shot task transfer and increasing it improves performance in a log-linear fashion across tasks. Our largest model, GPT-2, is a 1.5B parameter Transformer that achieves state of the art results on 7 out of 8 tested language modeling datasets in a zero-shot setting but still under\ufb01ts WebText. Samples from the model re\ufb02ect these improvements and contain coherent paragraphs of text. These \ufb01ndings suggest a promising path towards building language processing systems which learn to perform tasks from their naturally occurring demonstrations.",
       "language": "en",
       "libraryCatalog": "Zotero",
       "creators": [
@@ -1175,7 +1313,7 @@
         }
       ],
       "tags": [],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2023-09-07T03:28:16Z",
       "dateModified": "2023-09-07T03:28:17Z",
       "uri": "http://zotero.org/users/10101446/items/7T5MVX42",
@@ -1183,13 +1321,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Radford 等 - Language Models are Unsupervised Multitask Learner.pdf",
+          "title": "Radford \u7b49 - Language Models are Unsupervised Multitask Learner.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2023-09-07T03:28:13Z",
           "dateModified": "2023-09-07T03:28:17Z",
           "uri": "http://zotero.org/users/10101446/items/QQBJYCUR",
-          "path": "C:\\Users\\gyh14\\Zotero\\storage\\QQBJYCUR\\Radford 等 - Language Models are Unsupervised Multitask Learner.pdf",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\QQBJYCUR\\Radford \u7b49 - Language Models are Unsupervised Multitask Learner.pdf",
           "select": "zotero://select/library/items/QQBJYCUR"
         }
       ],
@@ -1225,7 +1363,7 @@
         }
       ],
       "tags": [],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2023-09-24T08:32:54Z",
       "dateModified": "2023-09-24T08:32:54Z",
       "uri": "http://zotero.org/users/10101446/items/99BHSFSW",
@@ -1233,13 +1371,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Steen 和 Tanenbaum - 2023 - Distributed systems.pdf",
+          "title": "Steen \u548c Tanenbaum - 2023 - Distributed systems.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2023-09-24T08:32:41Z",
           "dateModified": "2023-09-24T08:32:55Z",
           "uri": "http://zotero.org/users/10101446/items/V28G345J",
-          "path": "C:\\Users\\gyh14\\Zotero\\storage\\V28G345J\\Steen 和 Tanenbaum - 2023 - Distributed systems.pdf",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\V28G345J\\Steen \u548c Tanenbaum - 2023 - Distributed systems.pdf",
           "select": "zotero://select/library/items/V28G345J"
         }
       ],
@@ -1319,7 +1457,7 @@
           "tag": "ObsCite"
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2023-10-15T07:06:09Z",
       "dateModified": "2023-10-18T01:29:18Z",
       "uri": "http://zotero.org/users/10101446/items/D38IHND8",
@@ -1327,13 +1465,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Sun 等 - 2023 - Retentive Network A Successor to Transformer for .pdf",
+          "title": "Sun \u7b49 - 2023 - Retentive Network A Successor to Transformer for .pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2023-10-15T07:05:57Z",
           "dateModified": "2023-10-15T07:06:09Z",
           "uri": "http://zotero.org/users/10101446/items/73EF3EEY",
-          "path": "C:\\Users\\gyh14\\Zotero\\storage\\73EF3EEY\\Sun 等 - 2023 - Retentive Network A Successor to Transformer for .pdf",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\73EF3EEY\\Sun \u7b49 - 2023 - Retentive Network A Successor to Transformer for .pdf",
           "select": "zotero://select/library/items/73EF3EEY"
         }
       ],
@@ -1348,7 +1486,7 @@
       "version": 535,
       "itemType": "preprint",
       "title": "Attention Is All You Need",
-      "abstractNote": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring signiﬁcantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 Englishto-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+      "abstractNote": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring signi\ufb01cantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 Englishto-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
       "date": "2017-12-05",
       "language": "en",
       "libraryCatalog": "arXiv.org",
@@ -1409,9 +1547,11 @@
           "type": 1
         }
       ],
-      "relations": [
-        "http://zotero.org/users/10101446/items/6JZ2ZFBE"
-      ],
+      "relations": {
+        "dc:relation": [
+          "http://zotero.org/users/10101446/items/6JZ2ZFBE"
+        ]
+      },
       "dateAdded": "2023-06-17T14:40:13Z",
       "dateModified": "2023-10-12T09:36:21Z",
       "uri": "http://zotero.org/users/10101446/items/ZRJI4HYN",
@@ -1419,13 +1559,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Vaswani 等 - 2017 - Attention Is All You Need.pdf",
+          "title": "Vaswani \u7b49 - 2017 - Attention Is All You Need.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2023-06-17T14:40:09Z",
           "dateModified": "2023-06-17T14:40:13Z",
           "uri": "http://zotero.org/users/10101446/items/GXDZU4NV",
-          "path": "C:\\Users\\gyh14\\Zotero\\storage\\GXDZU4NV\\Vaswani 等 - 2017 - Attention Is All You Need.pdf",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\GXDZU4NV\\Vaswani \u7b49 - 2017 - Attention Is All You Need.pdf",
           "select": "zotero://select/library/items/GXDZU4NV"
         }
       ],
@@ -1435,7 +1575,7 @@
           "version": 491,
           "itemType": "note",
           "parentItem": "ZRJI4HYN",
-          "note": "<div data-citation-items=\"%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%2C%22type%22%3A%22article%22%2C%22abstract%22%3A%22The%20dominant%20sequence%20transduction%20models%20are%20based%20on%20complex%20recurrent%20or%20convolutional%20neural%20networks%20that%20include%20an%20encoder%20and%20a%20decoder.%20The%20best%20performing%20models%20also%20connect%20the%20encoder%20and%20decoder%20through%20an%20attention%20mechanism.%20We%20propose%20a%20new%20simple%20network%20architecture%2C%20the%20Transformer%2C%20based%20solely%20on%20attention%20mechanisms%2C%20dispensing%20with%20recurrence%20and%20convolutions%20entirely.%20Experiments%20on%20two%20machine%20translation%20tasks%20show%20these%20models%20to%20be%20superior%20in%20quality%20while%20being%20more%20parallelizable%20and%20requiring%20signi%EF%AC%81cantly%20less%20time%20to%20train.%20Our%20model%20achieves%2028.4%20BLEU%20on%20the%20WMT%202014%20Englishto-German%20translation%20task%2C%20improving%20over%20the%20existing%20best%20results%2C%20including%20ensembles%2C%20by%20over%202%20BLEU.%20On%20the%20WMT%202014%20English-to-French%20translation%20task%2C%20our%20model%20establishes%20a%20new%20single-model%20state-of-the-art%20BLEU%20score%20of%2041.8%20after%20training%20for%203.5%20days%20on%20eight%20GPUs%2C%20a%20small%20fraction%20of%20the%20training%20costs%20of%20the%20best%20models%20from%20the%20literature.%20We%20show%20that%20the%20Transformer%20generalizes%20well%20to%20other%20tasks%20by%20applying%20it%20successfully%20to%20English%20constituency%20parsing%20both%20with%20large%20and%20limited%20training%20data.%22%2C%22language%22%3A%22en%22%2C%22note%22%3A%22arXiv%3A1706.03762%20%5Bcs%5D%22%2C%22number%22%3A%22arXiv%3A1706.03762%22%2C%22publisher%22%3A%22arXiv%22%2C%22source%22%3A%22arXiv.org%22%2C%22title%22%3A%22Attention%20Is%20All%20You%20Need%22%2C%22URL%22%3A%22http%3A%2F%2Farxiv.org%2Fabs%2F1706.03762%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Vaswani%22%2C%22given%22%3A%22Ashish%22%7D%2C%7B%22family%22%3A%22Shazeer%22%2C%22given%22%3A%22Noam%22%7D%2C%7B%22family%22%3A%22Parmar%22%2C%22given%22%3A%22Niki%22%7D%2C%7B%22family%22%3A%22Uszkoreit%22%2C%22given%22%3A%22Jakob%22%7D%2C%7B%22family%22%3A%22Jones%22%2C%22given%22%3A%22Llion%22%7D%2C%7B%22family%22%3A%22Gomez%22%2C%22given%22%3A%22Aidan%20N.%22%7D%2C%7B%22family%22%3A%22Kaiser%22%2C%22given%22%3A%22Lukasz%22%7D%2C%7B%22family%22%3A%22Polosukhin%22%2C%22given%22%3A%22Illia%22%7D%5D%2C%22accessed%22%3A%7B%22date-parts%22%3A%5B%5B%222023%22%2C6%2C17%5D%5D%7D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222017%22%2C12%2C5%5D%5D%7D%2C%22citation-key%22%3A%22vaswani2017-attention%22%7D%7D%5D\" data-schema-version=\"8\"><h1>注释<br/>(2023/9/30 下午3:56:10)</h1>\n<p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%225EC5JCXU%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B162.442%2C420.212%2C325.987%2C429.119%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%7D\">“dominant sequence transduction models”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 1</span>)</span> 显性序列转导模型</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22XU6K6MYP%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B168.294%2C376.576%2C191.619%2C385.483%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%7D\">“solely”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 1</span>)</span> 仅仅<br><br>英<i>/</i>ˈsəʊlli<i>/</i></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22D9DPK8KC%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B295.09%2C376.576%2C336.858%2C385.483%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%7D\">“dispensing”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 1</span>)</span> 美<i>/</i>dɪˈspensɪŋ<br>n.配药；调剂v.配药；分发；执行；特赦（dispense 的 ing 形式）</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22DD3WQ84S%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B143.866%2C365.667%2C174.91%2C374.574%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%7D\">“entirely”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 1</span>)</span> 英<i>/</i>ɪnˈtaɪəli<i>/</i><br><i>完全的</i></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22GT7HLBSY%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B221.254%2C210.181%2C326.957%2C219.088%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%7D\">“long short-term memory [”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 1</span>)</span> 🔤长短期记忆[🔤</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22SRVJZQST%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B360.339%2C210.181%2C421.656%2C219.088%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%7D\">“gated recurrent”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 1</span>)</span> 🔤门控循环🔤</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22YJ9J7IGL%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B204.73%2C199.272%2C229.503%2C208.179%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%7D\">“firmly”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 1</span>)</span> 🔤firmly<br>英 [ˈfɜːmli]<br>美 [ˈfɜːrmli]<br>adv. 坚固地，牢固地；强而有力地；坚决地🔤</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22ZGINCP6R%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%222%22%2C%22position%22%3A%7B%22pageIndex%22%3A1%2C%22rects%22%3A%5B%5B108%2C707.885%2C158.24%2C716.792%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%222%22%7D%7D\">“transduction”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%222%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 2</span>)</span> 🔤transduction<br>英 [trænzˈdʌkʃən]<br>美 [trænsˈdʌkʃn]<br>n. [遗] 转导；转换；换能；变频🔤</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22AP3VD38D%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%222%22%2C%22position%22%3A%7B%22pageIndex%22%3A1%2C%22rects%22%3A%5B%5B461.668%2C707.885%2C504.002%2C716.792%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%222%22%7D%7D\">“Numerous”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%222%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 2</span>)</span> 🔤numerous<br>英 [ˈnjuːmərəs]<br>美 [ˈnuːmərəs]<br>adj. 众多的，许多的<br>[ 比较级 more numerous 最高级 most numerous ]🔤</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22UDP8TQH7%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%223%22%2C%22position%22%3A%7B%22pageIndex%22%3A2%2C%22rects%22%3A%5B%5B343.97%2C284.241%2C503.999%2C293.148%5D%2C%5B108%2C273.332%2C504.166%2C282.398%5D%2C%5B108%2C262.423%2C127.925%2C271.33%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%223%22%7D%7D\">“That is, the output of each sub-layer is LayerNorm(x + Sublayer(x)), where Sublayer(x) is the function implemented by the sub-layer itself”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%223%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 3</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22R4AG5MKR%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B343.353%2C271.741%2C345.839%2C280.648%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%7D\">“.”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 6</span>)</span> 在本节中，我们将自注意力层的各个方面与循环层和卷积层进行比较，这些层通常用于将符号表示的一个可变长度序列（x1，...，xn）映射到另一个等长度序列（z1，.. ., zn)，其中 xi, zi ∈ Rd，例如典型序列转导编码器或解码器中的隐藏层。</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22K69BY35L%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B166.65%2C260.832%2C207.038%2C269.739%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%7D\">“desiderata”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 6</span>)</span> 🔤desiderata<br>英 [dɪˌzɪdəˈreɪtə]<br>美 [dɪˌzɪdəˈretəm]<br>n. （拉丁）迫切需要得到之物（desideratum 的复数）<br>n. （Desiderata）人名；（英）德西德蕾塔🔤</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22EBMIELV4%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B171.156%2C244.443%2C275.439%2C253.35%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%7D\">“computational complexity”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 6</span>)</span> 🔤计算复杂度🔤</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22GJ5X4DQ9%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B420.351%2C244.443%2C504%2C253.35%5D%2C%5B108%2C233.534%2C166.371%2C242.441%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%7D\">“computation that can be parallelized”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 6</span>)</span> 🔤可并行计算🔤</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%223LVKYAXJ%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B171.388%2C217.146%2C415.89%2C226.053%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%7D\">“path length between long-range dependencies in the network”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 6</span>)</span> 🔤网络中远程依赖之间的路径长度🔤</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22VAD6FTWC%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B206.006%2C184.418%2C503.998%2C193.325%5D%2C%5B108%2C173.509%2C385.351%2C182.416%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%7D\">“The shorter these paths between any combination of positions in the input and output sequences, the easier it is to learn long-range dependencies”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 6</span>)</span> 🔤输入和输出序列中的任意位置组合之间的路径越短，学习远程依赖关系就越容易🔤</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%226B62YBL7%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B458.089%2C124.393%2C504%2C133.459%5D%2C%5B108%2C113.484%2C503.997%2C122.391%5D%2C%5B108%2C102.575%2C359.339%2C111.641%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%7D\">“In terms of computational complexity, self-attention layers are faster than recurrent layers when the sequence length n is smaller than the representation dimensionality d,”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 6</span>)</span> 🔤就计算复杂度而言，当序列长度 n 小于表示维度 d 时，自注意力层比循环层更快，🔤</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%222TKAYR4Q%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B466.168%2C80.757%2C504.003%2C89.664%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%7D\">“involving”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 6</span>)</span> 🔤involving<br>v. 涉及；包括；使陷于（involve 的 ing 形式）🔤</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22JPTF5PJU%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B281.226%2C69.848%2C317.556%2C78.914%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%7D\">“restricted”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 6</span>)</span> 🔤restricted<br>英 [rɪˈstrɪktɪd]<br>美 [rɪˈstrɪktɪd]<br>adj. （大小或数量）有限的，很小的；（指能做的事）有限的，受限制的；受（法规）制约的，受控制的；不对公众开放的；（文件）保密的，限于内部传阅的；（病毒繁殖速率）被限制的；（DNA）因限制酶酶切的<br>v. 限制，限定（数量、范围等）；约束，限制（行动或活动）；（以法规）限制（restrict 的过去式和过去分词）🔤</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22SNC65WNL%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%227%22%2C%22position%22%3A%7B%22pageIndex%22%3A6%2C%22rects%22%3A%5B%5B368.886%2C707.885%2C504.001%2C716.792%5D%2C%5B108%2C696.976%2C196.642%2C706.042%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%227%22%7D%7D\">“This would increase the maximum path length to O(n/r)”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%227%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 7</span>)</span> 🔤这会将最大路径长度增加到 O(n/r)🔤</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22XI7252GW%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%227%22%2C%22position%22%3A%7B%22pageIndex%22%3A6%2C%22rects%22%3A%5B%5B107.641%2C680.588%2C504%2C689.654%5D%2C%5B108%2C669.679%2C143.265%2C678.745%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%227%22%7D%7D\">“A single convolutional layer with kernel width k &lt; n does not connect all pairs of input and output positions”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%227%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 7</span>)</span> 因为卷积操作是通过滑动卷积核来执行的，对于输入的每个位置，卷积核将与其部分像素相乘并求和，然后将结果放置在输出特征图的对应位置上。但由于卷积核的宽度有限，它不会与输入的所有像素都相乘，因此不会连接所有输入和输出位置对。</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22T2L9WHU6%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%227%22%2C%22position%22%3A%7B%22pageIndex%22%3A6%2C%22rects%22%3A%5B%5B259.993%2C669.679%2C505.242%2C678.745%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%227%22%7D%7D\">“O(n/k) convolutional layers in the case of contiguous kernels,”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%227%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 7</span>)</span> 🔤在连续内核的情况下，O(n/k) 个卷积层，🔤</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%224RBKIK4A%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%227%22%2C%22position%22%3A%7B%22pageIndex%22%3A6%2C%22rects%22%3A%5B%5B119.4%2C658.074%2C309.858%2C667.836%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%227%22%7D%7D\">“O(logk(n)) in the case of dilated convolutions”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%227%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 7</span>)</span> 🔤在扩张卷积的情况下为 O(logk(n))🔤</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%227EVTG9AT%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%227%22%2C%22position%22%3A%7B%22pageIndex%22%3A6%2C%22rects%22%3A%5B%5B280.698%2C647.86%2C503.999%2C656.767%5D%2C%5B108%2C636.951%2C504.351%2C646.017%5D%2C%5B108%2C626.042%2C262.473%2C636.65%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%227%22%7D%7D\">“Convolutional layers are generally more expensive than recurrent layers, by a factor of k. Separable convolutions [6], however, decrease the complexity considerably, to O(k · n · d + n · d2).”</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%227%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani 等, 2017, p. 7</span>)</span> 🔤卷积层通常比循环层贵 k 倍。然而，可分离卷积 [6] 大大降低了复杂性，达到 O(k·n·d + n·d2)。🔤</p>\n</div>",
+          "note": "<div data-citation-items=\"%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%2C%22type%22%3A%22article%22%2C%22abstract%22%3A%22The%20dominant%20sequence%20transduction%20models%20are%20based%20on%20complex%20recurrent%20or%20convolutional%20neural%20networks%20that%20include%20an%20encoder%20and%20a%20decoder.%20The%20best%20performing%20models%20also%20connect%20the%20encoder%20and%20decoder%20through%20an%20attention%20mechanism.%20We%20propose%20a%20new%20simple%20network%20architecture%2C%20the%20Transformer%2C%20based%20solely%20on%20attention%20mechanisms%2C%20dispensing%20with%20recurrence%20and%20convolutions%20entirely.%20Experiments%20on%20two%20machine%20translation%20tasks%20show%20these%20models%20to%20be%20superior%20in%20quality%20while%20being%20more%20parallelizable%20and%20requiring%20signi%EF%AC%81cantly%20less%20time%20to%20train.%20Our%20model%20achieves%2028.4%20BLEU%20on%20the%20WMT%202014%20Englishto-German%20translation%20task%2C%20improving%20over%20the%20existing%20best%20results%2C%20including%20ensembles%2C%20by%20over%202%20BLEU.%20On%20the%20WMT%202014%20English-to-French%20translation%20task%2C%20our%20model%20establishes%20a%20new%20single-model%20state-of-the-art%20BLEU%20score%20of%2041.8%20after%20training%20for%203.5%20days%20on%20eight%20GPUs%2C%20a%20small%20fraction%20of%20the%20training%20costs%20of%20the%20best%20models%20from%20the%20literature.%20We%20show%20that%20the%20Transformer%20generalizes%20well%20to%20other%20tasks%20by%20applying%20it%20successfully%20to%20English%20constituency%20parsing%20both%20with%20large%20and%20limited%20training%20data.%22%2C%22language%22%3A%22en%22%2C%22note%22%3A%22arXiv%3A1706.03762%20%5Bcs%5D%22%2C%22number%22%3A%22arXiv%3A1706.03762%22%2C%22publisher%22%3A%22arXiv%22%2C%22source%22%3A%22arXiv.org%22%2C%22title%22%3A%22Attention%20Is%20All%20You%20Need%22%2C%22URL%22%3A%22http%3A%2F%2Farxiv.org%2Fabs%2F1706.03762%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Vaswani%22%2C%22given%22%3A%22Ashish%22%7D%2C%7B%22family%22%3A%22Shazeer%22%2C%22given%22%3A%22Noam%22%7D%2C%7B%22family%22%3A%22Parmar%22%2C%22given%22%3A%22Niki%22%7D%2C%7B%22family%22%3A%22Uszkoreit%22%2C%22given%22%3A%22Jakob%22%7D%2C%7B%22family%22%3A%22Jones%22%2C%22given%22%3A%22Llion%22%7D%2C%7B%22family%22%3A%22Gomez%22%2C%22given%22%3A%22Aidan%20N.%22%7D%2C%7B%22family%22%3A%22Kaiser%22%2C%22given%22%3A%22Lukasz%22%7D%2C%7B%22family%22%3A%22Polosukhin%22%2C%22given%22%3A%22Illia%22%7D%5D%2C%22accessed%22%3A%7B%22date-parts%22%3A%5B%5B%222023%22%2C6%2C17%5D%5D%7D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222017%22%2C12%2C5%5D%5D%7D%2C%22citation-key%22%3A%22vaswani2017-attention%22%7D%7D%5D\" data-schema-version=\"8\"><h1>\u6ce8\u91ca<br/>(2023/9/30 \u4e0b\u53483:56:10)</h1>\n<p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%225EC5JCXU%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B162.442%2C420.212%2C325.987%2C429.119%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%7D\">\u201cdominant sequence transduction models\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 1</span>)</span> \u663e\u6027\u5e8f\u5217\u8f6c\u5bfc\u6a21\u578b</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22XU6K6MYP%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B168.294%2C376.576%2C191.619%2C385.483%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%7D\">\u201csolely\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 1</span>)</span> \u4ec5\u4ec5<br><br>\u82f1<i>/</i>\u02c8s\u0259\u028alli<i>/</i></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22D9DPK8KC%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B295.09%2C376.576%2C336.858%2C385.483%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%7D\">\u201cdispensing\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 1</span>)</span> \u7f8e<i>/</i>d\u026a\u02c8spens\u026a\u014b<br>n.\u914d\u836f\uff1b\u8c03\u5242v.\u914d\u836f\uff1b\u5206\u53d1\uff1b\u6267\u884c\uff1b\u7279\u8d66\uff08dispense \u7684 ing \u5f62\u5f0f\uff09</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22DD3WQ84S%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B143.866%2C365.667%2C174.91%2C374.574%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%7D\">\u201centirely\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 1</span>)</span> \u82f1<i>/</i>\u026an\u02c8ta\u026a\u0259li<i>/</i><br><i>\u5b8c\u5168\u7684</i></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22GT7HLBSY%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B221.254%2C210.181%2C326.957%2C219.088%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%7D\">\u201clong short-term memory [\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 1</span>)</span> \ud83d\udd24\u957f\u77ed\u671f\u8bb0\u5fc6[\ud83d\udd24</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22SRVJZQST%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B360.339%2C210.181%2C421.656%2C219.088%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%7D\">\u201cgated recurrent\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 1</span>)</span> \ud83d\udd24\u95e8\u63a7\u5faa\u73af\ud83d\udd24</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22YJ9J7IGL%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B204.73%2C199.272%2C229.503%2C208.179%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%7D\">\u201cfirmly\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%221%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 1</span>)</span> \ud83d\udd24firmly<br>\u82f1 [\u02c8f\u025c\u02d0mli]<br>\u7f8e [\u02c8f\u025c\u02d0rmli]<br>adv. \u575a\u56fa\u5730\uff0c\u7262\u56fa\u5730\uff1b\u5f3a\u800c\u6709\u529b\u5730\uff1b\u575a\u51b3\u5730\ud83d\udd24</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22ZGINCP6R%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%222%22%2C%22position%22%3A%7B%22pageIndex%22%3A1%2C%22rects%22%3A%5B%5B108%2C707.885%2C158.24%2C716.792%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%222%22%7D%7D\">\u201ctransduction\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%222%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 2</span>)</span> \ud83d\udd24transduction<br>\u82f1 [tr\u00e6nz\u02c8d\u028ck\u0283\u0259n]<br>\u7f8e [tr\u00e6ns\u02c8d\u028ck\u0283n]<br>n. [\u9057] \u8f6c\u5bfc\uff1b\u8f6c\u6362\uff1b\u6362\u80fd\uff1b\u53d8\u9891\ud83d\udd24</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22AP3VD38D%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%222%22%2C%22position%22%3A%7B%22pageIndex%22%3A1%2C%22rects%22%3A%5B%5B461.668%2C707.885%2C504.002%2C716.792%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%222%22%7D%7D\">\u201cNumerous\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%222%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 2</span>)</span> \ud83d\udd24numerous<br>\u82f1 [\u02c8nju\u02d0m\u0259r\u0259s]<br>\u7f8e [\u02c8nu\u02d0m\u0259r\u0259s]<br>adj. \u4f17\u591a\u7684\uff0c\u8bb8\u591a\u7684<br>[ \u6bd4\u8f83\u7ea7 more numerous \u6700\u9ad8\u7ea7 most numerous ]\ud83d\udd24</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22UDP8TQH7%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%223%22%2C%22position%22%3A%7B%22pageIndex%22%3A2%2C%22rects%22%3A%5B%5B343.97%2C284.241%2C503.999%2C293.148%5D%2C%5B108%2C273.332%2C504.166%2C282.398%5D%2C%5B108%2C262.423%2C127.925%2C271.33%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%223%22%7D%7D\">\u201cThat is, the output of each sub-layer is LayerNorm(x + Sublayer(x)), where Sublayer(x) is the function implemented by the sub-layer itself\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%223%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 3</span>)</span></p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22R4AG5MKR%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B343.353%2C271.741%2C345.839%2C280.648%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%7D\">\u201c.\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 6</span>)</span> \u5728\u672c\u8282\u4e2d\uff0c\u6211\u4eec\u5c06\u81ea\u6ce8\u610f\u529b\u5c42\u7684\u5404\u4e2a\u65b9\u9762\u4e0e\u5faa\u73af\u5c42\u548c\u5377\u79ef\u5c42\u8fdb\u884c\u6bd4\u8f83\uff0c\u8fd9\u4e9b\u5c42\u901a\u5e38\u7528\u4e8e\u5c06\u7b26\u53f7\u8868\u793a\u7684\u4e00\u4e2a\u53ef\u53d8\u957f\u5ea6\u5e8f\u5217\uff08x1\uff0c...\uff0cxn\uff09\u6620\u5c04\u5230\u53e6\u4e00\u4e2a\u7b49\u957f\u5ea6\u5e8f\u5217\uff08z1\uff0c.. ., zn)\uff0c\u5176\u4e2d xi, zi \u2208 Rd\uff0c\u4f8b\u5982\u5178\u578b\u5e8f\u5217\u8f6c\u5bfc\u7f16\u7801\u5668\u6216\u89e3\u7801\u5668\u4e2d\u7684\u9690\u85cf\u5c42\u3002</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22K69BY35L%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B166.65%2C260.832%2C207.038%2C269.739%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%7D\">\u201cdesiderata\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 6</span>)</span> \ud83d\udd24desiderata<br>\u82f1 [d\u026a\u02ccz\u026ad\u0259\u02c8re\u026at\u0259]<br>\u7f8e [d\u026a\u02ccz\u026ad\u0259\u02c8ret\u0259m]<br>n. \uff08\u62c9\u4e01\uff09\u8feb\u5207\u9700\u8981\u5f97\u5230\u4e4b\u7269\uff08desideratum \u7684\u590d\u6570\uff09<br>n. \uff08Desiderata\uff09\u4eba\u540d\uff1b\uff08\u82f1\uff09\u5fb7\u897f\u5fb7\u857e\u5854\ud83d\udd24</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22EBMIELV4%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B171.156%2C244.443%2C275.439%2C253.35%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%7D\">\u201ccomputational complexity\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 6</span>)</span> \ud83d\udd24\u8ba1\u7b97\u590d\u6742\u5ea6\ud83d\udd24</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22GJ5X4DQ9%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B420.351%2C244.443%2C504%2C253.35%5D%2C%5B108%2C233.534%2C166.371%2C242.441%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%7D\">\u201ccomputation that can be parallelized\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 6</span>)</span> \ud83d\udd24\u53ef\u5e76\u884c\u8ba1\u7b97\ud83d\udd24</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%223LVKYAXJ%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B171.388%2C217.146%2C415.89%2C226.053%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%7D\">\u201cpath length between long-range dependencies in the network\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 6</span>)</span> \ud83d\udd24\u7f51\u7edc\u4e2d\u8fdc\u7a0b\u4f9d\u8d56\u4e4b\u95f4\u7684\u8def\u5f84\u957f\u5ea6\ud83d\udd24</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22VAD6FTWC%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B206.006%2C184.418%2C503.998%2C193.325%5D%2C%5B108%2C173.509%2C385.351%2C182.416%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%7D\">\u201cThe shorter these paths between any combination of positions in the input and output sequences, the easier it is to learn long-range dependencies\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 6</span>)</span> \ud83d\udd24\u8f93\u5165\u548c\u8f93\u51fa\u5e8f\u5217\u4e2d\u7684\u4efb\u610f\u4f4d\u7f6e\u7ec4\u5408\u4e4b\u95f4\u7684\u8def\u5f84\u8d8a\u77ed\uff0c\u5b66\u4e60\u8fdc\u7a0b\u4f9d\u8d56\u5173\u7cfb\u5c31\u8d8a\u5bb9\u6613\ud83d\udd24</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%226B62YBL7%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B458.089%2C124.393%2C504%2C133.459%5D%2C%5B108%2C113.484%2C503.997%2C122.391%5D%2C%5B108%2C102.575%2C359.339%2C111.641%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%7D\">\u201cIn terms of computational complexity, self-attention layers are faster than recurrent layers when the sequence length n is smaller than the representation dimensionality d,\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 6</span>)</span> \ud83d\udd24\u5c31\u8ba1\u7b97\u590d\u6742\u5ea6\u800c\u8a00\uff0c\u5f53\u5e8f\u5217\u957f\u5ea6 n \u5c0f\u4e8e\u8868\u793a\u7ef4\u5ea6 d \u65f6\uff0c\u81ea\u6ce8\u610f\u529b\u5c42\u6bd4\u5faa\u73af\u5c42\u66f4\u5feb\uff0c\ud83d\udd24</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%222TKAYR4Q%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B466.168%2C80.757%2C504.003%2C89.664%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%7D\">\u201cinvolving\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 6</span>)</span> \ud83d\udd24involving<br>v. \u6d89\u53ca\uff1b\u5305\u62ec\uff1b\u4f7f\u9677\u4e8e\uff08involve \u7684 ing \u5f62\u5f0f\uff09\ud83d\udd24</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22JPTF5PJU%22%2C%22color%22%3A%22%23ffd400%22%2C%22pageLabel%22%3A%226%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B281.226%2C69.848%2C317.556%2C78.914%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%7D\">\u201crestricted\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%226%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 6</span>)</span> \ud83d\udd24restricted<br>\u82f1 [r\u026a\u02c8str\u026akt\u026ad]<br>\u7f8e [r\u026a\u02c8str\u026akt\u026ad]<br>adj. \uff08\u5927\u5c0f\u6216\u6570\u91cf\uff09\u6709\u9650\u7684\uff0c\u5f88\u5c0f\u7684\uff1b\uff08\u6307\u80fd\u505a\u7684\u4e8b\uff09\u6709\u9650\u7684\uff0c\u53d7\u9650\u5236\u7684\uff1b\u53d7\uff08\u6cd5\u89c4\uff09\u5236\u7ea6\u7684\uff0c\u53d7\u63a7\u5236\u7684\uff1b\u4e0d\u5bf9\u516c\u4f17\u5f00\u653e\u7684\uff1b\uff08\u6587\u4ef6\uff09\u4fdd\u5bc6\u7684\uff0c\u9650\u4e8e\u5185\u90e8\u4f20\u9605\u7684\uff1b\uff08\u75c5\u6bd2\u7e41\u6b96\u901f\u7387\uff09\u88ab\u9650\u5236\u7684\uff1b\uff08DNA\uff09\u56e0\u9650\u5236\u9176\u9176\u5207\u7684<br>v. \u9650\u5236\uff0c\u9650\u5b9a\uff08\u6570\u91cf\u3001\u8303\u56f4\u7b49\uff09\uff1b\u7ea6\u675f\uff0c\u9650\u5236\uff08\u884c\u52a8\u6216\u6d3b\u52a8\uff09\uff1b\uff08\u4ee5\u6cd5\u89c4\uff09\u9650\u5236\uff08restrict \u7684\u8fc7\u53bb\u5f0f\u548c\u8fc7\u53bb\u5206\u8bcd\uff09\ud83d\udd24</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22SNC65WNL%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%227%22%2C%22position%22%3A%7B%22pageIndex%22%3A6%2C%22rects%22%3A%5B%5B368.886%2C707.885%2C504.001%2C716.792%5D%2C%5B108%2C696.976%2C196.642%2C706.042%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%227%22%7D%7D\">\u201cThis would increase the maximum path length to O(n/r)\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%227%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 7</span>)</span> \ud83d\udd24\u8fd9\u4f1a\u5c06\u6700\u5927\u8def\u5f84\u957f\u5ea6\u589e\u52a0\u5230 O(n/r)\ud83d\udd24</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22XI7252GW%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%227%22%2C%22position%22%3A%7B%22pageIndex%22%3A6%2C%22rects%22%3A%5B%5B107.641%2C680.588%2C504%2C689.654%5D%2C%5B108%2C669.679%2C143.265%2C678.745%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%227%22%7D%7D\">\u201cA single convolutional layer with kernel width k &lt; n does not connect all pairs of input and output positions\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%227%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 7</span>)</span> \u56e0\u4e3a\u5377\u79ef\u64cd\u4f5c\u662f\u901a\u8fc7\u6ed1\u52a8\u5377\u79ef\u6838\u6765\u6267\u884c\u7684\uff0c\u5bf9\u4e8e\u8f93\u5165\u7684\u6bcf\u4e2a\u4f4d\u7f6e\uff0c\u5377\u79ef\u6838\u5c06\u4e0e\u5176\u90e8\u5206\u50cf\u7d20\u76f8\u4e58\u5e76\u6c42\u548c\uff0c\u7136\u540e\u5c06\u7ed3\u679c\u653e\u7f6e\u5728\u8f93\u51fa\u7279\u5f81\u56fe\u7684\u5bf9\u5e94\u4f4d\u7f6e\u4e0a\u3002\u4f46\u7531\u4e8e\u5377\u79ef\u6838\u7684\u5bbd\u5ea6\u6709\u9650\uff0c\u5b83\u4e0d\u4f1a\u4e0e\u8f93\u5165\u7684\u6240\u6709\u50cf\u7d20\u90fd\u76f8\u4e58\uff0c\u56e0\u6b64\u4e0d\u4f1a\u8fde\u63a5\u6240\u6709\u8f93\u5165\u548c\u8f93\u51fa\u4f4d\u7f6e\u5bf9\u3002</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%22T2L9WHU6%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%227%22%2C%22position%22%3A%7B%22pageIndex%22%3A6%2C%22rects%22%3A%5B%5B259.993%2C669.679%2C505.242%2C678.745%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%227%22%7D%7D\">\u201cO(n/k) convolutional layers in the case of contiguous kernels,\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%227%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 7</span>)</span> \ud83d\udd24\u5728\u8fde\u7eed\u5185\u6838\u7684\u60c5\u51b5\u4e0b\uff0cO(n/k) \u4e2a\u5377\u79ef\u5c42\uff0c\ud83d\udd24</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%224RBKIK4A%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%227%22%2C%22position%22%3A%7B%22pageIndex%22%3A6%2C%22rects%22%3A%5B%5B119.4%2C658.074%2C309.858%2C667.836%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%227%22%7D%7D\">\u201cO(logk(n)) in the case of dilated convolutions\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%227%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 7</span>)</span> \ud83d\udd24\u5728\u6269\u5f20\u5377\u79ef\u7684\u60c5\u51b5\u4e0b\u4e3a O(logk(n))\ud83d\udd24</p><p><span class=\"highlight\" data-annotation=\"%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FGXDZU4NV%22%2C%22annotationKey%22%3A%227EVTG9AT%22%2C%22color%22%3A%22%232ea8e5%22%2C%22pageLabel%22%3A%227%22%2C%22position%22%3A%7B%22pageIndex%22%3A6%2C%22rects%22%3A%5B%5B280.698%2C647.86%2C503.999%2C656.767%5D%2C%5B108%2C636.951%2C504.351%2C646.017%5D%2C%5B108%2C626.042%2C262.473%2C636.65%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%227%22%7D%7D\">\u201cConvolutional layers are generally more expensive than recurrent layers, by a factor of k. Separable convolutions [6], however, decrease the complexity considerably, to O(k \u00b7 n \u00b7 d + n \u00b7 d2).\u201d</span> <span class=\"citation\" data-citation=\"%7B%22citationItems%22%3A%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2F10101446%2Fitems%2FZRJI4HYN%22%5D%2C%22locator%22%3A%227%22%7D%5D%2C%22properties%22%3A%7B%7D%7D\">(<span class=\"citation-item\">Vaswani \u7b49, 2017, p. 7</span>)</span> \ud83d\udd24\u5377\u79ef\u5c42\u901a\u5e38\u6bd4\u5faa\u73af\u5c42\u8d35 k \u500d\u3002\u7136\u800c\uff0c\u53ef\u5206\u79bb\u5377\u79ef [6] \u5927\u5927\u964d\u4f4e\u4e86\u590d\u6742\u6027\uff0c\u8fbe\u5230 O(k\u00b7n\u00b7d + n\u00b7d2)\u3002\ud83d\udd24</p>\n</div>",
           "tags": [],
           "relations": {},
           "dateAdded": "2023-09-30T07:56:10Z",
@@ -1453,7 +1593,7 @@
       "version": 192,
       "itemType": "preprint",
       "title": "Cumulative Reasoning with Large Language Models",
-      "abstractNote": "While language models are powerful and versatile, they often fail to address highly complex problems. This is because solving complex problems requires deliberate thinking, which has been only minimally guided during training. In this paper, we propose a new method called Cumulative Reasoning (CR), which employs language models in a cumulative and iterative manner to emulate human thought processes. By decomposing tasks into smaller components, CR streamlines the problem-solving process, rendering it both more manageable and effective. For logical inference tasks, CR consistently outperforms existing methods with an improvement up to 9.3%, and achieves the astonishing accuracy of 98.04% on the curated FOLIO wiki dataset. In the context of the Game of 24, CR achieves an accuracy of 98%, which signiﬁes a substantial enhancement of 24% over the previous state-of-the-art method. Finally, on the MATH dataset, we establish new state-of-the-art results with 58.0% overall accuracy, surpassing the previous best approach by a margin of 4.2%, and achieving 43% relative improvement on the hardest level 5 problems (22.4% → 32.1%) †.",
+      "abstractNote": "While language models are powerful and versatile, they often fail to address highly complex problems. This is because solving complex problems requires deliberate thinking, which has been only minimally guided during training. In this paper, we propose a new method called Cumulative Reasoning (CR), which employs language models in a cumulative and iterative manner to emulate human thought processes. By decomposing tasks into smaller components, CR streamlines the problem-solving process, rendering it both more manageable and effective. For logical inference tasks, CR consistently outperforms existing methods with an improvement up to 9.3%, and achieves the astonishing accuracy of 98.04% on the curated FOLIO wiki dataset. In the context of the Game of 24, CR achieves an accuracy of 98%, which signi\ufb01es a substantial enhancement of 24% over the previous state-of-the-art method. Finally, on the MATH dataset, we establish new state-of-the-art results with 58.0% overall accuracy, surpassing the previous best approach by a margin of 4.2%, and achieving 43% relative improvement on the hardest level 5 problems (22.4% \u2192 32.1%) \u2020.",
       "date": "2023-08-24",
       "language": "en",
       "libraryCatalog": "arXiv.org",
@@ -1490,7 +1630,7 @@
           "type": 1
         }
       ],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2023-09-05T06:30:28Z",
       "dateModified": "2023-09-05T06:30:28Z",
       "uri": "http://zotero.org/users/10101446/items/3V7KMJ2D",
@@ -1498,13 +1638,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Zhang 等 - 2023 - Cumulative Reasoning with Large Language Models.pdf",
+          "title": "Zhang \u7b49 - 2023 - Cumulative Reasoning with Large Language Models.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2023-09-05T06:30:22Z",
           "dateModified": "2023-09-05T06:30:29Z",
           "uri": "http://zotero.org/users/10101446/items/IDMY76FY",
-          "path": "C:\\Users\\gyh14\\Zotero\\storage\\IDMY76FY\\Zhang 等 - 2023 - Cumulative Reasoning with Large Language Models.pdf",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\IDMY76FY\\Zhang \u7b49 - 2023 - Cumulative Reasoning with Large Language Models.pdf",
           "select": "zotero://select/library/items/IDMY76FY"
         }
       ],
@@ -1519,7 +1659,7 @@
       "version": 550,
       "itemType": "journalArticle",
       "title": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting",
-      "abstractNote": "Many real-world applications require the prediction of long sequence time-series, such as electricity consumption planning. Long sequence time-series forecasting (LSTF) demands a high prediction capacity of the model, which is the ability to capture precise long-range dependency coupling between output and input efﬁciently. Recent studies have shown the potential of Transformer to increase the prediction capacity. However, there are several severe issues with Transformer that prevent it from being directly applicable to LSTF, including quadratic time complexity, high memory usage, and inherent limitation of the encoder-decoder architecture. To address these issues, we design an efﬁcient transformer-based model for LSTF, named Informer, with three distinctive characteristics: (i) a ProbSparse self-attention mechanism, which achieves O(L log L) in time complexity and memory usage, and has comparable performance on sequences’ dependency alignment. (ii) the self-attention distilling highlights dominating attention by halving cascading layer input, and efﬁciently handles extreme long input sequences. (iii) the generative style decoder, while conceptually simple, predicts the long time-series sequences at one forward operation rather than a step-by-step way, which drastically improves the inference speed of long-sequence predictions. Extensive experiments on four large-scale datasets demonstrate that Informer signiﬁcantly outperforms existing methods and provides a new solution to the LSTF problem.",
+      "abstractNote": "Many real-world applications require the prediction of long sequence time-series, such as electricity consumption planning. Long sequence time-series forecasting (LSTF) demands a high prediction capacity of the model, which is the ability to capture precise long-range dependency coupling between output and input ef\ufb01ciently. Recent studies have shown the potential of Transformer to increase the prediction capacity. However, there are several severe issues with Transformer that prevent it from being directly applicable to LSTF, including quadratic time complexity, high memory usage, and inherent limitation of the encoder-decoder architecture. To address these issues, we design an ef\ufb01cient transformer-based model for LSTF, named Informer, with three distinctive characteristics: (i) a ProbSparse self-attention mechanism, which achieves O(L log L) in time complexity and memory usage, and has comparable performance on sequences\u2019 dependency alignment. (ii) the self-attention distilling highlights dominating attention by halving cascading layer input, and ef\ufb01ciently handles extreme long input sequences. (iii) the generative style decoder, while conceptually simple, predicts the long time-series sequences at one forward operation rather than a step-by-step way, which drastically improves the inference speed of long-sequence predictions. Extensive experiments on four large-scale datasets demonstrate that Informer signi\ufb01cantly outperforms existing methods and provides a new solution to the LSTF problem.",
       "date": "2021-05-18",
       "language": "en",
       "shortTitle": "Informer",
@@ -1571,7 +1711,7 @@
         }
       ],
       "tags": [],
-      "relations": [],
+      "relations": {},
       "dateAdded": "2023-03-07T22:36:10Z",
       "dateModified": "2023-10-14T11:25:11Z",
       "uri": "http://zotero.org/users/10101446/items/2BE3HB69",
@@ -1579,13 +1719,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "Zhou 等 - 2021 - Informer Beyond Efficient Transformer for Long Se.pdf",
+          "title": "Zhou \u7b49 - 2021 - Informer Beyond Efficient Transformer for Long Se.pdf",
           "tags": [],
-          "relations": [],
+          "relations": {},
           "dateAdded": "2023-03-07T22:36:06Z",
           "dateModified": "2023-03-07T22:36:10Z",
           "uri": "http://zotero.org/users/10101446/items/ZVVAF6CE",
-          "path": "C:\\Users\\gyh14\\Zotero\\storage\\ZVVAF6CE\\Zhou 等 - 2021 - Informer Beyond Efficient Transformer for Long Se.pdf",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\ZVVAF6CE\\Zhou \u7b49 - 2021 - Informer Beyond Efficient Transformer for Long Se.pdf",
           "select": "zotero://select/library/items/ZVVAF6CE"
         }
       ],

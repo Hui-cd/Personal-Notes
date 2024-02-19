@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bf2b4c11a95c1a9f",
+        "id": "1dc7b2e1f0fb4456",
         "type": "tabs",
         "children": [
           {
-            "id": "8f4e86a765622a11",
+            "id": "d79dacfed717af4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-note/计算机组成原理/五、原码，补码，反码的特性对比.md",
+                "file": "Master/Machine Learning and Data Mining/Lecture 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "book-note/计算机组成原理/五、原码，补码，反码的特性对比.md",
+                "file": "Master/Machine Learning and Data Mining/Lecture 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "book-note/计算机组成原理/五、原码，补码，反码的特性对比.md",
+                "file": "Master/Machine Learning and Data Mining/Lecture 1.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "book-note/计算机组成原理/五、原码，补码，反码的特性对比.md"
+                "file": "Master/Machine Learning and Data Mining/Lecture 1.md"
               }
             }
           },
@@ -164,45 +164,45 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8f4e86a765622a11",
+  "active": "d79dacfed717af4e",
   "lastOpenFiles": [
+    "Leetcode/二分查找法.md",
+    "Master/Machine Learning and Data Mining/Lecture 1.md",
+    "Master/Machine Learning and Data Mining",
+    "Master/未命名.md",
+    "未命名",
+    "Master/Large Scale Networks/1.md",
+    "Leetcode",
     "book-note/计算机组成原理/四、带符号整数的表示和运算.md",
-    "book-note/计算机组成原理/五、原码，补码，反码的特性对比.md",
-    "book-note/计算机组成原理/三、无符号整数的表示和运算.md",
-    "book-note/计算机组成原理/二、BCD码.md",
-    "book-note/计算机组成原理/一 、冯诺依曼机.md",
-    "book-note/计算机组成原理/1.1 Organization and Architecture.md",
+    "Master/Large Scale Networks",
+    "Master",
+    "book-note/算法导论/第二章 算法基础.md",
     "book-note/算法导论/第一章 算法.md",
-    "paper reading/Retentive Network ： A Successor to Transformer for Large Language Models.md",
-    "Daily/2023-12-24.md",
-    "obsidian template/日记.md",
-    "obsidian template/Demo.md",
-    "Daily/2023-12-21.md",
-    "Daily/2023-12-23.md",
-    "Daily/2023-12-22.md",
-    "Daily/2023-12-20.md",
     "随笔.md",
-    "Daily/2023-12-18.md",
-    "Daily/2023-12-17.md",
-    "Daily/2023-12-16.md",
-    "Draloc/WIWD.md",
+    "NST",
+    "Daily/2024-01-20.md",
+    "zoteronote/@Attention Is All You Need.md",
     "paper reading/Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback.md",
-    "paper reading",
-    "Draloc/Draloc.md",
-    "FML/L2 Math.md",
+    "python/Collections.md",
+    "work notes/Network.md",
+    "python",
+    "work notes/Distribute System.md",
+    "work notes/AI 背景.md",
     "Java/面向对象.md",
     "Java/方法.md",
     "Java/变量.md",
+    "Java/数据结构.md",
+    "Draloc/Draloc.md",
+    "Draloc/WIWD.md",
+    "zoteronote/@zhouInformerEfficientTransformer2021.md",
+    "zoteronote/@openai2023-gpt4.md",
+    "paper reading/Retentive Network ： A Successor to Transformer for Large Language Models.md",
+    "Book/第一章.md",
+    "Daily/2024-01-08.md",
+    "Book",
+    "paper reading",
     "Java",
-    "book-note/计算机组成原理",
-    "book-note/算法导论",
-    "FML",
-    "lab.py",
-    "Draloc",
     "未命名.canvas",
-    "未命名 1",
-    "Daily",
-    "未命名 1.canvas",
-    "work notes"
+    "未命名 1.canvas"
   ]
 }
