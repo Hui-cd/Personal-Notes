@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paper reading/Scalable Diffusion Models with Transformers.md",
+                "file": "Daily/2024-02-22.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "paper reading/Scalable Diffusion Models with Transformers.md",
+                "file": "Daily/2024-02-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "paper reading/Scalable Diffusion Models with Transformers.md",
+                "file": "Daily/2024-02-22.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "paper reading/Scalable Diffusion Models with Transformers.md"
+                "file": "Daily/2024-02-22.md"
               }
             }
           },
@@ -166,8 +166,9 @@
   },
   "active": "ac11ec9b3f8b847b",
   "lastOpenFiles": [
-    "paper reading/Deconstructing Denoising Diffusion Models for Self-Supervised Learning.md",
     "paper reading/Scalable Diffusion Models with Transformers.md",
+    "Daily/2024-02-22.md",
+    "paper reading/Deconstructing Denoising Diffusion Models for Self-Supervised Learning.md",
     "Master/Machine Learning and Data Mining/Lecture 1.md",
     "paper reading/Retentive Network ： A Successor to Transformer for Large Language Models.md",
     "paper reading/Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback.md",
@@ -198,7 +199,6 @@
     "Java/变量.md",
     "Draloc/Draloc.md",
     "Draloc/WIWD.md",
-    "zoteronote/@zhouInformerEfficientTransformer2021.md",
     "Book",
     "paper reading",
     "Java",
