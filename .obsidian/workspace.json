@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2024-02-22.md",
+                "file": "Master/Large Scale Networks/Lecture 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2024-02-22.md",
+                "file": "Master/Large Scale Networks/Lecture 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2024-02-22.md",
+                "file": "Master/Large Scale Networks/Lecture 1.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2024-02-22.md"
+                "file": "Master/Large Scale Networks/Lecture 1.md"
               }
             }
           },
@@ -166,8 +166,9 @@
   },
   "active": "ac11ec9b3f8b847b",
   "lastOpenFiles": [
-    "paper reading/Scalable Diffusion Models with Transformers.md",
     "Daily/2024-02-22.md",
+    "Master/Large Scale Networks/Lecture 1.md",
+    "paper reading/Scalable Diffusion Models with Transformers.md",
     "paper reading/Deconstructing Denoising Diffusion Models for Self-Supervised Learning.md",
     "Master/Machine Learning and Data Mining/Lecture 1.md",
     "paper reading/Retentive Network ： A Successor to Transformer for Large Language Models.md",
@@ -178,7 +179,6 @@
     "Master/Machine Learning and Data Mining",
     "Master/未命名.md",
     "未命名",
-    "Master/Large Scale Networks/1.md",
     "Leetcode",
     "book-note/计算机组成原理/四、带符号整数的表示和运算.md",
     "Master/Large Scale Networks",
