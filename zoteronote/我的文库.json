@@ -102,7 +102,7 @@
   },
   "version": {
     "zotero": "6.0.30",
-    "bbt": "6.7.160"
+    "bbt": "6.7.162"
   },
   "collections": {
     "49BIAB6R": {
@@ -166,7 +166,10 @@
         196,
         339,
         360,
-        403
+        403,
+        461,
+        462,
+        463
       ]
     }
   },
@@ -756,6 +759,134 @@
       "select": "zotero://select/library/items/YEFMDXK5"
     },
     {
+      "key": "PP7AZZUT",
+      "version": 1003,
+      "itemType": "preprint",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "abstractNote": "While the Transformer architecture has become the de-facto standard for natural language processing tasks, its applications to computer vision remain limited. In vision, attention is either applied in conjunction with convolutional networks, or used to replace certain components of convolutional networks while keeping their overall structure in place. We show that this reliance on CNNs is not necessary and a pure transformer applied directly to sequences of image patches can perform very well on image classification tasks. When pre-trained on large amounts of data and transferred to multiple mid-sized or small image recognition benchmarks (ImageNet, CIFAR-100, VTAB, etc.), Vision Transformer (ViT) attains excellent results compared to state-of-the-art convolutional networks while requiring substantially fewer computational resources to train.",
+      "date": "2021-06-03",
+      "language": "en",
+      "shortTitle": "An Image is Worth 16x16 Words",
+      "libraryCatalog": "arXiv.org",
+      "url": "http://arxiv.org/abs/2010.11929",
+      "accessDate": "2024-02-22T07:03:21Z",
+      "extra": "arXiv:2010.11929 [cs]",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2010.11929",
+      "creators": [
+        {
+          "firstName": "Alexey",
+          "lastName": "Dosovitskiy",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Lucas",
+          "lastName": "Beyer",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Alexander",
+          "lastName": "Kolesnikov",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Dirk",
+          "lastName": "Weissenborn",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xiaohua",
+          "lastName": "Zhai",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Thomas",
+          "lastName": "Unterthiner",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mostafa",
+          "lastName": "Dehghani",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Matthias",
+          "lastName": "Minderer",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Georg",
+          "lastName": "Heigold",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sylvain",
+          "lastName": "Gelly",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jakob",
+          "lastName": "Uszkoreit",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Neil",
+          "lastName": "Houlsby",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computer Science - Computer Vision and Pattern Recognition",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Machine Learning",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Artificial Intelligence",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-02-22T07:03:21Z",
+      "dateModified": "2024-02-22T07:03:22Z",
+      "uri": "http://zotero.org/users/10101446/items/PP7AZZUT",
+      "itemID": 462,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Dosovitskiy \u7b49 - 2021 - An Image is Worth 16x16 Words Transformers for Im.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-02-22T07:03:15Z",
+          "dateModified": "2024-02-22T07:03:23Z",
+          "uri": "http://zotero.org/users/10101446/items/B9K9EGSK",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\B9K9EGSK\\Dosovitskiy \u7b49 - 2021 - An Image is Worth 16x16 Words Transformers for Im.pdf",
+          "select": "zotero://select/library/items/B9K9EGSK"
+        }
+      ],
+      "notes": [
+        {
+          "key": "7TRIC3AW",
+          "version": 1003,
+          "itemType": "note",
+          "parentItem": "PP7AZZUT",
+          "note": "Comment: Fine-tuning code and pre-trained models are available at https://github.com/google-research/vision_transformer. ICLR camera-ready version with 2 small modifications: 1) Added a discussion of CLS vs GAP classifier in the appendix, 2) Fixed an error in exaFLOPs computation in Figure 5 and Table 6 (relative performance of models is basically not affected)",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-02-22T07:03:21Z",
+          "dateModified": "2024-02-22T07:03:21Z",
+          "uri": "http://zotero.org/users/10101446/items/7TRIC3AW"
+        }
+      ],
+      "citationKey": "dosovitskiy2021-image",
+      "itemKey": "PP7AZZUT",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/PP7AZZUT"
+    },
+    {
       "key": "KG9PPYPL",
       "version": 633,
       "itemType": "journalArticle",
@@ -880,6 +1011,71 @@
       "itemKey": "TC8XWH8A",
       "libraryID": 1,
       "select": "zotero://select/library/items/TC8XWH8A"
+    },
+    {
+      "key": "9QZ5UITK",
+      "version": 1005,
+      "itemType": "preprint",
+      "title": "Denoising Diffusion Probabilistic Models",
+      "abstractNote": "We present high quality image synthesis results using diffusion probabilistic models, a class of latent variable models inspired by considerations from nonequilibrium thermodynamics. Our best results are obtained by training on a weighted variational bound designed according to a novel connection between diffusion probabilistic models and denoising score matching with Langevin dynamics, and our models naturally admit a progressive lossy decompression scheme that can be interpreted as a generalization of autoregressive decoding. On the unconditional CIFAR10 dataset, we obtain an Inception score of 9.46 and a state-of-the-art FID score of 3.17. On 256x256 LSUN, we obtain sample quality similar to ProgressiveGAN. Our implementation is available at https://github.com/hojonathanho/diffusion.",
+      "date": "2020-12-16",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "url": "http://arxiv.org/abs/2006.11239",
+      "accessDate": "2024-02-22T07:03:32Z",
+      "extra": "arXiv:2006.11239 [cs, stat]",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2006.11239",
+      "creators": [
+        {
+          "firstName": "Jonathan",
+          "lastName": "Ho",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ajay",
+          "lastName": "Jain",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Pieter",
+          "lastName": "Abbeel",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computer Science - Machine Learning",
+          "type": 1
+        },
+        {
+          "tag": "Statistics - Machine Learning",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-02-22T07:03:32Z",
+      "dateModified": "2024-02-22T07:03:32Z",
+      "uri": "http://zotero.org/users/10101446/items/9QZ5UITK",
+      "itemID": 461,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Ho \u7b49 - 2020 - Denoising Diffusion Probabilistic Models.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-02-22T07:03:25Z",
+          "dateModified": "2024-02-22T07:03:33Z",
+          "uri": "http://zotero.org/users/10101446/items/B7DYLMHM",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\B7DYLMHM\\Ho \u7b49 - 2020 - Denoising Diffusion Probabilistic Models.pdf",
+          "select": "zotero://select/library/items/B7DYLMHM"
+        }
+      ],
+      "notes": [],
+      "citationKey": "ho2020-denoising",
+      "itemKey": "9QZ5UITK",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/9QZ5UITK"
     },
     {
       "key": "3K59BSFN",
@@ -1216,6 +1412,79 @@
       "itemKey": "HBXY5IN2",
       "libraryID": 1,
       "select": "zotero://select/library/items/HBXY5IN2"
+    },
+    {
+      "key": "FHB3VGYY",
+      "version": 957,
+      "itemType": "preprint",
+      "title": "Scalable Diffusion Models with Transformers",
+      "abstractNote": "We explore a new class of diffusion models based on the transformer architecture. We train latent diffusion models of images, replacing the commonly-used U-Net backbone with a transformer that operates on latent patches. We analyze the scalability of our Diffusion Transformers (DiTs) through the lens of forward pass complexity as measured by G\ufb02ops. We \ufb01nd that DiTs with higher G\ufb02ops\u2014through increased transformer depth/width or increased number of input tokens\u2014consistently have lower FID. In addition to possessing good scalability properties, our largest DiT-XL/2 models outperform all prior diffusion models on the classconditional ImageNet 512\u00d7512 and 256\u00d7256 benchmarks, achieving a state-of-the-art FID of 2.27 on the latter.",
+      "date": "2023-03-02",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "url": "http://arxiv.org/abs/2212.09748",
+      "accessDate": "2024-02-22T03:08:09Z",
+      "extra": "arXiv:2212.09748 [cs]",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2212.09748",
+      "creators": [
+        {
+          "firstName": "William",
+          "lastName": "Peebles",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Saining",
+          "lastName": "Xie",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computer Science - Computer Vision and Pattern Recognition",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Machine Learning",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-02-22T03:08:09Z",
+      "dateModified": "2024-02-22T03:08:10Z",
+      "uri": "http://zotero.org/users/10101446/items/FHB3VGYY",
+      "itemID": 463,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Peebles \u548c Xie - 2023 - Scalable Diffusion Models with Transformers.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-02-22T03:08:00Z",
+          "dateModified": "2024-02-22T03:08:11Z",
+          "uri": "http://zotero.org/users/10101446/items/V9JTI56I",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\V9JTI56I\\Peebles \u548c Xie - 2023 - Scalable Diffusion Models with Transformers.pdf",
+          "select": "zotero://select/library/items/V9JTI56I"
+        }
+      ],
+      "notes": [
+        {
+          "key": "NALVJWZC",
+          "version": 957,
+          "itemType": "note",
+          "parentItem": "FHB3VGYY",
+          "note": "Comment: Code, project page and videos available at https://www.wpeebles.com/DiT",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-02-22T03:08:09Z",
+          "dateModified": "2024-02-22T03:08:09Z",
+          "uri": "http://zotero.org/users/10101446/items/NALVJWZC"
+        }
+      ],
+      "citationKey": "peebles2023-scalable",
+      "itemKey": "FHB3VGYY",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/FHB3VGYY"
     },
     {
       "key": "AR3GIJFD",
