@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "paper reading/Scalable Diffusion Models with Transformers.md",
+=======
+                "file": "Master/Project Management in IT/Tute1.md",
+>>>>>>> cfd307fde5345ed62fd67ec58d4cab98e649c6d9
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "c8bb21ed07bc28cf",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +100,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "paper reading/Scalable Diffusion Models with Transformers.md",
+=======
+                "file": "Master/Project Management in IT/Tute1.md",
+>>>>>>> cfd307fde5345ed62fd67ec58d4cab98e649c6d9
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +121,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "paper reading/Scalable Diffusion Models with Transformers.md",
+=======
+                "file": "Master/Project Management in IT/Tute1.md",
+>>>>>>> cfd307fde5345ed62fd67ec58d4cab98e649c6d9
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +148,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "paper reading/Scalable Diffusion Models with Transformers.md"
+=======
+                "file": "Master/Project Management in IT/Tute1.md"
+>>>>>>> cfd307fde5345ed62fd67ec58d4cab98e649c6d9
               }
             }
           },
@@ -164,9 +191,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ac11ec9b3f8b847b",
+  "active": "c8bb21ed07bc28cf",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Draloc/Diffusion model.md",
+=======
+    "Master/Large Scale Networks/Lecture 1.md",
+    "Master/Project Management in IT/Tute1.md",
+    "Master/Project Management in IT",
+>>>>>>> cfd307fde5345ed62fd67ec58d4cab98e649c6d9
     "Daily/2024-02-22.md",
     "paper reading/Scalable Diffusion Models with Transformers.md",
     "paper reading/Deconstructing Denoising Diffusion Models for Self-Supervised Learning.md",
@@ -201,7 +234,6 @@
     "Draloc/Draloc.md",
     "Book",
     "paper reading",
-    "Java",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
