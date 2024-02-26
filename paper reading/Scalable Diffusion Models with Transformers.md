@@ -1,24 +1,44 @@
-U-net
-pixelcnn++
- vit
- diffusion models are trained to learn the reverse process that inverts forward process corruptions 
-Diffusion Model 的合成过程是通过一次次迭代在噪声中提取出所需要的图像/音频 随着迭代步数的增加，合成质量也在越来越好
 
-Gaussian diffusion models
+## U-Net
 
-pachify : DiT 的input 的空间表示z （for 256 × 256 × 3 images, z has shape 32 × 32 × 4)）将 spatial input into a sequence of T tokens, each of dimension d. 
+- 用于图像分割任务。
+- 具有对称的编码器-解码器结构，中间通过跳跃连接传递特征。
 
-在pachify之后，使用基于vit频率的positional embedding, to all input tokens 
+## PixelCNN++
 
-input token -> transformer block 
+- 一种自回归模型，用于图像生成。
+- 增强版的 PixelCNN，通过改进的模型结构和训练技巧提高生成质量。
 
-4 种transformer block 去处理条件输入（附加条件信息，例如噪声时间步长 t、类标签 c、自然语言）
+## Vision Transformer (ViT)
 
-In-context conditioning
- append t and c embedding vector in input sequence
-Cross-attention block
-在multi-head self-attention 之后加了一个 multi-head cross attention ，将t and c embedding 到length-two sequence，通过cross attention 处理 t 和c
+- 将图像切分成多个小块（patch），然后将这些块处理成序列送入 Transformer 结构。
+- 通过自注意力机制捕获全局依赖，用于图像分类等视觉任务。
 
+## Diffusion Models
+
+- 通过学习逆向过程来逆转前向过程引入的噪声，用于图像或音频的生成。
+- 合成过程通过迭代地从噪声中提取所需图像/音频，随着迭代步数增加，合成质量提高。
+
+### Gaussian Diffusion Models
+
+- 一种特定类型的 Diffusion Model，使用高斯过程模拟数据的退化和恢复。
+
+## DiT 输入处理（Pachify）
+
+- 对于 256×256×3 的图像，空间表示 `z` 的形状为 32×32×4，将空间输入转换为 T 个维度为 d 的序列。
+- 在 pachify 之后，将基于 ViT 频率的位置嵌入应用于所有输入令牌。
+
+## Transformer Block 处理条件输入
+
+- 4 种 Transformer Block 用于处理附加条件信息（如噪声时间步长 `t`、类标签 `c`、自然语言）。
+
+### In-context Conditioning
+
+- 在输入序列中附加 `t` 和 `c` 的嵌入向量。
+
+### Cross-attention Block
+
+- 在多头自注意力之后，添加了一个多头交叉注意力块，将 `t` 和 `c` 嵌入转换为长度为二的序列，并通过交叉注意力处理 `t` 和 `c`。
 
 ### SiLU函数的特点
 
