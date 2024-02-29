@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Master/Project Management in IT/Tute1.md",
+                "file": "Master/Professional Practice in IT/Tutorial 1.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "c8bb21ed07bc28cf",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.8"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Master/Project Management in IT/Tute1.md",
+                "file": "Master/Professional Practice in IT/Tutorial 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Master/Project Management in IT/Tute1.md",
+                "file": "Master/Professional Practice in IT/Tutorial 1.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Master/Project Management in IT/Tute1.md"
+                "file": "Master/Professional Practice in IT/Tutorial 1.md"
               }
             }
           },
@@ -175,14 +164,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c8bb21ed07bc28cf",
+  "active": "ac11ec9b3f8b847b",
   "lastOpenFiles": [
-    "Master/Large Scale Networks/Lecture 1.md",
-    "Master/Project Management in IT/Tute1.md",
-    "Master/Project Management in IT",
-    "Daily/2024-02-22.md",
+    "paper reading/Denoising Diffusion Probabilistic Models.md",
+    "Master/Professional Practice in IT/Tutorial 1.md",
+    "Master/Professional Practice in IT",
     "paper reading/Scalable Diffusion Models with Transformers.md",
     "paper reading/Deconstructing Denoising Diffusion Models for Self-Supervised Learning.md",
+    "Master/Project Management in IT/Tute1.md",
+    "Master/Large Scale Networks/Lecture 1.md",
+    "Master/Project Management in IT",
+    "Daily/2024-02-22.md",
     "Master/Machine Learning and Data Mining/Lecture 1.md",
     "paper reading/Retentive Network ： A Successor to Transformer for Large Language Models.md",
     "paper reading/Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback.md",
@@ -209,10 +201,7 @@
     "work notes/AI 背景.md",
     "Java/面向对象.md",
     "Java/方法.md",
-    "Java/变量.md",
-    "Draloc/Draloc.md",
     "Book",
-    "paper reading",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
