@@ -169,7 +169,9 @@
         403,
         461,
         462,
-        463
+        463,
+        488,
+        489
       ]
     }
   },
@@ -607,6 +609,80 @@
       "itemKey": "WVZPU5NR",
       "libraryID": 1,
       "select": "zotero://select/library/items/WVZPU5NR"
+    },
+    {
+      "key": "2U4KY52L",
+      "version": 1090,
+      "itemType": "preprint",
+      "title": "Robust Graph Representation Learning via Predictive Coding",
+      "abstractNote": "Predictive coding is a message-passing framework initially developed to model information processing in the brain, and now also topic of research in machine learning due to some interesting properties. One of such properties is the natural ability of generative models to learn robust representations thanks to their peculiar credit assignment rule, that allows neural activities to converge to a solution before updating the synaptic weights. Graph neural networks are also message-passing models, which have recently shown outstanding results in diverse types of tasks in machine learning, providing interdisciplinary state-of-the-art performance on structured data. However, they are vulnerable to imperceptible adversarial attacks, and un\ufb01t for out-of-distribution generalization. In this work, we address this by building models that have the same structure of popular graph neural network architectures, but rely on the message-passing rule of predictive coding. Through an extensive set of experiments, we show that the proposed models are (i) comparable to standard ones in terms of performance in both inductive and transductive tasks, (ii) better calibrated, and (iii) robust against multiple kinds of adversarial attacks.",
+      "date": "2022-12-08",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "url": "http://arxiv.org/abs/2212.04656",
+      "accessDate": "2024-02-29T06:47:36Z",
+      "extra": "arXiv:2212.04656 [cs]",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2212.04656",
+      "creators": [
+        {
+          "firstName": "Billy",
+          "lastName": "Byiringiro",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tommaso",
+          "lastName": "Salvatori",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Thomas",
+          "lastName": "Lukasiewicz",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computer Science - Machine Learning",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-02-29T06:47:36Z",
+      "dateModified": "2024-02-29T06:47:36Z",
+      "uri": "http://zotero.org/users/10101446/items/2U4KY52L",
+      "itemID": 488,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Byiringiro \u7b49 - 2022 - Robust Graph Representation Learning via Predictiv.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-02-29T06:47:30Z",
+          "dateModified": "2024-02-29T06:47:37Z",
+          "uri": "http://zotero.org/users/10101446/items/9JTQJ55G",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\9JTQJ55G\\Byiringiro \u7b49 - 2022 - Robust Graph Representation Learning via Predictiv.pdf",
+          "select": "zotero://select/library/items/9JTQJ55G"
+        }
+      ],
+      "notes": [
+        {
+          "key": "4SMJPCVL",
+          "version": 1090,
+          "itemType": "note",
+          "parentItem": "2U4KY52L",
+          "note": "Comment: 27 Pages, 31 Figures",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-02-29T06:47:36Z",
+          "dateModified": "2024-02-29T06:47:36Z",
+          "uri": "http://zotero.org/users/10101446/items/4SMJPCVL"
+        }
+      ],
+      "citationKey": "byiringiro2022-robust",
+      "itemKey": "2U4KY52L",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/2U4KY52L"
     },
     {
       "key": "9XR6FCUM",
@@ -1856,6 +1932,84 @@
       "itemKey": "ZRJI4HYN",
       "libraryID": 1,
       "select": "zotero://select/library/items/ZRJI4HYN"
+    },
+    {
+      "key": "C3R8DANM",
+      "version": 1085,
+      "itemType": "preprint",
+      "title": "Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning",
+      "abstractNote": "Offline reinforcement learning (RL), which aims to learn an optimal policy using a previously collected static dataset, is an important paradigm of RL. Standard RL methods often perform poorly in this regime due to the function approximation errors on out-of-distribution actions. While a variety of regularization methods have been proposed to mitigate this issue, they are often constrained by policy classes with limited expressiveness that can lead to highly suboptimal solutions. In this paper, we propose representing the policy as a diffusion model, a recent class of highly-expressive deep generative models. We introduce Diffusion Qlearning (Diffusion-QL) that utilizes a conditional diffusion model to represent the policy. In our approach, we learn an action-value function and we add a term maximizing action-values into the training loss of the conditional diffusion model, which results in a loss that seeks optimal actions that are near the behavior policy. We show the expressiveness of the diffusion model-based policy, and the coupling of the behavior cloning and policy improvement under the diffusion model both contribute to the outstanding performance of Diffusion-QL. We illustrate the superiority of our method compared to prior works in a simple 2D bandit example with a multimodal behavior policy. We then show that our method can achieve state-of-the-art performance on the majority of the D4RL benchmark tasks.",
+      "date": "2023-08-25",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "url": "http://arxiv.org/abs/2208.06193",
+      "accessDate": "2024-02-29T06:36:51Z",
+      "extra": "arXiv:2208.06193 [cs, stat]",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2208.06193",
+      "creators": [
+        {
+          "firstName": "Zhendong",
+          "lastName": "Wang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jonathan J.",
+          "lastName": "Hunt",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mingyuan",
+          "lastName": "Zhou",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computer Science - Machine Learning",
+          "type": 1
+        },
+        {
+          "tag": "Statistics - Machine Learning",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-02-29T06:36:51Z",
+      "dateModified": "2024-02-29T06:36:52Z",
+      "uri": "http://zotero.org/users/10101446/items/C3R8DANM",
+      "itemID": 489,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Wang \u7b49 - 2023 - Diffusion Policies as an Expressive Policy Class f.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-02-29T06:36:42Z",
+          "dateModified": "2024-02-29T06:36:53Z",
+          "uri": "http://zotero.org/users/10101446/items/UYR389L7",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\UYR389L7\\Wang \u7b49 - 2023 - Diffusion Policies as an Expressive Policy Class f.pdf",
+          "select": "zotero://select/library/items/UYR389L7"
+        }
+      ],
+      "notes": [
+        {
+          "key": "EZYMLRPW",
+          "version": 1085,
+          "itemType": "note",
+          "parentItem": "C3R8DANM",
+          "note": "Comment: ICLR 2023",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-02-29T06:36:51Z",
+          "dateModified": "2024-02-29T06:36:51Z",
+          "uri": "http://zotero.org/users/10101446/items/EZYMLRPW"
+        }
+      ],
+      "citationKey": "wang2023-diffusion",
+      "itemKey": "C3R8DANM",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/C3R8DANM"
     },
     {
       "key": "3V7KMJ2D",

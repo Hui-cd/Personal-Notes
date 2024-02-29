@@ -11,8 +11,12 @@
             "id": "5bc215446490efb6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "work notes/Network.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "work notes/Network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "work notes/Network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "work notes/Network.md"
+              }
             }
           }
         ]
@@ -149,5 +157,11 @@
     }
   },
   "active": "5bc215446490efb6",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "work notes/Distribute System.md",
+    "Java/数据结构.md",
+    "Draloc/Draloc.md",
+    "Draloc/Diffusion model.md",
+    "Draloc/WIWD.md"
+  ]
 }
