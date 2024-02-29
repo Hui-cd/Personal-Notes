@@ -1,22 +1,27 @@
 {
   "main": {
-    "id": "922e4e4d8350bab6",
+    "id": "542e33a3c52ec5b1",
     "type": "split",
     "children": [
       {
-        "id": "d50514ebbb593e4c",
+        "id": "6c170966f52530c4",
         "type": "tabs",
         "children": [
           {
-            "id": "ac11ec9b3f8b847b",
+            "id": "5bc215446490efb6",
             "type": "leaf",
             "state": {
+<<<<<<< HEAD
               "type": "markdown",
               "state": {
                 "file": "Master/Professional Practice in IT/Tutorial 1.md",
                 "mode": "source",
                 "source": false
               }
+=======
+              "type": "empty",
+              "state": {}
+>>>>>>> 1b3503d2b8ca00dcb1ced13998f2db06d1769752
             }
           }
         ]
@@ -25,25 +30,25 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1f8a0cc3713a9c7c",
+    "id": "163453c933938910",
     "type": "split",
     "children": [
       {
-        "id": "50bfcc9b896de1c9",
+        "id": "e90e82c362deb34c",
         "type": "tabs",
         "children": [
           {
-            "id": "25e5ed8c947373db",
+            "id": "3cc6731028aae184",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "be97882f2852c658",
+            "id": "296bf505cedcf997",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +63,7 @@
             }
           },
           {
-            "id": "33baf20365f6a110",
+            "id": "e4926ffa609aa00f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +74,34 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "17b5c51c39331864",
+    "id": "3f687876954be6ec",
     "type": "split",
     "children": [
       {
-        "id": "555de1874742aeff",
+        "id": "01b890b4c85a6ee7",
         "type": "tabs",
         "children": [
           {
-            "id": "a577aaf314a81015",
+            "id": "e30abb803a6d2d51",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "c906b3e8693fb48b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Master/Professional Practice in IT/Tutorial 1.md",
+=======
+>>>>>>> 1b3503d2b8ca00dcb1ced13998f2db06d1769752
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +113,23 @@
             }
           },
           {
-            "id": "1ad7f875cb42a23b",
+            "id": "cbaf5afa0bf436b8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Master/Professional Practice in IT/Tutorial 1.md",
                 "linksCollapsed": true,
+=======
+                "linksCollapsed": false,
+>>>>>>> 1b3503d2b8ca00dcb1ced13998f2db06d1769752
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "59e8327a40b62ba9",
+            "id": "c8b9fc1d3927696f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,10 +140,11 @@
             }
           },
           {
-            "id": "e51e9f884469ffbf",
+            "id": "6ef4fe7cddba174e",
             "type": "leaf",
             "state": {
               "type": "outline",
+<<<<<<< HEAD
               "state": {
                 "file": "Master/Professional Practice in IT/Tutorial 1.md"
               }
@@ -142,28 +163,31 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
+=======
+>>>>>>> 1b3503d2b8ca00dcb1ced13998f2db06d1769752
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false
+      "command-palette:打开命令面板": false
     }
   },
+<<<<<<< HEAD
   "active": "ac11ec9b3f8b847b",
   "lastOpenFiles": [
     "paper reading/Denoising Diffusion Probabilistic Models.md",
@@ -205,4 +229,8 @@
     "未命名.canvas",
     "未命名 1.canvas"
   ]
+=======
+  "active": "5bc215446490efb6",
+  "lastOpenFiles": []
+>>>>>>> 1b3503d2b8ca00dcb1ced13998f2db06d1769752
 }
