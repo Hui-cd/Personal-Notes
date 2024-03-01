@@ -11,8 +11,17 @@
             "id": "6f454bee490b4589",
             "type": "leaf",
             "state": {
+<<<<<<< HEAD
               "type": "empty",
               "state": {}
+=======
+              "type": "markdown",
+              "state": {
+                "file": "work notes/Network.md",
+                "mode": "source",
+                "source": false
+              }
+>>>>>>> 67409fefd23e9a7bbb9502bb3389185832558da4
             }
           }
         ]
@@ -89,6 +98,10 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
+=======
+                "file": "work notes/Network.md",
+>>>>>>> 67409fefd23e9a7bbb9502bb3389185832558da4
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +118,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
+=======
+                "file": "work notes/Network.md",
+>>>>>>> 67409fefd23e9a7bbb9502bb3389185832558da4
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +144,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Master/Large Scale Networks/Tut.md"
+=======
+                "file": "work notes/Network.md"
+>>>>>>> 67409fefd23e9a7bbb9502bb3389185832558da4
               }
             }
           }
@@ -150,8 +171,21 @@
       "command-palette:打开命令面板": false
     }
   },
+<<<<<<< HEAD
   "active": "d8338e542cca30c6",
   "lastOpenFiles": [
     "Master/Large Scale Networks/Tut.md"
+=======
+  "active": "5bc215446490efb6",
+  "lastOpenFiles": [
+    "paper reading/Denoising Diffusion Probabilistic Models.md",
+    "Master/Professional Practice in IT/Tutorial 1.md",
+    "Master/Professional Practice in IT",
+    "work notes/Distribute System.md",
+    "Java/数据结构.md",
+    "Draloc/Draloc.md",
+    "Draloc/Diffusion model.md",
+    "Draloc/WIWD.md"
+>>>>>>> 67409fefd23e9a7bbb9502bb3389185832558da4
   ]
 }
