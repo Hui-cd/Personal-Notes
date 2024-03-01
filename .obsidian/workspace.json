@@ -1,27 +1,18 @@
 {
   "main": {
-    "id": "542e33a3c52ec5b1",
+    "id": "81ccd953f9498af0",
     "type": "split",
     "children": [
       {
-        "id": "6c170966f52530c4",
+        "id": "b5e75db9fa3291c0",
         "type": "tabs",
         "children": [
           {
-            "id": "5bc215446490efb6",
+            "id": "6f454bee490b4589",
             "type": "leaf",
             "state": {
-<<<<<<< HEAD
-              "type": "markdown",
-              "state": {
-                "file": "Master/Professional Practice in IT/Tutorial 1.md",
-                "mode": "source",
-                "source": false
-              }
-=======
               "type": "empty",
               "state": {}
->>>>>>> 1b3503d2b8ca00dcb1ced13998f2db06d1769752
             }
           }
         ]
@@ -30,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "163453c933938910",
+    "id": "88e8334b9eb9fe41",
     "type": "split",
     "children": [
       {
-        "id": "e90e82c362deb34c",
+        "id": "2d0070214122ac22",
         "type": "tabs",
         "children": [
           {
-            "id": "3cc6731028aae184",
+            "id": "d8338e542cca30c6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +39,7 @@
             }
           },
           {
-            "id": "296bf505cedcf997",
+            "id": "5cef70ac36a97ae7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -63,7 +54,7 @@
             }
           },
           {
-            "id": "e4926ffa609aa00f",
+            "id": "0f52da97bd4b4b5d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,15 +68,15 @@
     "width": 300
   },
   "right": {
-    "id": "3f687876954be6ec",
+    "id": "dcc8db1c0a2b5220",
     "type": "split",
     "children": [
       {
-        "id": "01b890b4c85a6ee7",
+        "id": "9da87e805a73b21e",
         "type": "tabs",
         "children": [
           {
-            "id": "e30abb803a6d2d51",
+            "id": "0924c447ba02df71",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -93,15 +84,11 @@
             }
           },
           {
-            "id": "c906b3e8693fb48b",
+            "id": "e7b372fc956b70e2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Master/Professional Practice in IT/Tutorial 1.md",
-=======
->>>>>>> 1b3503d2b8ca00dcb1ced13998f2db06d1769752
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,23 +100,18 @@
             }
           },
           {
-            "id": "cbaf5afa0bf436b8",
+            "id": "2fd9e612ad6502bb",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "Master/Professional Practice in IT/Tutorial 1.md",
-                "linksCollapsed": true,
-=======
                 "linksCollapsed": false,
->>>>>>> 1b3503d2b8ca00dcb1ced13998f2db06d1769752
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "c8b9fc1d3927696f",
+            "id": "b74f467f595e3ce1",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -140,32 +122,13 @@
             }
           },
           {
-            "id": "6ef4fe7cddba174e",
+            "id": "93648d17aba0f9a9",
             "type": "leaf",
             "state": {
               "type": "outline",
-<<<<<<< HEAD
               "state": {
-                "file": "Master/Professional Practice in IT/Tutorial 1.md"
+                "file": "Master/Large Scale Networks/Tut.md"
               }
-            }
-          },
-          {
-            "id": "2aab4080b9cc0eb8",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "72a8338c37a23645",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-=======
->>>>>>> 1b3503d2b8ca00dcb1ced13998f2db06d1769752
-              "state": {}
             }
           }
         ]
@@ -187,50 +150,8 @@
       "command-palette:打开命令面板": false
     }
   },
-<<<<<<< HEAD
-  "active": "ac11ec9b3f8b847b",
+  "active": "d8338e542cca30c6",
   "lastOpenFiles": [
-    "paper reading/Denoising Diffusion Probabilistic Models.md",
-    "Master/Professional Practice in IT/Tutorial 1.md",
-    "Master/Professional Practice in IT",
-    "paper reading/Scalable Diffusion Models with Transformers.md",
-    "paper reading/Deconstructing Denoising Diffusion Models for Self-Supervised Learning.md",
-    "Master/Project Management in IT/Tute1.md",
-    "Master/Large Scale Networks/Lecture 1.md",
-    "Master/Project Management in IT",
-    "Daily/2024-02-22.md",
-    "Master/Machine Learning and Data Mining/Lecture 1.md",
-    "paper reading/Retentive Network ： A Successor to Transformer for Large Language Models.md",
-    "paper reading/Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback.md",
-    "URL_or_Path_to_image.md",
-    "Java/数据结构.md",
-    "Leetcode/二分查找法.md",
-    "Master/Machine Learning and Data Mining",
-    "Master/未命名.md",
-    "未命名",
-    "Leetcode",
-    "book-note/计算机组成原理/四、带符号整数的表示和运算.md",
-    "Master/Large Scale Networks",
-    "Master",
-    "book-note/算法导论/第二章 算法基础.md",
-    "book-note/算法导论/第一章 算法.md",
-    "随笔.md",
-    "NST",
-    "Daily/2024-01-20.md",
-    "zoteronote/@Attention Is All You Need.md",
-    "python/Collections.md",
-    "work notes/Network.md",
-    "python",
-    "work notes/Distribute System.md",
-    "work notes/AI 背景.md",
-    "Java/面向对象.md",
-    "Java/方法.md",
-    "Book",
-    "未命名.canvas",
-    "未命名 1.canvas"
+    "Master/Large Scale Networks/Tut.md"
   ]
-=======
-  "active": "5bc215446490efb6",
-  "lastOpenFiles": []
->>>>>>> 1b3503d2b8ca00dcb1ced13998f2db06d1769752
 }
