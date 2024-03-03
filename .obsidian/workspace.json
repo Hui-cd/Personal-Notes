@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work notes/Network.md",
+                "file": "Master/Project Management in IT/Tutorial2.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work notes/Network.md",
+                "file": "Master/Project Management in IT/Tutorial2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work notes/Network.md",
+                "file": "Master/Project Management in IT/Tutorial2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work notes/Network.md"
+                "file": "Master/Project Management in IT/Tutorial2.md"
               }
             }
           }
@@ -158,6 +158,8 @@
   },
   "active": "5bc215446490efb6",
   "lastOpenFiles": [
+    "work notes/Network.md",
+    "Master/Project Management in IT/Tutorial2.md",
     "paper reading/Denoising Diffusion Probabilistic Models.md",
     "Master/Professional Practice in IT/Tutorial 1.md",
     "Master/Professional Practice in IT",
