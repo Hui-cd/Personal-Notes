@@ -1,5 +1,6 @@
 {
   "main": {
+<<<<<<< HEAD
     "id": "1353c5aef1acee38",
     "type": "split",
     "children": [
@@ -13,6 +14,25 @@
             "state": {
               "type": "empty",
               "state": {}
+=======
+    "id": "7645b6e1ae09fa3b",
+    "type": "split",
+    "children": [
+      {
+        "id": "13f8a7db5e9451c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f73f8dfbbd86f809",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Draloc/Worto.md",
+                "mode": "source",
+                "source": false
+              }
+>>>>>>> 01ba8bd119c0abe7ae4575a3c948e48893cc93b1
             }
           }
         ]
@@ -21,6 +41,7 @@
     "direction": "vertical"
   },
   "left": {
+<<<<<<< HEAD
     "id": "c7796a452aacb3e7",
     "type": "split",
     "children": [
@@ -30,6 +51,17 @@
         "children": [
           {
             "id": "8f1bf9522b165ab7",
+=======
+    "id": "2c65cf6a40e82f9d",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd9f7a1a7d053b2e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3877ee940af3b678",
+>>>>>>> 01ba8bd119c0abe7ae4575a3c948e48893cc93b1
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +71,11 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "35c43d996c40a4c9",
+=======
+            "id": "6d08fe8773698379",
+>>>>>>> 01ba8bd119c0abe7ae4575a3c948e48893cc93b1
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +90,11 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "8b9dcd3390fd6814",
+=======
+            "id": "2eec6cd26da02dbf",
+>>>>>>> 01ba8bd119c0abe7ae4575a3c948e48893cc93b1
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -68,6 +108,7 @@
     "width": 300
   },
   "right": {
+<<<<<<< HEAD
     "id": "533ca846433169f7",
     "type": "split",
     "children": [
@@ -77,6 +118,17 @@
         "children": [
           {
             "id": "d66d61348a092220",
+=======
+    "id": "54de7210f6f46cbd",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba5802d4dd2eba8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a17962b4c71a8dde",
+>>>>>>> 01ba8bd119c0abe7ae4575a3c948e48893cc93b1
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -84,11 +136,19 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "d33fdb3b9d6c3ab8",
+=======
+            "id": "cb6130429483e7f4",
+>>>>>>> 01ba8bd119c0abe7ae4575a3c948e48893cc93b1
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
+=======
+                "file": "Draloc/Worto.md",
+>>>>>>> 01ba8bd119c0abe7ae4575a3c948e48893cc93b1
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,18 +160,30 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "ebe5a56238f853d9",
+=======
+            "id": "37a205d626079397",
+>>>>>>> 01ba8bd119c0abe7ae4575a3c948e48893cc93b1
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
+=======
+                "file": "Draloc/Worto.md",
+>>>>>>> 01ba8bd119c0abe7ae4575a3c948e48893cc93b1
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
+<<<<<<< HEAD
             "id": "6304df6d6b2416f4",
+=======
+            "id": "851448911be28b0e",
+>>>>>>> 01ba8bd119c0abe7ae4575a3c948e48893cc93b1
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -122,11 +194,21 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "e438cf75bef74954",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {}
+=======
+            "id": "5d2ce3e690011b76",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Draloc/Worto.md"
+              }
+>>>>>>> 01ba8bd119c0abe7ae4575a3c948e48893cc93b1
             }
           }
         ]
@@ -148,6 +230,16 @@
       "command-palette:打开命令面板": false
     }
   },
+<<<<<<< HEAD
   "active": "8effb7b12f456048",
   "lastOpenFiles": []
+=======
+  "active": "f73f8dfbbd86f809",
+  "lastOpenFiles": [
+    "Draloc/Draloc.md",
+    "Draloc/Worto.md",
+    "Draloc/WIWD.md",
+    "Master/Project Management in IT/Tutorial2.md"
+  ]
+>>>>>>> 01ba8bd119c0abe7ae4575a3c948e48893cc93b1
 }
