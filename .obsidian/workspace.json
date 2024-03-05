@@ -1,27 +1,18 @@
 {
   "main": {
-    "id": "81ccd953f9498af0",
+    "id": "1353c5aef1acee38",
     "type": "split",
     "children": [
       {
-        "id": "b5e75db9fa3291c0",
+        "id": "e04e896cb633c11b",
         "type": "tabs",
         "children": [
           {
-            "id": "6f454bee490b4589",
+            "id": "8effb7b12f456048",
             "type": "leaf",
             "state": {
-<<<<<<< HEAD
               "type": "empty",
               "state": {}
-=======
-              "type": "markdown",
-              "state": {
-                "file": "Master/Project Management in IT/Tutorial2.md",
-                "mode": "source",
-                "source": false
-              }
->>>>>>> 67409fefd23e9a7bbb9502bb3389185832558da4
             }
           }
         ]
@@ -30,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "88e8334b9eb9fe41",
+    "id": "c7796a452aacb3e7",
     "type": "split",
     "children": [
       {
-        "id": "2d0070214122ac22",
+        "id": "30ffbb50bfe2e04d",
         "type": "tabs",
         "children": [
           {
-            "id": "d8338e542cca30c6",
+            "id": "8f1bf9522b165ab7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +39,7 @@
             }
           },
           {
-            "id": "5cef70ac36a97ae7",
+            "id": "35c43d996c40a4c9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -63,7 +54,7 @@
             }
           },
           {
-            "id": "0f52da97bd4b4b5d",
+            "id": "8b9dcd3390fd6814",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,15 +68,15 @@
     "width": 300
   },
   "right": {
-    "id": "dcc8db1c0a2b5220",
+    "id": "533ca846433169f7",
     "type": "split",
     "children": [
       {
-        "id": "9da87e805a73b21e",
+        "id": "7330a5af6980d8a2",
         "type": "tabs",
         "children": [
           {
-            "id": "0924c447ba02df71",
+            "id": "d66d61348a092220",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -93,19 +84,11 @@
             }
           },
           {
-            "id": "e7b372fc956b70e2",
+            "id": "d33fdb3b9d6c3ab8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Master/Project Management in IT/Tutorial2.md",
-=======
-<<<<<<< HEAD
-=======
-                "file": "work notes/Network.md",
->>>>>>> 67409fefd23e9a7bbb9502bb3389185832558da4
->>>>>>> 0f9554a582903cedea6080cd91662971a686c0dc
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,26 +100,18 @@
             }
           },
           {
-            "id": "2fd9e612ad6502bb",
+            "id": "ebe5a56238f853d9",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "Master/Project Management in IT/Tutorial2.md",
-=======
-<<<<<<< HEAD
-=======
-                "file": "work notes/Network.md",
->>>>>>> 67409fefd23e9a7bbb9502bb3389185832558da4
->>>>>>> 0f9554a582903cedea6080cd91662971a686c0dc
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "b74f467f595e3ce1",
+            "id": "6304df6d6b2416f4",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -147,21 +122,11 @@
             }
           },
           {
-            "id": "93648d17aba0f9a9",
+            "id": "e438cf75bef74954",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-<<<<<<< HEAD
-                "file": "Master/Project Management in IT/Tutorial2.md"
-=======
-<<<<<<< HEAD
-                "file": "Master/Large Scale Networks/Tut.md"
-=======
-                "file": "work notes/Network.md"
->>>>>>> 67409fefd23e9a7bbb9502bb3389185832558da4
->>>>>>> 0f9554a582903cedea6080cd91662971a686c0dc
-              }
+              "state": {}
             }
           }
         ]
@@ -183,23 +148,6 @@
       "command-palette:打开命令面板": false
     }
   },
-<<<<<<< HEAD
-  "active": "d8338e542cca30c6",
-  "lastOpenFiles": [
-    "Master/Large Scale Networks/Tut.md"
-=======
-  "active": "5bc215446490efb6",
-  "lastOpenFiles": [
-    "work notes/Network.md",
-    "Master/Project Management in IT/Tutorial2.md",
-    "paper reading/Denoising Diffusion Probabilistic Models.md",
-    "Master/Professional Practice in IT/Tutorial 1.md",
-    "Master/Professional Practice in IT",
-    "work notes/Distribute System.md",
-    "Java/数据结构.md",
-    "Draloc/Draloc.md",
-    "Draloc/Diffusion model.md",
-    "Draloc/WIWD.md"
->>>>>>> 67409fefd23e9a7bbb9502bb3389185832558da4
-  ]
+  "active": "8effb7b12f456048",
+  "lastOpenFiles": []
 }
