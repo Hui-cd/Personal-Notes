@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Master/Machine Learning and Data Mining/Lecture 2.md",
+                "file": "Master/Professional Practice in IT/Lecture 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Master/Machine Learning and Data Mining/Lecture 2.md",
+                "file": "Master/Professional Practice in IT/Lecture 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Master/Machine Learning and Data Mining/Lecture 2.md",
+                "file": "Master/Professional Practice in IT/Lecture 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Master/Machine Learning and Data Mining/Lecture 2.md"
+                "file": "Master/Professional Practice in IT/Lecture 3.md"
               }
             }
           }
@@ -158,6 +158,8 @@
   },
   "active": "40c6907516f40c9c",
   "lastOpenFiles": [
+    "Master/Machine Learning and Data Mining/Lecture 2.md",
+    "Master/Professional Practice in IT/Lecture 3.md",
     "Master/Professional Practice in IT/Tutorial 1.md",
     "Master/Project Management in IT/Tutorial2.md",
     "Master/Project Management in IT/Tute1.md",
