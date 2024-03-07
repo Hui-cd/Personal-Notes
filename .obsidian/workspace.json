@@ -1,20 +1,19 @@
 {
   "main": {
-    "id": "df3db0c107f956d6",
+    "id": "fa5ae9caf32a1ae2",
     "type": "split",
     "children": [
       {
-        "id": "757dbcb645ea747a",
+        "id": "233bd56f415a47d1",
         "type": "tabs",
         "children": [
           {
-            "id": "40c6907516f40c9c",
+            "id": "253a58a78259aac2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Master/Professional Practice in IT/Lecture 3.md",
-                "file": "Master/Professional Practice in IT/Tutorial 1.md",
+                "file": "Master/Machine Learning and Data Mining/Lecture 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6554291d70759fbf",
+    "id": "c8d5923327b5b309",
     "type": "split",
     "children": [
       {
-        "id": "80711209f81b81bf",
+        "id": "86f5f582b530b6a1",
         "type": "tabs",
         "children": [
           {
-            "id": "f60da3ca438a17cd",
+            "id": "a4c27bad2f7b467b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +43,7 @@
             }
           },
           {
-            "id": "f6af28985a3e3649",
+            "id": "1a08fc13ed18ed8b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -59,7 +58,7 @@
             }
           },
           {
-            "id": "6564dc8313d563e9",
+            "id": "e953e19ef11231ef",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -73,15 +72,15 @@
     "width": 300
   },
   "right": {
-    "id": "6647f83a598f8045",
+    "id": "caa13c625cc453a0",
     "type": "split",
     "children": [
       {
-        "id": "c9a6239206a1d105",
+        "id": "8ed4fbeccad2b3de",
         "type": "tabs",
         "children": [
           {
-            "id": "7f1c3085a6024016",
+            "id": "523fb7214d8e133b",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -89,13 +88,12 @@
             }
           },
           {
-            "id": "67ea3100eea1e6d3",
+            "id": "b2e7e83408a5f9e3",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Master/Professional Practice in IT/Lecture 3.md",
-                "file": "Master/Professional Practice in IT/Tutorial 1.md",
+                "file": "Master/Machine Learning and Data Mining/Lecture 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,20 +105,19 @@
             }
           },
           {
-            "id": "246687d0eec330c6",
+            "id": "67889fe6e32ec593",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Master/Professional Practice in IT/Lecture 3.md",
-                "file": "Master/Professional Practice in IT/Tutorial 1.md",
+                "file": "Master/Machine Learning and Data Mining/Lecture 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "a9e2262dbbe60f6b",
+            "id": "d3b1a99306dd73ee",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,13 +128,12 @@
             }
           },
           {
-            "id": "674d6a1a9d9024dd",
+            "id": "7cc68fb98a9b66f2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Master/Professional Practice in IT/Lecture 3.md"
-                "file": "Master/Professional Practice in IT/Tutorial 1.md"
+                "file": "Master/Machine Learning and Data Mining/Lecture 2.md"
               }
             }
           }
@@ -160,18 +156,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "40c6907516f40c9c",
+  "active": "253a58a78259aac2",
   "lastOpenFiles": [
-    "README.md",
-    "Master/Machine Learning and Data Mining/Lecture 2.md",
-    "Master/Professional Practice in IT/Lecture 3.md",
-    "Master/Professional Practice in IT/Tutorial 1.md",
-    "Master/Project Management in IT/Tutorial2.md",
-    "Master/Project Management in IT/Tute1.md",
-    "paper reading/Denoising Diffusion Probabilistic Models.md"
-    "Master/Project Management in IT/Tutorial2.md",
-    "Draloc/Worto.md",
-    "Draloc/Draloc.md",
-    "Draloc/WIWD.md"
+    "Master/Large Scale Networks/Lecture 3.md",
+    "Draloc/worto.md",
+    "Master/Machine Learning and Data Mining/Lecture 2.md"
   ]
 }
