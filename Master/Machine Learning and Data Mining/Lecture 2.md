@@ -1,4 +1,3 @@
-
 ### Linear Regression
 1. Linear regression is a prediction method for regression tasks
 2. Definition: Linear regression is a method to predict the relationship between independent variables and dependent variables. 
