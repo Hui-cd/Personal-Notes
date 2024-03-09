@@ -1,23 +1,19 @@
 {
   "main": {
     "id": "a1969acfde1ce739",
-    "id": "fa5ae9caf32a1ae2",
     "type": "split",
     "children": [
       {
         "id": "f9ce4e52ee9d1557",
-        "id": "233bd56f415a47d1",
         "type": "tabs",
         "children": [
           {
             "id": "9481e599f4b34595",
-            "id": "253a58a78259aac2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Master/Large Scale Networks/Lecture 2 Graph Ties.md",
-                "file": "Master/Machine Learning and Data Mining/Lecture 2.md",
+                "file": "Master/Professional Practice in IT/Lecture 3 IT Lifecycles and their processes.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,17 +26,14 @@
   },
   "left": {
     "id": "e915506273617698",
-    "id": "c8d5923327b5b309",
     "type": "split",
     "children": [
       {
         "id": "54692fc75d13b144",
-        "id": "86f5f582b530b6a1",
         "type": "tabs",
         "children": [
           {
             "id": "6c5098e08b68f393",
-            "id": "a4c27bad2f7b467b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -51,7 +44,6 @@
           },
           {
             "id": "3944800c4250c5b5",
-            "id": "1a08fc13ed18ed8b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,7 +59,6 @@
           },
           {
             "id": "b50617d441e17748",
-            "id": "e953e19ef11231ef",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -82,17 +73,14 @@
   },
   "right": {
     "id": "f7303af43414947e",
-    "id": "caa13c625cc453a0",
     "type": "split",
     "children": [
       {
         "id": "d601cf443268beba",
-        "id": "8ed4fbeccad2b3de",
         "type": "tabs",
         "children": [
           {
             "id": "b47bf4f2c1b653ff",
-            "id": "523fb7214d8e133b",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -101,13 +89,11 @@
           },
           {
             "id": "5c80dab1d7101bf5",
-            "id": "b2e7e83408a5f9e3",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Master/Large Scale Networks/Lecture 2 Graph Ties.md",
-                "file": "Master/Machine Learning and Data Mining/Lecture 2.md",
+                "file": "Master/Professional Practice in IT/Lecture 3 IT Lifecycles and their processes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,13 +106,11 @@
           },
           {
             "id": "455c8e5034c11dd6",
-            "id": "67889fe6e32ec593",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Master/Large Scale Networks/Lecture 2 Graph Ties.md",
-                "file": "Master/Machine Learning and Data Mining/Lecture 2.md",
+                "file": "Master/Professional Practice in IT/Lecture 3 IT Lifecycles and their processes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +118,6 @@
           },
           {
             "id": "f2567a56cec6bfe7",
-            "id": "d3b1a99306dd73ee",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -146,13 +129,11 @@
           },
           {
             "id": "fa105e78d63125b4",
-            "id": "7cc68fb98a9b66f2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Master/Large Scale Networks/Lecture 2 Graph Ties.md"
-                "file": "Master/Machine Learning and Data Mining/Lecture 2.md"
+                "file": "Master/Professional Practice in IT/Lecture 3 IT Lifecycles and their processes.md"
               }
             }
           }
@@ -176,10 +157,16 @@
     }
   },
   "active": "9481e599f4b34595",
-  "active": "253a58a78259aac2",
   "lastOpenFiles": [
     "Master/Large Scale Networks/Lecture 3.md",
-    "Draloc/worto.md",
-    "Master/Machine Learning and Data Mining/Lecture 2.md"
+    "Master/Large Scale Networks/Lecture 2 Graph Ties.md",
+    "resourse/1287498d-f0b8-4cd6-aa6e-efe17bb2ec64",
+    "resourse/Unconfirmed 873488.crdownload",
+    "resourse",
+    "新建文件夹",
+    "Master/Professional Practice in IT/Lecture 3 IT Lifecycles and their processes.md",
+    "Master/Large Scale Networks/Lecture 1.md",
+    "Master/Machine Learning and Data Mining/Lecture 2.md",
+    "Master/Machine Learning and Data Mining/Lecture 1.md"
   ]
 }
