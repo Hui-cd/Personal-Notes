@@ -1,20 +1,19 @@
 {
   "main": {
-    "id": "df3db0c107f956d6",
+    "id": "a1969acfde1ce739",
     "type": "split",
     "children": [
       {
-        "id": "757dbcb645ea747a",
+        "id": "f9ce4e52ee9d1557",
         "type": "tabs",
         "children": [
           {
-            "id": "40c6907516f40c9c",
+            "id": "9481e599f4b34595",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Master/Professional Practice in IT/Lecture 3.md",
-                "file": "Master/Professional Practice in IT/Tutorial 1.md",
+                "file": "Master/Large Scale Networks/Lecture 2 Graph Ties.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6554291d70759fbf",
+    "id": "e915506273617698",
     "type": "split",
     "children": [
       {
-        "id": "80711209f81b81bf",
+        "id": "54692fc75d13b144",
         "type": "tabs",
         "children": [
           {
-            "id": "f60da3ca438a17cd",
+            "id": "6c5098e08b68f393",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +43,7 @@
             }
           },
           {
-            "id": "f6af28985a3e3649",
+            "id": "3944800c4250c5b5",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -59,7 +58,7 @@
             }
           },
           {
-            "id": "6564dc8313d563e9",
+            "id": "b50617d441e17748",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -73,15 +72,15 @@
     "width": 300
   },
   "right": {
-    "id": "6647f83a598f8045",
+    "id": "f7303af43414947e",
     "type": "split",
     "children": [
       {
-        "id": "c9a6239206a1d105",
+        "id": "d601cf443268beba",
         "type": "tabs",
         "children": [
           {
-            "id": "7f1c3085a6024016",
+            "id": "b47bf4f2c1b653ff",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -89,13 +88,12 @@
             }
           },
           {
-            "id": "67ea3100eea1e6d3",
+            "id": "5c80dab1d7101bf5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Master/Professional Practice in IT/Lecture 3.md",
-                "file": "Master/Professional Practice in IT/Tutorial 1.md",
+                "file": "Master/Large Scale Networks/Lecture 2 Graph Ties.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,20 +105,19 @@
             }
           },
           {
-            "id": "246687d0eec330c6",
+            "id": "455c8e5034c11dd6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Master/Professional Practice in IT/Lecture 3.md",
-                "file": "Master/Professional Practice in IT/Tutorial 1.md",
+                "file": "Master/Large Scale Networks/Lecture 2 Graph Ties.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "a9e2262dbbe60f6b",
+            "id": "f2567a56cec6bfe7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,13 +128,12 @@
             }
           },
           {
-            "id": "674d6a1a9d9024dd",
+            "id": "fa105e78d63125b4",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Master/Professional Practice in IT/Lecture 3.md"
-                "file": "Master/Professional Practice in IT/Tutorial 1.md"
+                "file": "Master/Large Scale Networks/Lecture 2 Graph Ties.md"
               }
             }
           }
@@ -160,18 +156,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "40c6907516f40c9c",
+  "active": "9481e599f4b34595",
   "lastOpenFiles": [
-    "README.md",
-    "Master/Machine Learning and Data Mining/Lecture 2.md",
+    "resourse/1287498d-f0b8-4cd6-aa6e-efe17bb2ec64",
+    "resourse/Unconfirmed 873488.crdownload",
+    "resourse",
+    "新建文件夹",
     "Master/Professional Practice in IT/Lecture 3.md",
-    "Master/Professional Practice in IT/Tutorial 1.md",
-    "Master/Project Management in IT/Tutorial2.md",
-    "Master/Project Management in IT/Tute1.md",
-    "paper reading/Denoising Diffusion Probabilistic Models.md"
-    "Master/Project Management in IT/Tutorial2.md",
-    "Draloc/Worto.md",
-    "Draloc/Draloc.md",
-    "Draloc/WIWD.md"
+    "Master/Large Scale Networks/Lecture 2 Graph Ties.md",
+    "Master/Large Scale Networks/Lecture 1.md",
+    "Master/Machine Learning and Data Mining/Lecture 2.md",
+    "Master/Machine Learning and Data Mining/Lecture 1.md"
   ]
 }
