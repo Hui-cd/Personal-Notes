@@ -101,8 +101,8 @@
     }
   },
   "version": {
-    "zotero": "6.0.30",
-    "bbt": "6.7.163"
+    "zotero": "6.0.36",
+    "bbt": "6.7.174"
   },
   "collections": {
     "49BIAB6R": {
@@ -139,20 +139,10 @@
         389
       ]
     },
-    "LIVRFJFF": {
-      "key": "LIVRFJFF",
-      "parent": "",
-      "name": "LSTM",
-      "collections": [],
-      "items": [
-        15,
-        358
-      ]
-    },
     "K84JTQUN": {
       "key": "K84JTQUN",
       "parent": "",
-      "name": "NLP",
+      "name": "DeepLearning",
       "collections": [],
       "items": [
         15,
@@ -171,11 +161,125 @@
         462,
         463,
         488,
-        489
+        489,
+        497,
+        500,
+        505,
+        507,
+        510,
+        518,
+        551
+      ]
+    },
+    "73CE3P23": {
+      "key": "73CE3P23",
+      "parent": "",
+      "name": "Network",
+      "collections": [],
+      "items": [
+        514
+      ]
+    },
+    "LIVRFJFF": {
+      "key": "LIVRFJFF",
+      "parent": "",
+      "name": "NLP",
+      "collections": [],
+      "items": [
+        15,
+        358,
+        516
       ]
     }
   },
   "items": [
+    {
+      "key": "YTPK5T86",
+      "version": 1121,
+      "itemType": "conferencePaper",
+      "title": "Social LSTM: Human Trajectory Prediction in Crowded Spaces",
+      "abstractNote": "Pedestrians follow different trajectories to avoid obstacles and accommodate fellow pedestrians. Any autonomous vehicle navigating such a scene should be able to foresee the future positions of pedestrians and accordingly adjust its path to avoid collisions. This problem of trajectory prediction can be viewed as a sequence generation task, where we are interested in predicting the future trajectory of people based on their past positions. Following the recent success of Recurrent Neural Network (RNN) models for sequence prediction tasks, we propose an LSTM model which can learn general human movement and predict their future trajectories. This is in contrast to traditional approaches which use hand-crafted functions such as Social forces. We demonstrate the performance of our method on several public datasets. Our model outperforms state-of-the-art methods on some of these datasets . We also analyze the trajectories predicted by our model to demonstrate the motion behaviour learned by our model.",
+      "date": "6/2016",
+      "language": "en",
+      "shortTitle": "Social LSTM",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "url": "http://ieeexplore.ieee.org/document/7780479/",
+      "accessDate": "2024-03-17T14:53:12Z",
+      "place": "Las Vegas, NV, USA",
+      "publisher": "IEEE",
+      "ISBN": "978-1-4673-8851-1",
+      "pages": "961-971",
+      "proceedingsTitle": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "conferenceName": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "DOI": "10.1109/CVPR.2016.110",
+      "creators": [
+        {
+          "firstName": "Alexandre",
+          "lastName": "Alahi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Kratarth",
+          "lastName": "Goel",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Vignesh",
+          "lastName": "Ramanathan",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Alexandre",
+          "lastName": "Robicquet",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Li",
+          "lastName": "Fei-Fei",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Silvio",
+          "lastName": "Savarese",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2024-03-17T14:53:12Z",
+      "dateModified": "2024-03-17T14:53:17Z",
+      "uri": "http://zotero.org/users/10101446/items/YTPK5T86",
+      "itemID": 497,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Alahi \u7b49 - 2016 - Social LSTM Human Trajectory Prediction in Crowde.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-03-17T14:53:07Z",
+          "dateModified": "2024-03-17T14:53:17Z",
+          "uri": "http://zotero.org/users/10101446/items/6A95U4PM",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\6A95U4PM\\Alahi \u7b49 - 2016 - Social LSTM Human Trajectory Prediction in Crowde.pdf",
+          "select": "zotero://select/library/items/6A95U4PM"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Social LSTM: Human Trajectory Prediction in Crowded Spaces",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-03-17T14:53:17Z",
+          "dateModified": "2024-03-17T14:53:17Z",
+          "uri": "http://zotero.org/users/10101446/items/BU3HV5B4",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\BU3HV5B4\\alahi2016.pdf.pdf",
+          "select": "zotero://select/library/items/BU3HV5B4"
+        }
+      ],
+      "notes": [],
+      "citationKey": "alahi2016-social",
+      "itemKey": "YTPK5T86",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/YTPK5T86"
+    },
     {
       "key": "2QDAQPG3",
       "version": 122,
@@ -611,6 +715,162 @@
       "select": "zotero://select/library/items/WVZPU5NR"
     },
     {
+      "key": "367NAVYW",
+      "version": 1179,
+      "itemType": "preprint",
+      "title": "COIG-CQIA: Quality is All You Need for Chinese Instruction Fine-tuning",
+      "abstractNote": "Recently, there have been significant advancements in large language models (LLMs), particularly focused on the English language. These advancements have enabled these LLMs to understand and execute complex instructions with unprecedented accuracy and fluency. However, despite these advancements, there remains a noticeable gap in the development of Chinese instruction tuning. The unique linguistic features and cultural depth of the Chinese language pose challenges for instruction tuning tasks. Existing datasets are either derived from English-centric LLMs or are ill-suited for aligning with the interaction patterns of real-world Chinese users. To bridge this gap, we introduce COIG-CQIA, a high-quality Chinese instruction tuning dataset. Our aim is to build a diverse, wide-ranging instruction-tuning dataset to better align model behavior with human interactions. To this end, we collect a high-quality human-written corpus from various sources on the Chinese Internet, including Q&A communities, Wikis, examinations, and existing NLP datasets. This corpus was rigorously filtered and carefully processed to form the COIG-CQIA dataset. Furthermore, we train models of various scales on different subsets of CQIA, following in-depth evaluation and analyses. The findings from our experiments offer valuable insights for selecting and developing Chinese instruction-tuning datasets. We also find that models trained on CQIA-Subset achieve competitive results in human assessment as well as knowledge and security benchmarks. Data are available at https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+      "date": "2024-03-26",
+      "language": "en",
+      "shortTitle": "COIG-CQIA",
+      "libraryCatalog": "arXiv.org",
+      "url": "http://arxiv.org/abs/2403.18058",
+      "accessDate": "2024-04-04T11:08:18Z",
+      "extra": "arXiv:2403.18058 [cs]",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2403.18058",
+      "creators": [
+        {
+          "firstName": "Yuelin",
+          "lastName": "Bai",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xinrun",
+          "lastName": "Du",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yiming",
+          "lastName": "Liang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yonggang",
+          "lastName": "Jin",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ziqiang",
+          "lastName": "Liu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Junting",
+          "lastName": "Zhou",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Tianyu",
+          "lastName": "Zheng",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xincheng",
+          "lastName": "Zhang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Nuo",
+          "lastName": "Ma",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Zekun",
+          "lastName": "Wang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ruibin",
+          "lastName": "Yuan",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Haihong",
+          "lastName": "Wu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Hongquan",
+          "lastName": "Lin",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Wenhao",
+          "lastName": "Huang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jiajun",
+          "lastName": "Zhang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Wenhu",
+          "lastName": "Chen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Chenghua",
+          "lastName": "Lin",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jie",
+          "lastName": "Fu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Min",
+          "lastName": "Yang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Shiwen",
+          "lastName": "Ni",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ge",
+          "lastName": "Zhang",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computer Science - Artificial Intelligence",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Computation and Language",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-04-04T11:08:18Z",
+      "dateModified": "2024-04-04T11:08:18Z",
+      "uri": "http://zotero.org/users/10101446/items/367NAVYW",
+      "itemID": 516,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Bai \u7b49 - 2024 - COIG-CQIA Quality is All You Need for Chinese Ins.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-04-04T11:08:12Z",
+          "dateModified": "2024-04-04T11:08:19Z",
+          "uri": "http://zotero.org/users/10101446/items/SIEUJ2RZ",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\SIEUJ2RZ\\Bai \u7b49 - 2024 - COIG-CQIA Quality is All You Need for Chinese Ins.pdf",
+          "select": "zotero://select/library/items/SIEUJ2RZ"
+        }
+      ],
+      "notes": [],
+      "citationKey": "bai2024-coigcqia",
+      "itemKey": "367NAVYW",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/367NAVYW"
+    },
+    {
       "key": "2U4KY52L",
       "version": 1090,
       "itemType": "preprint",
@@ -683,6 +943,71 @@
       "itemKey": "2U4KY52L",
       "libraryID": 1,
       "select": "zotero://select/library/items/2U4KY52L"
+    },
+    {
+      "key": "9N89MYXQ",
+      "version": 1122,
+      "itemType": "conferencePaper",
+      "title": "Unsupervised Sampling Promoting for Stochastic Human Trajectory Prediction",
+      "abstractNote": "The indeterminate nature of human motion requires trajectory prediction systems to use a probabilistic model to formulate the multi-modality phenomenon and infer a finite set of future trajectories. However, the inference processes of most existing methods rely on Monte Carlo random sampling, which is insufficient to cover the realistic paths with finite samples, due to the long tail effect of the predicted distribution. To promote the sampling process of stochastic prediction, we propose a novel method, called BOsampler , to adaptively mine potential paths with Bayesian optimization in an unsupervised manner, as a sequential design strategy in which new prediction is dependent on the previously drawn samples. Specifically, we model the trajectory sampling as a Gaussian process and construct an acquisition function to measure the potential sampling value. This acquisition function applies the original distribution as prior and encourages exploring paths in the long-tail region. This sampling method can be integrated with existing stochastic predictive models without retraining. Experimental results on various baseline methods demonstrate the effectiveness of our method. The source code is released in this link.",
+      "date": "6/2023",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "url": "https://ieeexplore.ieee.org/document/10203123/",
+      "accessDate": "2024-03-17T14:53:24Z",
+      "place": "Vancouver, BC, Canada",
+      "publisher": "IEEE",
+      "ISBN": "9798350301298",
+      "pages": "17874-17884",
+      "proceedingsTitle": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "conferenceName": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "DOI": "10.1109/CVPR52729.2023.01714",
+      "creators": [
+        {
+          "firstName": "Guangyi",
+          "lastName": "Chen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Zhenhao",
+          "lastName": "Chen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Shunxing",
+          "lastName": "Fan",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Kun",
+          "lastName": "Zhang",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2024-03-17T14:53:24Z",
+      "dateModified": "2024-03-17T14:53:31Z",
+      "uri": "http://zotero.org/users/10101446/items/9N89MYXQ",
+      "itemID": 500,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Chen \u7b49 - 2023 - Unsupervised Sampling Promoting for Stochastic Hum.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-03-17T14:53:19Z",
+          "dateModified": "2024-03-17T14:53:31Z",
+          "uri": "http://zotero.org/users/10101446/items/2XS9G975",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\2XS9G975\\Chen \u7b49 - 2023 - Unsupervised Sampling Promoting for Stochastic Hum.pdf",
+          "select": "zotero://select/library/items/2XS9G975"
+        }
+      ],
+      "notes": [],
+      "citationKey": "chen2023-unsupervised",
+      "itemKey": "9N89MYXQ",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/9N89MYXQ"
     },
     {
       "key": "9XR6FCUM",
@@ -1397,6 +1722,383 @@
       "select": "zotero://select/library/items/XBBRUGC7"
     },
     {
+      "key": "ZALHAE8W",
+      "version": 1138,
+      "itemType": "conferencePaper",
+      "title": "Benchmark for Evaluating Pedestrian Action Prediction",
+      "abstractNote": "Pedestrian action prediction has been a topic of active research in recent years resulting in many new algorithmic solutions. However, measuring the overall progress towards solving this problem is dif\ufb01cult due to the lack of publicly available benchmarks and common training and evaluation procedures. To this end, we introduce a benchmark based on two public datasets for pedestrian behavior understanding. Using the proposed evaluation procedures, we rank a number of baseline and state-of-theart models and analyze their performance with respect to various properties of the data. Based on these \ufb01ndings we propose a new model for pedestrian crossing action prediction that uses attention mechanisms to effectively combine implicit and explicit features and demonstrate new state-of-the-art results. The code for models and evaluation is available at https://github.com/ ykotseruba/PedestrianActionBenchmark.",
+      "date": "1/2021",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "url": "https://ieeexplore.ieee.org/document/9423436/",
+      "accessDate": "2024-03-17T14:55:22Z",
+      "place": "Waikoloa, HI, USA",
+      "publisher": "IEEE",
+      "ISBN": "978-1-66540-477-8",
+      "pages": "1257-1267",
+      "proceedingsTitle": "2021 IEEE Winter Conference on Applications of Computer Vision (WACV)",
+      "conferenceName": "2021 IEEE Winter Conference on Applications of Computer Vision (WACV)",
+      "DOI": "10.1109/WACV48630.2021.00130",
+      "creators": [
+        {
+          "firstName": "Iuliia",
+          "lastName": "Kotseruba",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Amir",
+          "lastName": "Rasouli",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "John K.",
+          "lastName": "Tsotsos",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2024-03-17T14:55:22Z",
+      "dateModified": "2024-03-17T14:55:25Z",
+      "uri": "http://zotero.org/users/10101446/items/ZALHAE8W",
+      "itemID": 510,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Benchmark for Evaluating Pedestrian Action Prediction",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-03-17T14:55:25Z",
+          "dateModified": "2024-03-17T14:55:25Z",
+          "uri": "http://zotero.org/users/10101446/items/MZWTYN7G",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\MZWTYN7G\\kotseruba2021.pdf.pdf",
+          "select": "zotero://select/library/items/MZWTYN7G"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Kotseruba \u7b49 - 2021 - Benchmark for Evaluating Pedestrian Action Predict.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-03-17T14:55:19Z",
+          "dateModified": "2024-03-17T14:55:26Z",
+          "uri": "http://zotero.org/users/10101446/items/GP5U5ZNV",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\GP5U5ZNV\\Kotseruba \u7b49 - 2021 - Benchmark for Evaluating Pedestrian Action Predict.pdf",
+          "select": "zotero://select/library/items/GP5U5ZNV"
+        }
+      ],
+      "notes": [],
+      "citationKey": "kotseruba2021-benchmark",
+      "itemKey": "ZALHAE8W",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/ZALHAE8W"
+    },
+    {
+      "key": "VP7ADWWH",
+      "version": 1161,
+      "itemType": "conferencePaper",
+      "title": "A Dataset of Networks of Computing Hosts",
+      "abstractNote": "We are making public a dataset of 21 disjoint graphs representing communications among machines running different distributed applications in various enterprises. We provide a ground truth grouping for one graph. The grouping is useful for evaluating tasks such as clustering hosts based on network communications. We describe the graphs and present a brief exploratory analysis to illustrate some of the properties, possible uses of the data, and some of the challenges.",
+      "date": "2022-04-18",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "url": "https://dl.acm.org/doi/10.1145/3510548.3519368",
+      "accessDate": "2024-04-04T07:07:31Z",
+      "place": "Baltimore MD USA",
+      "publisher": "ACM",
+      "ISBN": "978-1-4503-9230-3",
+      "pages": "100-104",
+      "proceedingsTitle": "Proceedings of the 2022 ACM on International Workshop on Security and Privacy Analytics",
+      "conferenceName": "CODASPY '22: Twelveth ACM Conference on Data and Application Security and Privacy",
+      "DOI": "10.1145/3510548.3519368",
+      "creators": [
+        {
+          "firstName": "Omid",
+          "lastName": "Madani",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sai Ankith",
+          "lastName": "Averineni",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Shashidhar",
+          "lastName": "Gandham",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2024-04-04T07:07:31Z",
+      "dateModified": "2024-04-04T07:07:38Z",
+      "uri": "http://zotero.org/users/10101446/items/VP7ADWWH",
+      "itemID": 514,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "A Dataset of Networks of Computing Hosts.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-04-04T07:07:26Z",
+          "dateModified": "2024-04-04T07:07:38Z",
+          "uri": "http://zotero.org/users/10101446/items/FJIWMTJD",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\FJIWMTJD\\A Dataset of Networks of Computing Hosts.pdf",
+          "select": "zotero://select/library/items/FJIWMTJD"
+        }
+      ],
+      "notes": [],
+      "citationKey": "madani2022-dataset",
+      "itemKey": "VP7ADWWH",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/VP7ADWWH"
+    },
+    {
+      "key": "GLENCQ2M",
+      "version": 1305,
+      "itemType": "preprint",
+      "title": "Differentiable plasticity: training plastic neural networks with backpropagation",
+      "abstractNote": "How can we build agents that keep learning from experience, quickly and ef\ufb01ciently, after their initial training? Here we take inspiration from the main mechanism of learning in biological brains: synaptic plasticity, carefully tuned by evolution to produce ef\ufb01cient lifelong learning. We show that plasticity, just like connection weights, can be optimized by gradient descent in large (millions of parameters) recurrent networks with Hebbian plastic connections. First, recurrent plastic networks with more than two million parameters can be trained to memorize and reconstruct sets of novel, high-dimensional (1,000+ pixels) natural images not seen during training. Crucially, traditional non-plastic recurrent networks fail to solve this task. Furthermore, trained plastic networks can also solve generic meta-learning tasks such as the Omniglot task, with competitive results and little parameter overhead. Finally, in reinforcement learning settings, plastic networks outperform a non-plastic equivalent in a maze exploration task. We conclude that differentiable plasticity may provide a powerful novel approach to the learning-to-learn problem.",
+      "date": "2018-07-31",
+      "language": "en",
+      "shortTitle": "Differentiable plasticity",
+      "libraryCatalog": "arXiv.org",
+      "url": "http://arxiv.org/abs/1804.02464",
+      "accessDate": "2024-04-15T08:21:18Z",
+      "extra": "arXiv:1804.02464 [cs, stat]",
+      "repository": "arXiv",
+      "archiveID": "arXiv:1804.02464",
+      "creators": [
+        {
+          "firstName": "Thomas",
+          "lastName": "Miconi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jeff",
+          "lastName": "Clune",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Kenneth O.",
+          "lastName": "Stanley",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computer Science - Machine Learning",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Neural and Evolutionary Computing",
+          "type": 1
+        },
+        {
+          "tag": "Statistics - Machine Learning",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-04-15T08:21:18Z",
+      "dateModified": "2024-04-15T08:21:19Z",
+      "uri": "http://zotero.org/users/10101446/items/GLENCQ2M",
+      "itemID": 551,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Miconi \u7b49 - 2018 - Differentiable plasticity training plastic neural.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-04-15T08:21:12Z",
+          "dateModified": "2024-04-15T08:21:19Z",
+          "uri": "http://zotero.org/users/10101446/items/D6YFN9V6",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\D6YFN9V6\\Miconi \u7b49 - 2018 - Differentiable plasticity training plastic neural.pdf",
+          "select": "zotero://select/library/items/D6YFN9V6"
+        }
+      ],
+      "notes": [
+        {
+          "key": "MJLCUL7Z",
+          "version": 1305,
+          "itemType": "note",
+          "parentItem": "GLENCQ2M",
+          "note": "Comment: Presented at ICML 2018",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-04-15T08:21:18Z",
+          "dateModified": "2024-04-15T08:21:18Z",
+          "uri": "http://zotero.org/users/10101446/items/MJLCUL7Z"
+        }
+      ],
+      "citationKey": "miconi2018-differentiable",
+      "itemKey": "GLENCQ2M",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/GLENCQ2M"
+    },
+    {
+      "key": "FGMGNC62",
+      "version": 1134,
+      "itemType": "conferencePaper",
+      "title": "Social-STGCNN: A Social Spatio-Temporal Graph Convolutional Neural Network for Human Trajectory Prediction",
+      "date": "6/2020",
+      "language": "en",
+      "shortTitle": "Social-STGCNN",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "url": "https://ieeexplore.ieee.org/document/9156583/",
+      "accessDate": "2024-03-17T14:54:35Z",
+      "place": "Seattle, WA, USA",
+      "publisher": "IEEE",
+      "ISBN": "978-1-72817-168-5",
+      "pages": "14412-14420",
+      "proceedingsTitle": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "conferenceName": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "DOI": "10.1109/CVPR42600.2020.01443",
+      "creators": [
+        {
+          "firstName": "Abduallah",
+          "lastName": "Mohamed",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Kun",
+          "lastName": "Qian",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mohamed",
+          "lastName": "Elhoseiny",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Christian",
+          "lastName": "Claudel",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2024-03-17T14:54:35Z",
+      "dateModified": "2024-03-17T14:54:38Z",
+      "uri": "http://zotero.org/users/10101446/items/FGMGNC62",
+      "itemID": 507,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Mohamed \u7b49 - 2020 - Social-STGCNN A Social Spatio-Temporal Graph Conv.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-03-17T14:54:31Z",
+          "dateModified": "2024-03-17T14:54:38Z",
+          "uri": "http://zotero.org/users/10101446/items/YUYFYCIB",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\YUYFYCIB\\Mohamed \u7b49 - 2020 - Social-STGCNN A Social Spatio-Temporal Graph Conv.pdf",
+          "select": "zotero://select/library/items/YUYFYCIB"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Social-STGCNN: A Social Spatio-Temporal Graph Convolutional Neural Network for Human Trajectory Prediction",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-03-17T14:54:38Z",
+          "dateModified": "2024-03-17T14:54:38Z",
+          "uri": "http://zotero.org/users/10101446/items/ASQ5IU3F",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\ASQ5IU3F\\mohamed2020.pdf.pdf",
+          "select": "zotero://select/library/items/ASQ5IU3F"
+        }
+      ],
+      "notes": [],
+      "citationKey": "mohamed2020-socialstgcnn",
+      "itemKey": "FGMGNC62",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/FGMGNC62"
+    },
+    {
+      "key": "7NK5V74U",
+      "version": 1190,
+      "itemType": "preprint",
+      "title": "Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention",
+      "abstractNote": "This work introduces an efficient method to scale Transformer-based Large Language Models (LLMs) to infinitely long inputs with bounded memory and computation. A key component in our proposed approach is a new attention technique dubbed Infini-attention. The Infini-attention incorporates a compressive memory into the vanilla attention mechanism and builds in both masked local attention and long-term linear attention mechanisms in a single Transformer block. We demonstrate the effectiveness of our approach on long-context language modeling benchmarks, 1M sequence length passkey context block retrieval and 500K length book summarization tasks with 1B and 8B LLMs. Our approach introduces minimal bounded memory parameters and enables fast streaming inference for LLMs.",
+      "date": "2024-04-10",
+      "language": "en",
+      "shortTitle": "Leave No Context Behind",
+      "libraryCatalog": "arXiv.org",
+      "url": "http://arxiv.org/abs/2404.07143",
+      "accessDate": "2024-04-13T06:31:28Z",
+      "extra": "arXiv:2404.07143 [cs]",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2404.07143",
+      "creators": [
+        {
+          "firstName": "Tsendsuren",
+          "lastName": "Munkhdalai",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Manaal",
+          "lastName": "Faruqui",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Siddharth",
+          "lastName": "Gopal",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computer Science - Artificial Intelligence",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Computation and Language",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Machine Learning",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Neural and Evolutionary Computing",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-04-13T06:31:28Z",
+      "dateModified": "2024-04-13T06:31:29Z",
+      "uri": "http://zotero.org/users/10101446/items/7NK5V74U",
+      "itemID": 518,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Munkhdalai \u7b49 - 2024 - Leave No Context Behind Efficient Infinite Contex.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-04-13T06:31:22Z",
+          "dateModified": "2024-04-13T06:31:29Z",
+          "uri": "http://zotero.org/users/10101446/items/IMMZ7FWL",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\IMMZ7FWL\\Munkhdalai \u7b49 - 2024 - Leave No Context Behind Efficient Infinite Contex.pdf",
+          "select": "zotero://select/library/items/IMMZ7FWL"
+        }
+      ],
+      "notes": [
+        {
+          "key": "LSAXSL6I",
+          "version": 1190,
+          "itemType": "note",
+          "parentItem": "7NK5V74U",
+          "note": "Comment: 9 pages, 4 figures, 4 tables",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-04-13T06:31:28Z",
+          "dateModified": "2024-04-13T06:31:28Z",
+          "uri": "http://zotero.org/users/10101446/items/LSAXSL6I"
+        }
+      ],
+      "citationKey": "munkhdalai2024-leave",
+      "itemKey": "7NK5V74U",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/7NK5V74U"
+    },
+    {
       "key": "6JZ2ZFBE",
       "version": 360,
       "itemType": "note",
@@ -1681,6 +2383,67 @@
       "itemKey": "7T5MVX42",
       "libraryID": 1,
       "select": "zotero://select/library/items/7T5MVX42"
+    },
+    {
+      "key": "PXZ7UMK4",
+      "version": 1131,
+      "itemType": "conferencePaper",
+      "title": "Introvert: Human Trajectory Prediction via Conditional 3D Attention",
+      "abstractNote": "Predicting human trajectories is an important component of autonomous moving platforms, such as social robots and self-driving cars. Human trajectories are affected by both the physical features of the environment and social interactions with other humans. Despite recent surge of studies on human path prediction, most works focus on static scene information, therefore, cannot leverage the rich dynamic visual information of the scene. In this work, we propose Introvert, a model which predicts human path based on his/her observed trajectory and the dynamic scene context, captured via a conditional 3D visual attention mechanism working on the input video. Introvert infers both environment constraints and social interactions through observing the dynamic scene instead of communicating with other humans, hence, its computational cost is independent of how crowded the surrounding of a target human is. In addition, to focus on relevant interactions and constraints for each human, Introvert conditions its 3D attention model on the observed trajectory of the target human to extract and focus on relevant spatio-temporal primitives. Our experiments on \ufb01ve publicly available datasets show that the Introvert improves the prediction errors of the state of the art.",
+      "date": "6/2021",
+      "language": "en",
+      "shortTitle": "Introvert",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "url": "https://ieeexplore.ieee.org/document/9577353/",
+      "accessDate": "2024-03-17T14:54:05Z",
+      "place": "Nashville, TN, USA",
+      "publisher": "IEEE",
+      "ISBN": "978-1-66544-509-2",
+      "pages": "16810-16820",
+      "proceedingsTitle": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "conferenceName": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "DOI": "10.1109/CVPR46437.2021.01654",
+      "creators": [
+        {
+          "firstName": "Nasim",
+          "lastName": "Shafiee",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Taskin",
+          "lastName": "Padir",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ehsan",
+          "lastName": "Elhamifar",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2024-03-17T14:54:05Z",
+      "dateModified": "2024-03-17T14:54:08Z",
+      "uri": "http://zotero.org/users/10101446/items/PXZ7UMK4",
+      "itemID": 505,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Shafiee \u7b49 - 2021 - Introvert Human Trajectory Prediction via Conditi.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-03-17T14:54:01Z",
+          "dateModified": "2024-03-17T14:54:08Z",
+          "uri": "http://zotero.org/users/10101446/items/YL858F9L",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\YL858F9L\\Shafiee \u7b49 - 2021 - Introvert Human Trajectory Prediction via Conditi.pdf",
+          "select": "zotero://select/library/items/YL858F9L"
+        }
+      ],
+      "notes": [],
+      "citationKey": "shafiee2021-introvert",
+      "itemKey": "PXZ7UMK4",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/PXZ7UMK4"
     },
     {
       "key": "99BHSFSW",

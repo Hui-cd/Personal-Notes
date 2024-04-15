@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9481e599f4b34595",
+            "id": "e1632be0a1fd51b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Master/Professional Practice in IT/Lecture 3 IT Lifecycles and their processes.md",
+                "file": "Master/Machine Learning and Data Mining/Lecture 8.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 244.5
   },
   "right": {
     "id": "f7303af43414947e",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Master/Professional Practice in IT/Lecture 3 IT Lifecycles and their processes.md",
+                "file": "Master/Machine Learning and Data Mining/Lecture 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Master/Professional Practice in IT/Lecture 3 IT Lifecycles and their processes.md",
+                "file": "Master/Machine Learning and Data Mining/Lecture 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Master/Professional Practice in IT/Lecture 3 IT Lifecycles and their processes.md"
+                "file": "Master/Machine Learning and Data Mining/Lecture 8.md"
               }
             }
           }
@@ -156,17 +156,36 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9481e599f4b34595",
+  "active": "e1632be0a1fd51b9",
   "lastOpenFiles": [
-    "Master/Large Scale Networks/Lecture 3.md",
+    "paper reading/Leave No Context Behind Efficient Infinite Context Transformers with Infini-attention.md",
+    "Master/Machine Learning and Data Mining/Lecture 8.md",
+    "Master/Professional Practice in IT/Lecture 8 Security Management.md",
+    "Master/Professional Practice in IT/Lecture 2 Creating Organisational Value Through IT Investments.md",
+    "Master/Machine Learning and Data Mining/Lecture 3 Linear regression. Logistic regression. Overfitting and regularization..md",
+    "Master/Machine Learning and Data Mining/Lecture 1 Introduction to machine learning and data mining.md",
+    "Master/Machine Learning and Data Mining/Lecture 2 Nearest neighbour. Rule-based algorithms..md",
+    "Master/Machine Learning and Data Mining/Lecture 4 Naive Bayes. Evaluating machine learning methods..md",
+    "Master/Professional Practice in IT/Lecture 3 IT Lifecycles and their processes.md",
+    "Master/Professional Practice in IT/Lecture 1 Unit Overview & The IT Industry.md",
     "Master/Large Scale Networks/Lecture 2 Graph Ties.md",
+    "Master/Project Management in IT/week1-5 exam.md",
+    "Master/Project Management in IT/lecture 3.md",
+    "Master/Professional Practice in IT/People and Teams.md",
+    "Master/Professional Practice in IT/Group Report.md",
+    "Master/Large Scale Networks/Lecture 3 Structural Balance.md",
+    "Book/第一章.md",
+    "ImageResource/infini_attention.png",
+    "ImageResource/屏幕截图 2024-04-14 164758.png",
+    "ImageResource",
+    "Master/Large Scale Networks/Lecture 5 Web, Hubs and Authorities.md",
+    "Master/Large Scale Networks/Lab6.md",
+    "Master/Large Scale Networks/Lecture 1.md",
+    "Master/Machine Learning and Data Mining/Lecture 4.md",
+    "Master/Professional Practice in IT/Tutorial 1.md",
     "resourse/1287498d-f0b8-4cd6-aa6e-efe17bb2ec64",
     "resourse/Unconfirmed 873488.crdownload",
     "resourse",
-    "新建文件夹",
-    "Master/Professional Practice in IT/Lecture 3 IT Lifecycles and their processes.md",
-    "Master/Large Scale Networks/Lecture 1.md",
-    "Master/Machine Learning and Data Mining/Lecture 2.md",
-    "Master/Machine Learning and Data Mining/Lecture 1.md"
+    "新建文件夹"
   ]
 }
