@@ -838,11 +838,11 @@
       ],
       "tags": [
         {
-          "tag": "Computer Science - Artificial Intelligence",
+          "tag": "Computer Science - Computation and Language",
           "type": 1
         },
         {
-          "tag": "Computer Science - Computation and Language",
+          "tag": "Computer Science - Artificial Intelligence",
           "type": 1
         }
       ],
@@ -1794,7 +1794,7 @@
     },
     {
       "key": "VP7ADWWH",
-      "version": 1161,
+      "version": 1162,
       "itemType": "conferencePaper",
       "title": "A Dataset of Networks of Computing Hosts",
       "abstractNote": "We are making public a dataset of 21 disjoint graphs representing communications among machines running different distributed applications in various enterprises. We provide a ground truth grouping for one graph. The grouping is useful for evaluating tasks such as clustering hosts based on network communications. We describe the graphs and present a brief exploratory analysis to illustrate some of the properties, possible uses of the data, and some of the challenges.",
@@ -1836,13 +1836,13 @@
       "attachments": [
         {
           "itemType": "attachment",
-          "title": "A Dataset of Networks of Computing Hosts.pdf",
+          "title": "Madani \u7b49 - 2022 - A Dataset of Networks of Computing Hosts.pdf",
           "tags": [],
           "relations": {},
           "dateAdded": "2024-04-04T07:07:26Z",
-          "dateModified": "2024-04-04T07:07:38Z",
+          "dateModified": "2024-04-04T07:07:39Z",
           "uri": "http://zotero.org/users/10101446/items/FJIWMTJD",
-          "path": "C:\\Users\\gyh14\\Zotero\\storage\\FJIWMTJD\\A Dataset of Networks of Computing Hosts.pdf",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\FJIWMTJD\\Madani \u7b49 - 2022 - A Dataset of Networks of Computing Hosts.pdf",
           "select": "zotero://select/library/items/FJIWMTJD"
         }
       ],
@@ -1886,11 +1886,11 @@
       ],
       "tags": [
         {
-          "tag": "Computer Science - Machine Learning",
+          "tag": "Computer Science - Neural and Evolutionary Computing",
           "type": 1
         },
         {
-          "tag": "Computer Science - Neural and Evolutionary Computing",
+          "tag": "Computer Science - Machine Learning",
           "type": 1
         },
         {
@@ -2045,7 +2045,7 @@
       ],
       "tags": [
         {
-          "tag": "Computer Science - Artificial Intelligence",
+          "tag": "Computer Science - Neural and Evolutionary Computing",
           "type": 1
         },
         {
@@ -2057,7 +2057,7 @@
           "type": 1
         },
         {
-          "tag": "Computer Science - Neural and Evolutionary Computing",
+          "tag": "Computer Science - Artificial Intelligence",
           "type": 1
         }
       ],
