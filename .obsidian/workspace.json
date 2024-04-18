@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work notes/AI.md",
+                "file": "Master/Large Scale Networks/Lecture 7 Machine Learning on Graphs (I).md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f7303af43414947e",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work notes/AI.md",
+                "file": "Master/Large Scale Networks/Lecture 7 Machine Learning on Graphs (I).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work notes/AI.md",
+                "file": "Master/Large Scale Networks/Lecture 7 Machine Learning on Graphs (I).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,15 +134,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work notes/AI.md"
+                "file": "Master/Large Scale Networks/Lecture 7 Machine Learning on Graphs (I).md"
               }
             }
+          },
+          {
+            "id": "34844a1812e21eb6",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -158,13 +168,16 @@
   },
   "active": "e1632be0a1fd51b9",
   "lastOpenFiles": [
+    "Master/Large Scale Networks/Lecture 5 Web, Hubs and Authorities.md",
+    "Master/Large Scale Networks/Lecture 7 Machine Learning on Graphs (I).md",
+    "Master/Large Scale Networks/Lecture 3 Structural Balance.md",
+    "Master/Machine Learning and Data Mining/Lecture 8.md",
+    "work notes/AI.md",
     "work notes/Network.md",
     "work notes/Distribute System.md",
-    "work notes/AI.md",
     "python/Collections.md",
     "Master/Professional Practice in IT/Lecture 2 Creating Organisational Value Through IT Investments.md",
     "Master/Professional Practice in IT/Lecture 1 Unit Overview & The IT Industry.md",
-    "Master/Machine Learning and Data Mining/Lecture 8.md",
     "Master/Professional Practice in IT/Lecture 7 Test Management.md",
     "paper reading/Leave No Context Behind Efficient Infinite Context Transformers with Infini-attention.md",
     "Master/Professional Practice in IT/Lecture 8 Security Management.md",
@@ -178,15 +191,12 @@
     "Master/Project Management in IT/lecture 3.md",
     "Master/Professional Practice in IT/People and Teams.md",
     "Master/Professional Practice in IT/Group Report.md",
-    "Master/Large Scale Networks/Lecture 3 Structural Balance.md",
     "Book/第一章.md",
     "ImageResource/infini_attention.png",
     "ImageResource/屏幕截图 2024-04-14 164758.png",
     "ImageResource",
-    "Master/Large Scale Networks/Lecture 5 Web, Hubs and Authorities.md",
     "Master/Large Scale Networks/Lab6.md",
     "Master/Large Scale Networks/Lecture 1.md",
-    "Master/Machine Learning and Data Mining/Lecture 4.md",
     "resourse/1287498d-f0b8-4cd6-aa6e-efe17bb2ec64",
     "resourse/Unconfirmed 873488.crdownload",
     "resourse",
