@@ -91,7 +91,7 @@
       "warnTitleCased": false
     },
     "options": {
-      "exportNotes": 1,
+      "exportNotes": true,
       "exportFileData": false,
       "Items": true,
       "Preferences": true,
@@ -102,7 +102,7 @@
   },
   "version": {
     "zotero": "6.0.36",
-    "bbt": "6.7.174"
+    "bbt": "6.7.177"
   },
   "collections": {
     "49BIAB6R": {
@@ -168,7 +168,14 @@
         507,
         510,
         518,
-        551
+        551,
+        554,
+        556,
+        559,
+        562,
+        568,
+        571,
+        575
       ]
     },
     "73CE3P23": {
@@ -193,6 +200,102 @@
     }
   },
   "items": [
+    {
+      "key": "R5FFXLA3",
+      "version": 1375,
+      "itemType": "preprint",
+      "title": "Character-Level Language Modeling with Deeper Self-Attention",
+      "abstractNote": "LSTMs and other RNN variants have shown strong performance on character-level language modeling. These models are typically trained using truncated backpropagation through time, and it is common to assume that their success stems from their ability to remember long-term contexts. In this paper, we show that a deep (64-layer) transformer model (Vaswani et al. 2017) with \ufb01xed context outperforms RNN variants by a large margin, achieving state of the art on two popular benchmarks: 1.13 bits per character on text8 and 1.06 on enwik8. To get good results at this depth, we show that it is important to add auxiliary losses, both at intermediate network layers and intermediate sequence positions.",
+      "date": "2018-12-10",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "url": "http://arxiv.org/abs/1808.04444",
+      "accessDate": "2024-04-26T06:18:01Z",
+      "extra": "arXiv:1808.04444 [cs, stat]",
+      "repository": "arXiv",
+      "archiveID": "arXiv:1808.04444",
+      "creators": [
+        {
+          "firstName": "Rami",
+          "lastName": "Al-Rfou",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Dokook",
+          "lastName": "Choe",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Noah",
+          "lastName": "Constant",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Mandy",
+          "lastName": "Guo",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Llion",
+          "lastName": "Jones",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computer Science - Artificial Intelligence",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Computation and Language",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Machine Learning",
+          "type": 1
+        },
+        {
+          "tag": "Statistics - Machine Learning",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-04-26T06:18:01Z",
+      "dateModified": "2024-04-26T06:18:02Z",
+      "uri": "http://zotero.org/users/10101446/items/R5FFXLA3",
+      "itemID": 568,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Al-Rfou \u7b49 - 2018 - Character-Level Language Modeling with Deeper Self.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-04-26T06:17:56Z",
+          "dateModified": "2024-04-26T06:18:02Z",
+          "uri": "http://zotero.org/users/10101446/items/M7M5HVVV",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\M7M5HVVV\\Al-Rfou \u7b49 - 2018 - Character-Level Language Modeling with Deeper Self.pdf",
+          "select": "zotero://select/library/items/M7M5HVVV"
+        }
+      ],
+      "notes": [
+        {
+          "key": "5B5KQUP8",
+          "version": 1375,
+          "itemType": "note",
+          "parentItem": "R5FFXLA3",
+          "note": "Comment: 8 pages, 7 figures",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-04-26T06:18:01Z",
+          "dateModified": "2024-04-26T06:18:01Z",
+          "uri": "http://zotero.org/users/10101446/items/5B5KQUP8"
+        }
+      ],
+      "citationKey": "al-rfou2018-characterlevel",
+      "itemKey": "R5FFXLA3",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/R5FFXLA3"
+    },
     {
       "key": "YTPK5T86",
       "version": 1121,
@@ -1093,6 +1196,104 @@
       "select": "zotero://select/library/items/9XR6FCUM"
     },
     {
+      "key": "65XF6I4U",
+      "version": 1366,
+      "itemType": "preprint",
+      "title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+      "abstractNote": "Transformers have a potential of learning longer-term dependency, but are limited by a \ufb01xed-length context in the setting of language modeling. We propose a novel neural architecture Transformer-XL that enables learning dependency beyond a \ufb01xed length without disrupting temporal coherence. It consists of a segment-level recurrence mechanism and a novel positional encoding scheme. Our method not only enables capturing longer-term dependency, but also resolves the context fragmentation problem. As a result, TransformerXL learns dependency that is 80% longer than RNNs and 450% longer than vanilla Transformers, achieves better performance on both short and long sequences, and is up to 1,800+ times faster than vanilla Transformers during evaluation. Notably, we improve the state-ofthe-art results of bpc/perplexity to 0.99 on enwiki8, 1.08 on text8, 18.3 on WikiText-103, 21.8 on One Billion Word, and 54.5 on Penn Treebank (without \ufb01netuning). When trained only on WikiText-103, Transformer-XL manages to generate reasonably coherent, novel text articles with thousands of tokens. Our code, pretrained models, and hyperparameters are available in both Tensor\ufb02ow and PyTorch1.",
+      "date": "2019-06-02",
+      "language": "en",
+      "shortTitle": "Transformer-XL",
+      "libraryCatalog": "arXiv.org",
+      "url": "http://arxiv.org/abs/1901.02860",
+      "accessDate": "2024-04-26T05:59:33Z",
+      "extra": "arXiv:1901.02860 [cs, stat]",
+      "repository": "arXiv",
+      "archiveID": "arXiv:1901.02860",
+      "creators": [
+        {
+          "firstName": "Zihang",
+          "lastName": "Dai",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Zhilin",
+          "lastName": "Yang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yiming",
+          "lastName": "Yang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jaime",
+          "lastName": "Carbonell",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Quoc V.",
+          "lastName": "Le",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ruslan",
+          "lastName": "Salakhutdinov",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computer Science - Computation and Language",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Machine Learning",
+          "type": 1
+        },
+        {
+          "tag": "Statistics - Machine Learning",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-04-26T05:59:33Z",
+      "dateModified": "2024-04-26T05:59:33Z",
+      "uri": "http://zotero.org/users/10101446/items/65XF6I4U",
+      "itemID": 562,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Dai \u7b49 - 2019 - Transformer-XL Attentive Language Models Beyond a.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-04-26T05:59:27Z",
+          "dateModified": "2024-04-26T05:59:34Z",
+          "uri": "http://zotero.org/users/10101446/items/JPQFKMCR",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\JPQFKMCR\\Dai \u7b49 - 2019 - Transformer-XL Attentive Language Models Beyond a.pdf",
+          "select": "zotero://select/library/items/JPQFKMCR"
+        }
+      ],
+      "notes": [
+        {
+          "key": "H8G59BCT",
+          "version": 1366,
+          "itemType": "note",
+          "parentItem": "65XF6I4U",
+          "note": "Comment: ACL 2019 long paper. Code and pretrained models are available at https://github.com/kimiyoung/transformer-xl",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-04-26T05:59:33Z",
+          "dateModified": "2024-04-26T05:59:33Z",
+          "uri": "http://zotero.org/users/10101446/items/H8G59BCT"
+        }
+      ],
+      "citationKey": "dai2019-transformerxl",
+      "itemKey": "65XF6I4U",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/65XF6I4U"
+    },
+    {
       "key": "YEFMDXK5",
       "version": 501,
       "itemType": "preprint",
@@ -1793,6 +1994,181 @@
       "select": "zotero://select/library/items/ZALHAE8W"
     },
     {
+      "key": "4VLNSMS8",
+      "version": 1339,
+      "itemType": "preprint",
+      "title": "A Decade's Battle on Dataset Bias: Are We There Yet?",
+      "abstractNote": "We revisit the \u201cdataset classification\u201d experiment suggested by Torralba and Efros a decade ago [51], in the new era with largescale, diverse, and hopefully less biased datasets as well as more capable neural network architectures. Surprisingly, we observe that modern neural networks can achieve excellent accuracy in classifying which dataset an image is from: e.g., we report 84.7% accuracy on held-out validation data for the three-way classification problem consisting of the YFCC, CC, and DataComp datasets. Our further experiments show that such a dataset classifier could learn semantic features that are generalizable and transferable, which cannot be simply explained by memorization. We hope our discovery will inspire the community to rethink the issue involving dataset bias and model capabilities.",
+      "date": "2024-03-13",
+      "language": "en",
+      "shortTitle": "A Decade's Battle on Dataset Bias",
+      "libraryCatalog": "arXiv.org",
+      "url": "http://arxiv.org/abs/2403.08632",
+      "accessDate": "2024-04-19T05:37:33Z",
+      "extra": "arXiv:2403.08632 [cs]",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2403.08632",
+      "creators": [
+        {
+          "firstName": "Zhuang",
+          "lastName": "Liu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Kaiming",
+          "lastName": "He",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computer Science - Computer Vision and Pattern Recognition",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Machine Learning",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-04-19T05:37:33Z",
+      "dateModified": "2024-04-19T05:37:33Z",
+      "uri": "http://zotero.org/users/10101446/items/4VLNSMS8",
+      "itemID": 554,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Liu \u548c He - 2024 - A Decade's Battle on Dataset Bias Are We There Ye.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-04-19T05:37:27Z",
+          "dateModified": "2024-04-19T05:37:34Z",
+          "uri": "http://zotero.org/users/10101446/items/UDKR9SPM",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\UDKR9SPM\\Liu \u548c He - 2024 - A Decade's Battle on Dataset Bias Are We There Ye.pdf",
+          "select": "zotero://select/library/items/UDKR9SPM"
+        }
+      ],
+      "notes": [],
+      "citationKey": "liu2024-decade",
+      "itemKey": "4VLNSMS8",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/4VLNSMS8"
+    },
+    {
+      "key": "MD8EYSTU",
+      "version": 1384,
+      "itemType": "preprint",
+      "title": "Megalodon: Efficient LLM Pretraining and Inference with Unlimited Context Length",
+      "abstractNote": "The quadratic complexity and weak length extrapolation of Transformers limits their ability to scale to long sequences, and while sub-quadratic solutions like linear attention and state space models exist, they empirically underperform Transformers in pretraining efficiency and downstream task accuracy. We introduce Megalodon, a neural architecture for efficient sequence modeling with unlimited context length. Megalodon inherits the architecture of Mega (exponential moving average with gated attention), and further introduces multiple technical components to improve its capability and stability, including complex exponential moving average (CEMA), timestep normalization layer, normalized attention mechanism and pre-norm with two-hop residual configuration. In a controlled head-to-head comparison with Llama2, Megalodon achieves better efficiency than Transformer in the scale of 7 billion parameters and 2 trillion training tokens. Megalodon reaches a training loss of 1.70, landing mid-way between Llama2-7B (1.75) and 13B (1.67). Code: https://github.com/XuezheMax/megalodon",
+      "date": "2024-04-16",
+      "language": "en",
+      "shortTitle": "Megalodon",
+      "libraryCatalog": "arXiv.org",
+      "url": "http://arxiv.org/abs/2404.08801",
+      "accessDate": "2024-04-26T07:00:11Z",
+      "extra": "arXiv:2404.08801 [cs]",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2404.08801",
+      "creators": [
+        {
+          "firstName": "Xuezhe",
+          "lastName": "Ma",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Xiaomeng",
+          "lastName": "Yang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Wenhan",
+          "lastName": "Xiong",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Beidi",
+          "lastName": "Chen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Lili",
+          "lastName": "Yu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Hao",
+          "lastName": "Zhang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jonathan",
+          "lastName": "May",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Luke",
+          "lastName": "Zettlemoyer",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Omer",
+          "lastName": "Levy",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Chunting",
+          "lastName": "Zhou",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computer Science - Computation and Language",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Machine Learning",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-04-26T07:00:11Z",
+      "dateModified": "2024-04-26T07:00:12Z",
+      "uri": "http://zotero.org/users/10101446/items/MD8EYSTU",
+      "itemID": 575,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Ma \u7b49 - 2024 - Megalodon Efficient LLM Pretraining and Inference.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-04-26T07:00:06Z",
+          "dateModified": "2024-04-26T07:00:12Z",
+          "uri": "http://zotero.org/users/10101446/items/QQ9KBEUB",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\QQ9KBEUB\\Ma \u7b49 - 2024 - Megalodon Efficient LLM Pretraining and Inference.pdf",
+          "select": "zotero://select/library/items/QQ9KBEUB"
+        }
+      ],
+      "notes": [
+        {
+          "key": "JFXNLIVK",
+          "version": 1384,
+          "itemType": "note",
+          "parentItem": "MD8EYSTU",
+          "note": "Comment: 9 pages, 6 figures and 8 tables",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-04-26T07:00:11Z",
+          "dateModified": "2024-04-26T07:00:11Z",
+          "uri": "http://zotero.org/users/10101446/items/JFXNLIVK"
+        }
+      ],
+      "citationKey": "ma2024-megalodon",
+      "itemKey": "MD8EYSTU",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/MD8EYSTU"
+    },
+    {
       "key": "VP7ADWWH",
       "version": 1162,
       "itemType": "conferencePaper",
@@ -2446,6 +2822,93 @@
       "select": "zotero://select/library/items/PXZ7UMK4"
     },
     {
+      "key": "IGUCEVDS",
+      "version": 1345,
+      "itemType": "preprint",
+      "title": "Sketch-guided Image Inpainting with Partial Discrete Diffusion Process",
+      "abstractNote": "In this work, we study the task of sketch-guided image inpainting. Unlike the well-explored natural language-guided image inpainting, which excels in capturing semantic details, the relatively less-studied sketch-guided inpainting offers greater user control in specifying the object\u2019s shape and pose to be inpainted. As one of the early solutions to this task, we introduce a novel partial discrete diffusion process (PDDP). The forward pass of the PDDP corrupts the masked regions of the image and the backward pass reconstructs these masked regions conditioned on hand-drawn sketches using our proposed sketch-guided bi-directional transformer. The proposed novel transformer module accepts two inputs \u2013 the image containing the masked region to be inpainted and the query sketch to model the reverse diffusion process. This strategy effectively addresses the domain gap between sketches and natural images, thereby, enhancing the quality of inpainting results. In the absence of a large-scale dataset specific to this task, we synthesize a dataset from the MS-COCO to train and extensively evaluate our proposed framework against various competent approaches in the literature. The qualitative and quantitative results and user studies establish that the proposed method inpaints realistic objects that fit the context in terms of the visual appearance of the provided sketch. To aid further research, we have made our code publicly available here: https://github.com/vl2g/SketchInpainting.",
+      "date": "2024-04-18",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "url": "http://arxiv.org/abs/2404.11949",
+      "accessDate": "2024-04-19T05:41:35Z",
+      "extra": "arXiv:2404.11949 [cs]",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2404.11949",
+      "creators": [
+        {
+          "firstName": "Nakul",
+          "lastName": "Sharma",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Aditay",
+          "lastName": "Tripathi",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Anirban",
+          "lastName": "Chakraborty",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Anand",
+          "lastName": "Mishra",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computer Science - Artificial Intelligence",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Computer Vision and Pattern Recognition",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Machine Learning",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-04-19T05:41:35Z",
+      "dateModified": "2024-04-19T05:41:35Z",
+      "uri": "http://zotero.org/users/10101446/items/IGUCEVDS",
+      "itemID": 556,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Sharma \u7b49 - 2024 - Sketch-guided Image Inpainting with Partial Discre.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-04-19T05:41:30Z",
+          "dateModified": "2024-04-19T05:41:36Z",
+          "uri": "http://zotero.org/users/10101446/items/F8U7XI54",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\F8U7XI54\\Sharma \u7b49 - 2024 - Sketch-guided Image Inpainting with Partial Discre.pdf",
+          "select": "zotero://select/library/items/F8U7XI54"
+        }
+      ],
+      "notes": [
+        {
+          "key": "DM5VPD44",
+          "version": 1345,
+          "itemType": "note",
+          "parentItem": "IGUCEVDS",
+          "note": "Comment: Accepted to NTIRE Workshop @ CVPR 2024",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-04-19T05:41:35Z",
+          "dateModified": "2024-04-19T05:41:35Z",
+          "uri": "http://zotero.org/users/10101446/items/DM5VPD44"
+        }
+      ],
+      "citationKey": "sharma2024-sketchguided",
+      "itemKey": "IGUCEVDS",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/IGUCEVDS"
+    },
+    {
       "key": "99BHSFSW",
       "version": 381,
       "itemType": "book",
@@ -2697,6 +3160,91 @@
       "select": "zotero://select/library/items/ZRJI4HYN"
     },
     {
+      "key": "TLCEN9R3",
+      "version": 1377,
+      "itemType": "preprint",
+      "title": "The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions",
+      "abstractNote": "Today\u2019s LLMs are susceptible to prompt injections, jailbreaks, and other attacks that allow adversaries to overwrite a model\u2019s original instructions with their own malicious prompts. In this work, we argue that one of the primary vulnerabilities underlying these attacks is that LLMs often consider system prompts (e.g., text from an application developer) to be the same priority as text from untrusted users and third parties. To address this, we propose an instruction hierarchy that explicitly defines how models should behave when instructions of different priorities conflict. We then propose an automated data generation method to demonstrate this hierarchical instruction following behavior, which teaches LLMs to selectively ignore lower-privileged instructions. We apply this method to LLMs, showing that it drastically increases robustness\u2014even for attack types not seen during training\u2014while imposing minimal degradations on standard capabilities.",
+      "date": "2024-04-19",
+      "language": "en",
+      "shortTitle": "The Instruction Hierarchy",
+      "libraryCatalog": "arXiv.org",
+      "url": "http://arxiv.org/abs/2404.13208",
+      "accessDate": "2024-04-26T06:21:50Z",
+      "extra": "arXiv:2404.13208 [cs]",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2404.13208",
+      "creators": [
+        {
+          "firstName": "Eric",
+          "lastName": "Wallace",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Kai",
+          "lastName": "Xiao",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Reimar",
+          "lastName": "Leike",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Lilian",
+          "lastName": "Weng",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Johannes",
+          "lastName": "Heidecke",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Alex",
+          "lastName": "Beutel",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computer Science - Computation and Language",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Cryptography and Security",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Machine Learning",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-04-26T06:21:50Z",
+      "dateModified": "2024-04-26T06:21:51Z",
+      "uri": "http://zotero.org/users/10101446/items/TLCEN9R3",
+      "itemID": 571,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Wallace \u7b49 - 2024 - The Instruction Hierarchy Training LLMs to Priori.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-04-26T06:21:45Z",
+          "dateModified": "2024-04-26T06:21:51Z",
+          "uri": "http://zotero.org/users/10101446/items/JE8CKEEN",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\JE8CKEEN\\Wallace \u7b49 - 2024 - The Instruction Hierarchy Training LLMs to Priori.pdf",
+          "select": "zotero://select/library/items/JE8CKEEN"
+        }
+      ],
+      "notes": [],
+      "citationKey": "wallace2024-instruction",
+      "itemKey": "TLCEN9R3",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/TLCEN9R3"
+    },
+    {
       "key": "C3R8DANM",
       "version": 1085,
       "itemType": "preprint",
@@ -2773,6 +3321,91 @@
       "itemKey": "C3R8DANM",
       "libraryID": 1,
       "select": "zotero://select/library/items/C3R8DANM"
+    },
+    {
+      "key": "3YGY5NG6",
+      "version": 1351,
+      "itemType": "preprint",
+      "title": "RepViT: Revisiting Mobile CNN From ViT Perspective",
+      "abstractNote": "Recently, lightweight Vision Transformers (ViTs) demonstrate superior performance and lower latency, compared with lightweight Convolutional Neural Networks (CNNs), on resource-constrained mobile devices. Researchers have discovered many structural connections between lightweight ViTs and lightweight CNNs. However, the notable architectural disparities in the block structure, macro, and micro designs between them have not been adequately examined. In this study, we revisit the efficient design of lightweight CNNs from ViT perspective and emphasize their promising prospect for mobile devices. Specifically, we incrementally enhance the mobile-friendliness of a standard lightweight CNN, i.e., MobileNetV3, by integrating the efficient architectural designs of lightweight ViTs. This ends up with a new family of pure lightweight CNNs, namely RepViT. Extensive experiments show that RepViT outperforms existing state-of-the-art lightweight ViTs and exhibits favorable latency in various vision tasks. Notably, on ImageNet, RepViT achieves over 80% top-1 accuracy with 1.0 ms latency on an iPhone 12, which is the first time for a lightweight model, to the best of our knowledge. Besides, when RepViT meets SAM, our RepViT-SAM can achieve nearly 10\u00d7 faster inference than the advanced MobileSAM. Codes and models are available at https: //github.com/THU-MIG/RepViT.",
+      "date": "2024-03-14",
+      "language": "en",
+      "shortTitle": "RepViT",
+      "libraryCatalog": "arXiv.org",
+      "url": "http://arxiv.org/abs/2307.09283",
+      "accessDate": "2024-04-19T05:50:29Z",
+      "extra": "arXiv:2307.09283 [cs]",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2307.09283",
+      "creators": [
+        {
+          "firstName": "Ao",
+          "lastName": "Wang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Hui",
+          "lastName": "Chen",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Zijia",
+          "lastName": "Lin",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Jungong",
+          "lastName": "Han",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Guiguang",
+          "lastName": "Ding",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computer Science - Computer Vision and Pattern Recognition",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-04-19T05:50:29Z",
+      "dateModified": "2024-04-19T05:50:29Z",
+      "uri": "http://zotero.org/users/10101446/items/3YGY5NG6",
+      "itemID": 559,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Wang \u7b49 - 2024 - RepViT Revisiting Mobile CNN From ViT Perspective.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-04-19T05:50:23Z",
+          "dateModified": "2024-04-19T05:50:30Z",
+          "uri": "http://zotero.org/users/10101446/items/5TN9NYSR",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\5TN9NYSR\\Wang \u7b49 - 2024 - RepViT Revisiting Mobile CNN From ViT Perspective.pdf",
+          "select": "zotero://select/library/items/5TN9NYSR"
+        }
+      ],
+      "notes": [
+        {
+          "key": "4BSGFY49",
+          "version": 1351,
+          "itemType": "note",
+          "parentItem": "3YGY5NG6",
+          "note": "Comment: CVPR 2024 Camera-ready Version",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-04-19T05:50:29Z",
+          "dateModified": "2024-04-19T05:50:29Z",
+          "uri": "http://zotero.org/users/10101446/items/4BSGFY49"
+        }
+      ],
+      "citationKey": "wang2024-repvit",
+      "itemKey": "3YGY5NG6",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/3YGY5NG6"
     },
     {
       "key": "3V7KMJ2D",

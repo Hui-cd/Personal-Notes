@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Master/Large Scale Networks/Lecture 7 Machine Learning on Graphs (I).md",
+                "file": "Master/Machine Learning and Data Mining/Lecture 5 Decision Trees.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Master/Large Scale Networks/Lecture 7 Machine Learning on Graphs (I).md",
+                "file": "Master/Machine Learning and Data Mining/Lecture 5 Decision Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Master/Large Scale Networks/Lecture 7 Machine Learning on Graphs (I).md",
+                "file": "Master/Machine Learning and Data Mining/Lecture 5 Decision Trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Master/Large Scale Networks/Lecture 7 Machine Learning on Graphs (I).md"
+                "file": "Master/Machine Learning and Data Mining/Lecture 5 Decision Trees.md"
               }
             }
           },
@@ -168,10 +168,16 @@
   },
   "active": "e1632be0a1fd51b9",
   "lastOpenFiles": [
-    "Master/Large Scale Networks/Lecture 5 Web, Hubs and Authorities.md",
-    "Master/Large Scale Networks/Lecture 7 Machine Learning on Graphs (I).md",
-    "Master/Large Scale Networks/Lecture 3 Structural Balance.md",
+    "Master/Machine Learning and Data Mining/Lecture 4 Naive Bayes. Evaluating machine learning methods..md",
+    "Master/Machine Learning and Data Mining/Lecture 5 Decision Trees.md",
     "Master/Machine Learning and Data Mining/Lecture 8.md",
+    "Master/Machine Learning and Data Mining/Lecture 3 Linear regression. Logistic regression. Overfitting and regularization..md",
+    "Master/Machine Learning and Data Mining/Lecture 1 Introduction to machine learning and data mining.md",
+    "Master/Large Scale Networks/Lecture 7 Machine Learning on Graphs (I).md",
+    "随笔.md",
+    "paper reading/Leave No Context Behind Efficient Infinite Context Transformers with Infini-attention.md",
+    "Master/Large Scale Networks/Lecture 5 Web, Hubs and Authorities.md",
+    "Master/Large Scale Networks/Lecture 3 Structural Balance.md",
     "work notes/AI.md",
     "work notes/Network.md",
     "work notes/Distribute System.md",
@@ -179,12 +185,8 @@
     "Master/Professional Practice in IT/Lecture 2 Creating Organisational Value Through IT Investments.md",
     "Master/Professional Practice in IT/Lecture 1 Unit Overview & The IT Industry.md",
     "Master/Professional Practice in IT/Lecture 7 Test Management.md",
-    "paper reading/Leave No Context Behind Efficient Infinite Context Transformers with Infini-attention.md",
     "Master/Professional Practice in IT/Lecture 8 Security Management.md",
-    "Master/Machine Learning and Data Mining/Lecture 3 Linear regression. Logistic regression. Overfitting and regularization..md",
-    "Master/Machine Learning and Data Mining/Lecture 1 Introduction to machine learning and data mining.md",
     "Master/Machine Learning and Data Mining/Lecture 2 Nearest neighbour. Rule-based algorithms..md",
-    "Master/Machine Learning and Data Mining/Lecture 4 Naive Bayes. Evaluating machine learning methods..md",
     "Master/Professional Practice in IT/Lecture 3 IT Lifecycles and their processes.md",
     "Master/Large Scale Networks/Lecture 2 Graph Ties.md",
     "Master/Project Management in IT/week1-5 exam.md",
@@ -195,8 +197,6 @@
     "ImageResource/infini_attention.png",
     "ImageResource/屏幕截图 2024-04-14 164758.png",
     "ImageResource",
-    "Master/Large Scale Networks/Lab6.md",
-    "Master/Large Scale Networks/Lecture 1.md",
     "resourse/1287498d-f0b8-4cd6-aa6e-efe17bb2ec64",
     "resourse/Unconfirmed 873488.crdownload",
     "resourse",
