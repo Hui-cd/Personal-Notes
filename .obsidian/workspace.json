@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paper reading/Transformer-XL Attentive Language Models Beyond a Fixed-Length Context.md",
+                "file": "Master/Machine Learning and Data Mining/Lecture 5 Decision Trees.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "paper reading/Transformer-XL Attentive Language Models Beyond a Fixed-Length Context.md",
+                "file": "Master/Machine Learning and Data Mining/Lecture 5 Decision Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "paper reading/Transformer-XL Attentive Language Models Beyond a Fixed-Length Context.md",
+                "file": "Master/Machine Learning and Data Mining/Lecture 5 Decision Trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "paper reading/Transformer-XL Attentive Language Models Beyond a Fixed-Length Context.md"
+                "file": "Master/Machine Learning and Data Mining/Lecture 5 Decision Trees.md"
               }
             }
           },
@@ -167,8 +167,9 @@
   },
   "active": "e1632be0a1fd51b9",
   "lastOpenFiles": [
-    "Master/Machine Learning and Data Mining/Lecture 5 Decision Trees.md",
+    "Draloc/worto.md",
     "paper reading/Transformer-XL Attentive Language Models Beyond a Fixed-Length Context.md",
+    "Master/Machine Learning and Data Mining/Lecture 5 Decision Trees.md",
     "Master/Machine Learning and Data Mining/Lecture 4 Naive Bayes. Evaluating machine learning methods..md",
     "Master/Machine Learning and Data Mining/Lecture 8.md",
     "Master/Machine Learning and Data Mining/Lecture 3 Linear regression. Logistic regression. Overfitting and regularization..md",
@@ -192,7 +193,6 @@
     "Master/Project Management in IT/week1-5 exam.md",
     "Master/Project Management in IT/lecture 3.md",
     "Master/Professional Practice in IT/People and Teams.md",
-    "Master/Professional Practice in IT/Group Report.md",
     "ImageResource/infini_attention.png",
     "ImageResource/屏幕截图 2024-04-14 164758.png",
     "ImageResource",
