@@ -102,7 +102,7 @@
   },
   "version": {
     "zotero": "6.0.36",
-    "bbt": "6.7.178"
+    "bbt": "6.7.190"
   },
   "collections": {
     "49BIAB6R": {
@@ -175,7 +175,9 @@
         562,
         568,
         571,
-        575
+        575,
+        586,
+        602
       ]
     },
     "73CE3P23": {
@@ -200,6 +202,39 @@
     }
   },
   "items": [
+    {
+      "key": "LDI3WTJP",
+      "version": 0,
+      "itemType": "journalArticle",
+      "title": "The Annotated Transformer",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "creators": [],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2024-05-10T09:35:30Z",
+      "dateModified": "2024-05-10T09:35:31Z",
+      "uri": "http://zotero.org/users/10101446/items/LDI3WTJP",
+      "itemID": 602,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "The Annotated Transformer.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-05-10T09:35:28Z",
+          "dateModified": "2024-05-10T09:35:31Z",
+          "uri": "http://zotero.org/users/10101446/items/FEVQQE43",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\FEVQQE43\\The Annotated Transformer.pdf",
+          "select": "zotero://select/library/items/FEVQQE43"
+        }
+      ],
+      "notes": [],
+      "citationKey": "-annotated",
+      "itemKey": "LDI3WTJP",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/LDI3WTJP"
+    },
     {
       "key": "R5FFXLA3",
       "version": 1375,
@@ -243,15 +278,15 @@
       ],
       "tags": [
         {
-          "tag": "Computer Science - Artificial Intelligence",
-          "type": 1
-        },
-        {
           "tag": "Computer Science - Computation and Language",
           "type": 1
         },
         {
           "tag": "Computer Science - Machine Learning",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Artificial Intelligence",
           "type": 1
         },
         {
@@ -2055,6 +2090,118 @@
       "select": "zotero://select/library/items/4VLNSMS8"
     },
     {
+      "key": "XY6IAYYG",
+      "version": 1422,
+      "itemType": "preprint",
+      "title": "KAN: Kolmogorov-Arnold Networks",
+      "abstractNote": "Inspired by the Kolmogorov-Arnold representation theorem, we propose KolmogorovArnold Networks (KANs) as promising alternatives to Multi-Layer Perceptrons (MLPs). While MLPs have fixed activation functions on nodes (\u201cneurons\u201d), KANs have learnable activation functions on edges (\u201cweights\u201d). KANs have no linear weights at all \u2013 every weight parameter is replaced by a univariate function parametrized as a spline. We show that this seemingly simple change makes KANs outperform MLPs in terms of accuracy and interpretability. For accuracy, much smaller KANs can achieve comparable or better accuracy than much larger MLPs in data fitting and PDE solving. Theoretically and empirically, KANs possess faster neural scaling laws than MLPs. For interpretability, KANs can be intuitively visualized and can easily interact with human users. Through two examples in mathematics and physics, KANs are shown to be useful \u201ccollaborators\u201d helping scientists (re)discover mathematical and physical laws. In summary, KANs are promising alternatives for MLPs, opening opportunities for further improving today\u2019s deep learning models which rely heavily on MLPs.",
+      "date": "2024-04-30",
+      "language": "en",
+      "shortTitle": "KAN",
+      "libraryCatalog": "arXiv.org",
+      "url": "http://arxiv.org/abs/2404.19756",
+      "accessDate": "2024-05-02T10:31:19Z",
+      "extra": "arXiv:2404.19756 [cond-mat, stat]",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2404.19756",
+      "creators": [
+        {
+          "firstName": "Ziming",
+          "lastName": "Liu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yixuan",
+          "lastName": "Wang",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Sachin",
+          "lastName": "Vaidya",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Fabian",
+          "lastName": "Ruehle",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "James",
+          "lastName": "Halverson",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Marin",
+          "lastName": "Solja\u010di\u0107",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Thomas Y.",
+          "lastName": "Hou",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Max",
+          "lastName": "Tegmark",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computer Science - Machine Learning",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Artificial Intelligence",
+          "type": 1
+        },
+        {
+          "tag": "Statistics - Machine Learning",
+          "type": 1
+        },
+        {
+          "tag": "Condensed Matter - Disordered Systems and Neural Networks",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-05-02T10:31:19Z",
+      "dateModified": "2024-05-02T10:31:19Z",
+      "uri": "http://zotero.org/users/10101446/items/XY6IAYYG",
+      "itemID": 586,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Liu \u7b49 - 2024 - KAN Kolmogorov-Arnold Networks.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-05-02T10:31:11Z",
+          "dateModified": "2024-05-02T10:31:20Z",
+          "uri": "http://zotero.org/users/10101446/items/TQPXPF7R",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\TQPXPF7R\\Liu \u7b49 - 2024 - KAN Kolmogorov-Arnold Networks.pdf",
+          "select": "zotero://select/library/items/TQPXPF7R"
+        }
+      ],
+      "notes": [
+        {
+          "key": "N3JXZAP5",
+          "version": 1422,
+          "itemType": "note",
+          "parentItem": "XY6IAYYG",
+          "note": "Comment: 48 pages, 20 figures. Codes are available at https://github.com/KindXiaoming/pykan",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-05-02T10:31:19Z",
+          "dateModified": "2024-05-02T10:31:19Z",
+          "uri": "http://zotero.org/users/10101446/items/N3JXZAP5"
+        }
+      ],
+      "citationKey": "liu2024-kan",
+      "itemKey": "XY6IAYYG",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/XY6IAYYG"
+    },
+    {
       "key": "MD8EYSTU",
       "version": 1384,
       "itemType": "preprint",
@@ -2859,15 +3006,15 @@
       ],
       "tags": [
         {
-          "tag": "Computer Science - Artificial Intelligence",
-          "type": 1
-        },
-        {
           "tag": "Computer Science - Computer Vision and Pattern Recognition",
           "type": 1
         },
         {
           "tag": "Computer Science - Machine Learning",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Artificial Intelligence",
           "type": 1
         }
       ],
@@ -3212,11 +3359,11 @@
           "type": 1
         },
         {
-          "tag": "Computer Science - Cryptography and Security",
+          "tag": "Computer Science - Machine Learning",
           "type": 1
         },
         {
-          "tag": "Computer Science - Machine Learning",
+          "tag": "Computer Science - Cryptography and Security",
           "type": 1
         }
       ],

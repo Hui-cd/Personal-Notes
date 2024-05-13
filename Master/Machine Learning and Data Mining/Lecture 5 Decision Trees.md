@@ -16,3 +16,9 @@
 - The measure of purity that we will use is called **information gain**
 - it is based on another measure called entropy 
 - Given a set of examples with their class. entropy measures the **homogeneity (purity)** of this set with respect to the class
+
+Information gain measures the reduction in entropy caused by using an attribute to partition the set of training examples
+
+The best attribute is the one with the highest information gain (i.e. with the biggest reduction in entropy)
+
+Two main strategies • Pre-pruning - stop growing the tree earlier, before it reaches the point where it perfectly classifies the training data • Post-pruning – fully grow the tree, allowing it to perfectly cover the training data, and then prune it

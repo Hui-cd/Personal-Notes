@@ -1,7 +1,5 @@
 ## Data
 data is collection of examples, and examples are discrobed with attribute
-
-
 ### Nominal and numeric attributes  
 - nominal (categorical) - their values belong to a pre-specified, finite set of possibilities  名义（分类）-它们的值属于预先指定的、有限的可能性集
 - numeric (continuous) - their values are numbers
