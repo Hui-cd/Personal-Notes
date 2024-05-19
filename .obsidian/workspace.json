@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Master/Machine Learning and Data Mining/Lecture 5 Decision Trees.md",
+                "file": "Master/Machine Learning and Data Mining/Lecture 4 Naive Bayes. Evaluating machine learning methods..md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Master/Machine Learning and Data Mining/Lecture 5 Decision Trees.md",
+                "file": "Master/Machine Learning and Data Mining/Lecture 4 Naive Bayes. Evaluating machine learning methods..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Master/Machine Learning and Data Mining/Lecture 5 Decision Trees.md",
+                "file": "Master/Machine Learning and Data Mining/Lecture 4 Naive Bayes. Evaluating machine learning methods..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Master/Machine Learning and Data Mining/Lecture 5 Decision Trees.md"
+                "file": "Master/Machine Learning and Data Mining/Lecture 4 Naive Bayes. Evaluating machine learning methods..md"
               }
             }
           },
@@ -150,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,34 +167,36 @@
   },
   "active": "60649c2d3a6c41e1",
   "lastOpenFiles": [
-    "Master/Project Management in IT/Presentation.md",
-    "paper reading/KAN Kolmogorov–Arnold Networks.md",
-    "随笔.md",
-    "Master/Machine Learning and Data Mining/Lecture 5 Decision Trees.md",
-    "Master/Machine Learning and Data Mining/Lecture 4 Naive Bayes. Evaluating machine learning methods..md",
+    "Master/Machine Learning and Data Mining/Lecture 3 Linear regression. Logistic regression. Overfitting and regularization..md",
     "Master/Machine Learning and Data Mining/Lecture 2 Nearest neighbour. Rule-based algorithms..md",
     "Master/Machine Learning and Data Mining/Lecture 1 Introduction to machine learning and data mining.md",
-    "paper reading/The Annotated Transformer.md",
+    "Master/Large Scale Networks/Lecture 1.md",
+    "work notes/AI.md",
     "personal notes/Universal Approximation Theorem.md",
-    "Master/Machine Learning and Data Mining/Lecture 8.md",
-    "Based CUDA programming language/Requirements.md",
-    "paper reading/Transformer-XL Attentive Language Models Beyond a Fixed-Length Context.md",
-    "Based CUDA programming language",
-    "Draloc/worto.md",
-    "Master/Machine Learning and Data Mining/Lecture 3 Linear regression. Logistic regression. Overfitting and regularization..md",
-    "Master/Large Scale Networks/Lecture 7 Machine Learning on Graphs (I).md",
     "paper reading/Leave No Context Behind Efficient Infinite Context Transformers with Infini-attention.md",
+    "Master/Machine Learning and Data Mining/Lecture 4 Naive Bayes. Evaluating machine learning methods..md",
+    "Master/Machine Learning and Data Mining/Lecture 5 Decision Trees.md",
+    "Master/Machine Learning and Data Mining/Lecture 6 Dimensionality Reduction.md",
+    "paper reading/KAN Kolmogorov–Arnold Networks.md",
+    "book-note/数学.md",
+    "work notes/Distribute System.md",
+    "work notes/Network.md",
+    "Master/Large Scale Networks/Lecture 2 Graph Ties.md",
+    "Master/Machine Learning and Data Mining/Lecture 7 Feedforward Neural Networks.md",
+    "Master/Large Scale Networks/Lecture 7 Machine Learning on Graphs (I).md",
+    "ImageResource/knn.jpg",
+    "ImageResource/knn.jpg.crdownload",
+    "Master/Large Scale Networks/Lecture 4 Community Detection.md",
     "Master/Large Scale Networks/Lecture 5 Web, Hubs and Authorities.md",
     "Master/Large Scale Networks/Lecture 3 Structural Balance.md",
-    "work notes/AI.md",
-    "work notes/Network.md",
-    "work notes/Distribute System.md",
-    "python/Collections.md",
-    "Master/Professional Practice in IT/Lecture 2 Creating Organisational Value Through IT Investments.md",
-    "Master/Professional Practice in IT/Lecture 1 Unit Overview & The IT Industry.md",
-    "Master/Professional Practice in IT/Lecture 7 Test Management.md",
-    "Master/Professional Practice in IT/Lecture 8 Security Management.md",
+    "work notes/Pytorch API.md",
     "ImageResource/infini_attention.png",
+    "python/Collections.md",
+    "Daily/2024-05-13.md",
+    "Master/Project Management in IT/Presentation.md",
+    "随笔.md",
+    "paper reading/The Annotated Transformer.md",
+    "Based CUDA programming language",
     "ImageResource/屏幕截图 2024-04-14 164758.png",
     "ImageResource",
     "resourse/1287498d-f0b8-4cd6-aa6e-efe17bb2ec64",

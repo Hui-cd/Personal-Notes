@@ -102,7 +102,7 @@
   },
   "version": {
     "zotero": "6.0.36",
-    "bbt": "6.7.190"
+    "bbt": "6.7.196"
   },
   "collections": {
     "49BIAB6R": {
@@ -204,7 +204,7 @@
   "items": [
     {
       "key": "LDI3WTJP",
-      "version": 0,
+      "version": 1478,
       "itemType": "journalArticle",
       "title": "The Annotated Transformer",
       "language": "en",
