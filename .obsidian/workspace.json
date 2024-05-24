@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Master/Machine Learning and Data Mining/Lecture 4 Naive Bayes. Evaluating machine learning methods..md",
+                "file": "personal notes/Foundation of ML/Bias-variance decomposition.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Master/Machine Learning and Data Mining/Lecture 4 Naive Bayes. Evaluating machine learning methods..md",
+                "file": "personal notes/Foundation of ML/Bias-variance decomposition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Master/Machine Learning and Data Mining/Lecture 4 Naive Bayes. Evaluating machine learning methods..md",
+                "file": "personal notes/Foundation of ML/Bias-variance decomposition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Master/Machine Learning and Data Mining/Lecture 4 Naive Bayes. Evaluating machine learning methods..md"
+                "file": "personal notes/Foundation of ML/Bias-variance decomposition.md"
               }
             }
           },
@@ -167,35 +167,36 @@
   },
   "active": "60649c2d3a6c41e1",
   "lastOpenFiles": [
+    "personal notes/Foundation of ML/Perceptron.md",
+    "personal notes/Foundation of ML/Fisher 线性判别分析 (LDA) 方法整理.md",
+    "personal notes/Foundation of ML/Classification.md",
+    "personal notes/Foundation of ML/贝叶斯分类和决策边界.md",
+    "personal notes/Foundation of ML/支持向量机（SVM）详解.md",
+    "personal notes/Foundation of ML/Bias-variance decomposition.md",
+    "Master/Large Scale Networks/Reversion.md",
+    "随笔.md",
+    "personal notes/Foundation of ML",
+    "book-note/数学.md",
+    "Master/Professional Practice in IT/Reversion.md",
+    "Master/Professional Practice in IT/Lecture 7 Test Management.md",
+    "Master/Professional Practice in IT/Lecture 3 IT Lifecycles and their processes.md",
+    "Master/Professional Practice in IT/Lecture 2 Creating Organisational Value Through IT Investments.md",
+    "Master/Professional Practice in IT/Lecture 1 Unit Overview & The IT Industry.md",
+    "Master/Large Scale Networks/Lecture 4 Community Detection.md",
+    "Master/Large Scale Networks/Lecture 3 Structural Balance.md",
+    "Master/Large Scale Networks/Lecture 2 Graph Ties.md",
+    "Master/Large Scale Networks/Lecture 1.md",
+    "personal notes/RNN.md",
+    "work notes/AI.md",
+    "Master/Machine Learning and Data Mining/Lecture 4 Naive Bayes. Evaluating machine learning methods..md",
     "Master/Machine Learning and Data Mining/Lecture 3 Linear regression. Logistic regression. Overfitting and regularization..md",
     "Master/Machine Learning and Data Mining/Lecture 2 Nearest neighbour. Rule-based algorithms..md",
     "Master/Machine Learning and Data Mining/Lecture 1 Introduction to machine learning and data mining.md",
-    "Master/Large Scale Networks/Lecture 1.md",
-    "work notes/AI.md",
     "personal notes/Universal Approximation Theorem.md",
     "paper reading/Leave No Context Behind Efficient Infinite Context Transformers with Infini-attention.md",
-    "Master/Machine Learning and Data Mining/Lecture 4 Naive Bayes. Evaluating machine learning methods..md",
-    "Master/Machine Learning and Data Mining/Lecture 5 Decision Trees.md",
-    "Master/Machine Learning and Data Mining/Lecture 6 Dimensionality Reduction.md",
-    "paper reading/KAN Kolmogorov–Arnold Networks.md",
-    "book-note/数学.md",
-    "work notes/Distribute System.md",
-    "work notes/Network.md",
-    "Master/Large Scale Networks/Lecture 2 Graph Ties.md",
-    "Master/Machine Learning and Data Mining/Lecture 7 Feedforward Neural Networks.md",
-    "Master/Large Scale Networks/Lecture 7 Machine Learning on Graphs (I).md",
     "ImageResource/knn.jpg",
     "ImageResource/knn.jpg.crdownload",
-    "Master/Large Scale Networks/Lecture 4 Community Detection.md",
-    "Master/Large Scale Networks/Lecture 5 Web, Hubs and Authorities.md",
-    "Master/Large Scale Networks/Lecture 3 Structural Balance.md",
-    "work notes/Pytorch API.md",
     "ImageResource/infini_attention.png",
-    "python/Collections.md",
-    "Daily/2024-05-13.md",
-    "Master/Project Management in IT/Presentation.md",
-    "随笔.md",
-    "paper reading/The Annotated Transformer.md",
     "Based CUDA programming language",
     "ImageResource/屏幕截图 2024-04-14 164758.png",
     "ImageResource",

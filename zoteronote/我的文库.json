@@ -102,7 +102,7 @@
   },
   "version": {
     "zotero": "6.0.36",
-    "bbt": "6.7.196"
+    "bbt": "6.7.201"
   },
   "collections": {
     "49BIAB6R": {
@@ -177,7 +177,19 @@
         571,
         575,
         586,
-        602
+        602,
+        613
+      ]
+    },
+    "7GMPCHAW": {
+      "key": "7GMPCHAW",
+      "parent": "",
+      "name": "Medical image segmentation",
+      "collections": [],
+      "items": [
+        627,
+        631,
+        633
       ]
     },
     "73CE3P23": {
@@ -234,6 +246,39 @@
       "itemKey": "LDI3WTJP",
       "libraryID": 1,
       "select": "zotero://select/library/items/LDI3WTJP"
+    },
+    {
+      "key": "85B2AQH9",
+      "version": 1550,
+      "itemType": "journalArticle",
+      "title": "The Unreasonable Effectiveness of Recurrent Neural Networks",
+      "language": "en",
+      "libraryCatalog": "Zotero",
+      "creators": [],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2024-05-19T13:58:55Z",
+      "dateModified": "2024-05-19T13:58:55Z",
+      "uri": "http://zotero.org/users/10101446/items/85B2AQH9",
+      "itemID": 613,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "The Unreasonable Effectiveness of Recurrent Neural.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-05-19T13:58:52Z",
+          "dateModified": "2024-05-19T13:58:55Z",
+          "uri": "http://zotero.org/users/10101446/items/WYBG85SN",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\WYBG85SN\\The Unreasonable Effectiveness of Recurrent Neural.pdf",
+          "select": "zotero://select/library/items/WYBG85SN"
+        }
+      ],
+      "notes": [],
+      "citationKey": "-unreasonable",
+      "itemKey": "85B2AQH9",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/85B2AQH9"
     },
     {
       "key": "R5FFXLA3",
@@ -1566,6 +1611,72 @@
       "itemKey": "KG9PPYPL",
       "libraryID": 1,
       "select": "zotero://select/library/items/KG9PPYPL"
+    },
+    {
+      "key": "DU9BXUVX",
+      "version": 1606,
+      "itemType": "conferencePaper",
+      "title": "Masked Diffusion Transformer is a Strong Image Synthesizer",
+      "abstractNote": "Despite its success in image synthesis, we observe that diffusion probabilistic models (DPMs) often lack contextual reasoning ability to learn the relations among object parts in an image, leading to a slow learning process. To solve this issue, we propose a Masked Diffusion Transformer (MDT) that introduces a mask latent modeling scheme to explicitly enhance the DPMs\u2019 ability to contextual relation learning among object semantic parts in an image. During training, MDT operates in the latent space to mask certain tokens. Then, an asymmetric masking diffusion transformer is designed to predict masked tokens from unmasked ones while maintaining the diffusion generation process. Our MDT can reconstruct the full information of an image from its incomplete contextual input, thus enabling it to learn the associated relations among image tokens. Experimental results show that MDT achieves superior image synthesis performance, e.g., a new SOTA FID score in the ImageNet data set, and has about 3\u00d7 faster learning speed than the previous SOTA DiT. The source code is released at https://github.com/sail-sg/MDT.",
+      "date": "2023-10-1",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "url": "https://ieeexplore.ieee.org/document/10378581/",
+      "accessDate": "2024-05-21T14:03:16Z",
+      "rights": "https://doi.org/10.15223/policy-029",
+      "place": "Paris, France",
+      "publisher": "IEEE",
+      "ISBN": "9798350307184",
+      "pages": "23107-23116",
+      "proceedingsTitle": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "conferenceName": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "DOI": "10.1109/ICCV51070.2023.02117",
+      "creators": [
+        {
+          "firstName": "Shanghua",
+          "lastName": "Gao",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Pan",
+          "lastName": "Zhou",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Ming-Ming",
+          "lastName": "Cheng",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Shuicheng",
+          "lastName": "Yan",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2024-05-21T14:03:16Z",
+      "dateModified": "2024-05-21T14:03:20Z",
+      "uri": "http://zotero.org/users/10101446/items/DU9BXUVX",
+      "itemID": 633,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Gao \u7b49 - 2023 - Masked Diffusion Transformer is a Strong Image Syn.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-05-21T14:03:12Z",
+          "dateModified": "2024-05-21T14:03:21Z",
+          "uri": "http://zotero.org/users/10101446/items/5CVSEEZ7",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\5CVSEEZ7\\Gao \u7b49 - 2023 - Masked Diffusion Transformer is a Strong Image Syn.pdf",
+          "select": "zotero://select/library/items/5CVSEEZ7"
+        }
+      ],
+      "notes": [],
+      "citationKey": "gao2023-masked",
+      "itemKey": "DU9BXUVX",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/DU9BXUVX"
     },
     {
       "key": "TC8XWH8A",
@@ -3555,6 +3666,82 @@
       "select": "zotero://select/library/items/3YGY5NG6"
     },
     {
+      "key": "NVSABFC4",
+      "version": 1601,
+      "itemType": "journalArticle",
+      "title": "MedSegDiff-V2: Diffusion-Based Medical Image Segmentation with Transformer",
+      "abstractNote": "The Diffusion Probabilistic Model (DPM) has recently gained popularity in the field of computer vision, thanks to its image generation applications, such as Imagen, Latent Diffusion Models, and Stable Diffusion, which have demonstrated impressive capabilities and sparked much discussion within the community. Recent investigations have further unveiled the utility of DPM in the domain of medical image analysis, as underscored by the commendable performance exhibited by the medical image segmentation model across various tasks. Although these models were originally underpinned by a UNet architecture, there exists a potential avenue for enhancing their performance through the integration of vision transformer mechanisms. However, we discovered that simply combining these two models resulted in subpar performance. To effectively integrate these two cutting-edge techniques for the Medical image segmentation, we propose a novel Transformer-based Diffusion framework, called MedSegDiff-V2. We verify its effectiveness on 20 medical image segmentation tasks with different image modalities. Through comprehensive evaluation, our approach demonstrates superiority over prior state-of-the-art (SOTA) methodologies. Code is released at https://github.com/KidsWithTokens/MedSegDiff.",
+      "date": "2024-03-24",
+      "language": "en",
+      "shortTitle": "MedSegDiff-V2",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/28418",
+      "accessDate": "2024-05-21T13:39:00Z",
+      "volume": "38",
+      "pages": "6030-6038",
+      "publicationTitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "DOI": "10.1609/aaai.v38i6.28418",
+      "issue": "6",
+      "journalAbbreviation": "AAAI",
+      "ISSN": "2374-3468, 2159-5399",
+      "creators": [
+        {
+          "firstName": "Junde",
+          "lastName": "Wu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Wei",
+          "lastName": "Ji",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Huazhu",
+          "lastName": "Fu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Min",
+          "lastName": "Xu",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yueming",
+          "lastName": "Jin",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Yanwu",
+          "lastName": "Xu",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [],
+      "relations": {},
+      "dateAdded": "2024-05-21T13:39:00Z",
+      "dateModified": "2024-05-21T13:40:14Z",
+      "uri": "http://zotero.org/users/10101446/items/NVSABFC4",
+      "itemID": 631,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "Wu \u7b49 - 2024 - MedSegDiff-V2 Diffusion-Based Medical Image Segme.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-05-21T13:38:49Z",
+          "dateModified": "2024-05-21T13:40:15Z",
+          "uri": "http://zotero.org/users/10101446/items/6UMAAHCU",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\6UMAAHCU\\Wu \u7b49 - 2024 - MedSegDiff-V2 Diffusion-Based Medical Image Segme.pdf",
+          "select": "zotero://select/library/items/6UMAAHCU"
+        }
+      ],
+      "notes": [],
+      "citationKey": "wu2024-medsegdiffv2",
+      "itemKey": "NVSABFC4",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/NVSABFC4"
+    },
+    {
       "key": "3V7KMJ2D",
       "version": 192,
       "itemType": "preprint",
@@ -3619,6 +3806,108 @@
       "itemKey": "3V7KMJ2D",
       "libraryID": 1,
       "select": "zotero://select/library/items/3V7KMJ2D"
+    },
+    {
+      "key": "DPBU5SPS",
+      "version": 1591,
+      "itemType": "journalArticle",
+      "title": "A review: Deep learning for medical image segmentation using multi-modality fusion",
+      "abstractNote": "Multi-modality is widely used in medical imaging, because it can provide multi-information about a target (tumor, organ or tissue). Segmentation using multi-modality consists of fusing multi-information to improve the segmentation. Recently, deep learning-based approaches have presented the state-of-the-art performance in image classi\ufb01cation, segmentation, object detection and tracking tasks. Due to their selflearning and generalization ability over large amounts of data, deep learning recently has also gained great interest in multi-modal medical image segmentation. In this paper, we give an overview of deep learning-based approaches for multi-modal medical image segmentation task. Firstly, we introduce the general principle of deep learning and multi-modal medical image segmentation. Secondly, we present di\ufb00erent deep learning network architectures, then analyze their fusion strategies and compare their results. The earlier fusion is commonly used, since it\u2019s simple and it focuses on the subsequent segmentation network architecture. However, the later fusion gives more attention on fusion strategy to learn the complex relationship between di\ufb00erent modalities. In general, compared to the earlier fusion, the later fusion can give more accurate result if the fusion method is e\ufb00ective enough. We also discuss some common problems in medical image segmentation. Finally, we summarize and provide some perspectives on the future research.",
+      "date": "09/2019",
+      "language": "en",
+      "shortTitle": "A review",
+      "libraryCatalog": "arXiv.org",
+      "url": "http://arxiv.org/abs/2004.10664",
+      "accessDate": "2024-05-21T12:04:17Z",
+      "extra": "arXiv:2004.10664 [cs, eess, stat]",
+      "volume": "3-4",
+      "pages": "100004",
+      "publicationTitle": "Array",
+      "DOI": "10.1016/j.array.2019.100004",
+      "journalAbbreviation": "Array",
+      "ISSN": "25900056",
+      "creators": [
+        {
+          "firstName": "Tongxue",
+          "lastName": "Zhou",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "Su",
+          "lastName": "Ruan",
+          "creatorType": "author"
+        },
+        {
+          "firstName": "St\u00e9phane",
+          "lastName": "Canu",
+          "creatorType": "author"
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Computer Science - Computer Vision and Pattern Recognition",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Machine Learning",
+          "type": 1
+        },
+        {
+          "tag": "Electrical Engineering and Systems Science - Image and Video Processing",
+          "type": 1
+        },
+        {
+          "tag": "Statistics - Machine Learning",
+          "type": 1
+        }
+      ],
+      "relations": {},
+      "dateAdded": "2024-05-21T12:04:17Z",
+      "dateModified": "2024-05-21T12:04:20Z",
+      "uri": "http://zotero.org/users/10101446/items/DPBU5SPS",
+      "itemID": 627,
+      "attachments": [
+        {
+          "itemType": "attachment",
+          "title": "A review: Deep learning for medical image segmentation using multi-modality fusion",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-05-21T12:04:20Z",
+          "dateModified": "2024-05-21T12:04:20Z",
+          "uri": "http://zotero.org/users/10101446/items/KX28NFZ5",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\KX28NFZ5\\zhou2019.pdf.pdf",
+          "select": "zotero://select/library/items/KX28NFZ5"
+        },
+        {
+          "itemType": "attachment",
+          "title": "Zhou \u7b49 - 2019 - A review Deep learning for medical image segmenta.pdf",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-05-21T12:04:03Z",
+          "dateModified": "2024-05-21T12:04:21Z",
+          "uri": "http://zotero.org/users/10101446/items/KK5ZHKYU",
+          "path": "C:\\Users\\gyh14\\Zotero\\storage\\KK5ZHKYU\\Zhou \u7b49 - 2019 - A review Deep learning for medical image segmenta.pdf",
+          "select": "zotero://select/library/items/KK5ZHKYU"
+        }
+      ],
+      "notes": [
+        {
+          "key": "DND8ZUE6",
+          "version": 1591,
+          "itemType": "note",
+          "parentItem": "DPBU5SPS",
+          "note": "Comment: 26 pages, 8 figures",
+          "tags": [],
+          "relations": {},
+          "dateAdded": "2024-05-21T12:04:17Z",
+          "dateModified": "2024-05-21T12:04:17Z",
+          "uri": "http://zotero.org/users/10101446/items/DND8ZUE6"
+        }
+      ],
+      "citationKey": "zhou2019-review",
+      "itemKey": "DPBU5SPS",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/DPBU5SPS"
     },
     {
       "key": "2BE3HB69",
