@@ -102,7 +102,7 @@
   },
   "version": {
     "zotero": "6.0.36",
-    "bbt": "6.7.201"
+    "bbt": "6.7.202"
   },
   "collections": {
     "49BIAB6R": {
@@ -126,7 +126,8 @@
         357,
         399,
         400,
-        401
+        401,
+        638
       ]
     },
     "NNUX237V": {
@@ -678,6 +679,30 @@
       "itemKey": "XJ8SHQRF",
       "libraryID": 1,
       "select": "zotero://select/library/items/XJ8SHQRF"
+    },
+    {
+      "key": "GEF8TH8S",
+      "version": 1644,
+      "itemType": "attachment",
+      "title": "networks-book-ch18.pdf",
+      "linkMode": "imported_file",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "networks-book-ch18.pdf",
+      "tags": [],
+      "collections": [
+        "SL42CSAH"
+      ],
+      "relations": {},
+      "dateAdded": "2024-05-28T12:05:46Z",
+      "dateModified": "2024-05-28T12:05:46Z",
+      "uri": "http://zotero.org/users/10101446/items/GEF8TH8S",
+      "itemID": 638,
+      "localPath": "C:\\Users\\gyh14\\Zotero\\storage\\GEF8TH8S\\networks-book-ch18.pdf",
+      "defaultPath": "files/638/networks-book-ch18.pdf",
+      "itemKey": "GEF8TH8S",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/GEF8TH8S"
     },
     {
       "key": "WVZPU5NR",
