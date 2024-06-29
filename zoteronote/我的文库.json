@@ -102,7 +102,7 @@
   },
   "version": {
     "zotero": "6.0.36",
-    "bbt": "6.7.202"
+    "bbt": "6.7.210"
   },
   "collections": {
     "49BIAB6R": {
@@ -179,7 +179,8 @@
         575,
         586,
         602,
-        613
+        613,
+        640
       ]
     },
     "7GMPCHAW": {
@@ -703,6 +704,30 @@
       "itemKey": "GEF8TH8S",
       "libraryID": 1,
       "select": "zotero://select/library/items/GEF8TH8S"
+    },
+    {
+      "key": "95EB5EXY",
+      "version": 1664,
+      "itemType": "attachment",
+      "title": "Keeping Neural Networks Simple by Minimizing.pdf",
+      "linkMode": "imported_file",
+      "contentType": "application/pdf",
+      "charset": "",
+      "filename": "Keeping Neural Networks Simple by Minimizing.pdf",
+      "tags": [],
+      "collections": [
+        "K84JTQUN"
+      ],
+      "relations": {},
+      "dateAdded": "2024-06-16T07:07:38Z",
+      "dateModified": "2024-06-16T07:07:38Z",
+      "uri": "http://zotero.org/users/10101446/items/95EB5EXY",
+      "itemID": 640,
+      "localPath": "C:\\Users\\gyh14\\Zotero\\storage\\95EB5EXY\\Keeping Neural Networks Simple by Minimizing.pdf",
+      "defaultPath": "files/640/Keeping Neural Networks Simple by Minimizing.pdf",
+      "itemKey": "95EB5EXY",
+      "libraryID": 1,
+      "select": "zotero://select/library/items/95EB5EXY"
     },
     {
       "key": "WVZPU5NR",

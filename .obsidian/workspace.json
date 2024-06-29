@@ -13,7 +13,55 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Master/Machine Learning and Data Mining/Lecture 2 Nearest neighbour. Rule-based algorithms..md",
+                "file": "personal notes/paper 2024.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "59a1248c496d900c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随笔.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b0a0c0b760f1e150",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随笔.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f9413f2a273f103c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XIAO/Calcuculs/Differentiable functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7b88df7c99430f98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XIAO/Calcuculs/Mean Value Theorem.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Master/Machine Learning and Data Mining/Lecture 2 Nearest neighbour. Rule-based algorithms..md",
+                "file": "personal notes/paper 2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Master/Machine Learning and Data Mining/Lecture 2 Nearest neighbour. Rule-based algorithms..md",
+                "file": "personal notes/paper 2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Master/Machine Learning and Data Mining/Lecture 2 Nearest neighbour. Rule-based algorithms..md"
+                "file": "personal notes/paper 2024.md"
               }
             }
           },
@@ -166,42 +214,47 @@
   },
   "active": "60649c2d3a6c41e1",
   "lastOpenFiles": [
-    "Master/Machine Learning and Data Mining/Lecture 5 Decision Trees.md",
-    "Master/Machine Learning and Data Mining/Lecture 4 Naive Bayes. Evaluating machine learning methods..md",
-    "Master/Machine Learning and Data Mining/Lecture 3 Linear regression. Logistic regression. Overfitting and regularization..md",
-    "Master/Machine Learning and Data Mining/Lecture 6 Dimensionality Reduction.md",
-    "Master/Machine Learning and Data Mining/Lecture 7 Feedforward Neural Networks.md",
-    "Master/Machine Learning and Data Mining/Lecture 8.md",
-    "personal notes/Foundation of ML/贝叶斯分类和决策边界.md",
-    "personal notes/Foundation of ML/支持向量机（SVM）详解.md",
-    "personal notes/Foundation of ML/Bias-variance decomposition.md",
-    "personal notes/Foundation of ML/Classification.md",
-    "personal notes/Foundation of ML/Fisher 线性判别分析 (LDA) 方法整理.md",
-    "personal notes/Foundation of ML/Perceptron.md",
-    "personal notes/RNN.md",
-    "Master/Machine Learning and Data Mining/Lecture 2 Nearest neighbour. Rule-based algorithms..md",
-    "Master/Machine Learning and Data Mining/Lecture 1 Introduction to machine learning and data mining.md",
-    "Master/Large Scale Networks/Reversion.md",
-    "Master/Professional Practice in IT/Reversion.md",
-    "Master/Professional Practice in IT/Lecture 7 Test Management.md",
-    "Master/Professional Practice in IT/Lecture 8 Security Management.md",
-    "Master/Large Scale Networks/Lecture 4 Community Detection.md",
-    "Master/Professional Practice in IT/Lecture 2 Creating Organisational Value Through IT Investments.md",
-    "Master/Professional Practice in IT/Lecture 1 Unit Overview & The IT Industry.md",
-    "Master/Professional Practice in IT/Lecture 3 IT Lifecycles and their processes.md",
     "随笔.md",
-    "personal notes/Foundation of ML",
-    "book-note/数学.md",
-    "Master/Large Scale Networks/Lecture 3 Structural Balance.md",
-    "ImageResource/knn.jpg",
-    "ImageResource/knn.jpg.crdownload",
+    "personal notes/paper 2024.md",
+    "personal notes/Universal Approximation Theorem.md",
+    "personal notes/RNN.md",
+    "personal notes/Foundation of ML/Perceptron.md",
+    "personal notes/Foundation of ML/Fisher 线性判别分析 (LDA) 方法整理.md",
+    "personal notes/Foundation of ML/Classification.md",
+    "personal notes/Foundation of ML/支持向量机（SVM）详解.md",
+    "XIAO/Calcuculs/Mean Value Theorem.md",
+    "personal notes/Foundation of ML/贝叶斯分类和决策边界.md",
+    "XIAO/CS.md",
+    "XIAO/CS",
+    "XIAO/Algebra/向量的笛卡尔方程和参数方程.md",
+    "XIAO/Calcuculs/Differentiable functions.md",
+    "XIAO/Algebra/平面 和法向量.md",
+    "XIAO/Calcuculs/集合.md",
+    "XIAO/Calcuculs/函数求导.md",
+    "XIAO/Calcuculs/函数连续性.md",
+    "XIAO/Calcuculs/极限.md",
+    "README.md",
+    "XIAO/Week1-6 Reversion.md",
+    "XIAO/Calcuculs",
+    "paper reading/Leave No Context Behind Efficient Infinite Context Transformers with Infini-attention.md",
+    "paper reading/Denoising Diffusion Probabilistic Models.md",
+    "ImageResource/Parametric.png",
+    "ImageResource/屏幕截图 2024-06-24 045521.png",
+    "XIAO/Algebra",
+    "XIAO",
+    "book-note/向量/Introduction to vectors.md",
+    "book-note/C语言/字节.md",
+    "book-note/向量",
+    "book-note/未命名.md",
+    "book-note/C语言/数据结构.md",
+    "Master/Project Management in IT/Unconfirmed 364740.crdownload",
     "ImageResource/infini_attention.png",
-    "Based CUDA programming language",
-    "ImageResource/屏幕截图 2024-04-14 164758.png",
-    "ImageResource",
-    "resourse/1287498d-f0b8-4cd6-aa6e-efe17bb2ec64",
-    "resourse/Unconfirmed 873488.crdownload",
-    "resourse",
-    "新建文件夹"
+    "ImageResource/knn.jpg",
+    "book-note/C语言",
+    "book-note/线性代数",
+    "book-note/未命名.canvas",
+    "personal notes/Foundation of ML",
+    "ImageResource/knn.jpg.crdownload",
+    "ImageResource/屏幕截图 2024-04-14 164758.png"
   ]
 }
